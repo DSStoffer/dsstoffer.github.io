@@ -1,0 +1,29 @@
+remote_theme: pages-themes/cayman@v0.2.0
+title: Stoffer's Real Home
+description: David Stoffer gitHome Page
+
+
+
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+output:
+  md_document:
+    variant: markdown_github
+    preserve_yaml: true
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+      ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
