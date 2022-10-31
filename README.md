@@ -1,43 +1,47 @@
 # Stoffer's GitHome
 
 <!--<img  align="left" src="figs/AC.jpg" alt="Angela" width="33%" hspace=12/> -->
-<img style="float: left; padding: 0px 20px 0px 0px; width: 333px;" src="figs/AC.jpg"/>
+<img style="float: left; padding: 0px 10px 0px 0px; width: 333px;" src="figs/AC.jpg"/>
 
 David S. Stoffer  is Emeritus Professor  
  at (or near) the [University of Pittsburgh](http://www.pitt.edu)
 <br/><br/>
  
+ &#10024; The [Time Series R Issues](https://nickpoison.github.io/rissues) page is back with more issues than ever
 
-* [R Code Road Map](http://nickpoison.github.io/)
-       	
-* [Graduate Time Series Text](https://github.com/nickpoison/tsa4/blob/master/textRcode.md)
+ &#10024; The [Time Series Graphics](https://nickpoison.github.io/tsgraph) page is also alive again
 
-* 
-  <img src="images2/Image2.gif" height="12" hspace="2" width="12"> 
-        <a href="http://www.stat.pitt.edu/stoffer/tsda/">Introductory Time Series Text</a> <br/> 		
- <img src="images2/Image2.gif" height="12" hspace="2" width="12"> 
-        <a href="http://www.stat.pitt.edu/stoffer/nltsa/">Nonlinear Time Series Text</a> <br/> 
- <img src="images2/Image2.gif" height="12" hspace="2" width="12">  
-        <a href="https://www.datacamp.com/courses/arima-modeling-with-r" target='new'>
-			EZ Time Series  Course @ Data Camp </a><br/> 
- <img src="images2/Image2.gif" height="12" hspace="2" width="12"> 
-       <a href="http://scholar.google.com/citations?user=fjls7x0AAAAJ" target="_blank">Google Scholar Page</a> <br/> 
- <img src="images2/Image2.gif" height="12" hspace="2" width="12"> 
- <a href="http://www.stat.pitt.edu/stoffer/freetex.html">A LaTeX Page</a>	<br/> 
- <img src="images2/Image2.gif" height="12" hspace="2" width="12"> 
- <a href="dss_files/seinfeld.html" target='new'>So You Think You Know Seinfeld</a>	</p>
+ &#10024; The R package [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) along with the latest news and information is here too
 
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+ &#10024;  [FUN WITH ASTSA](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md) has many examples of `astsa` capabilities
+
+
+&#10024;  All the R code used in [Time Series Analysis and Its Applications](https://github.com/nickpoison/tsa4/blob/master/textRcode.md)
+
+
+
+&#10024;  All the R code used in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda/blob/main/Rcode.md)
+
+&#10024; [Nonlinear Time Series Text](http://www.stat.pitt.edu/stoffer/nltsa/)
+
+&#10024; [Time Series  Course @ Data Camp](https://www.datacamp.com/courses/arima-modeling-with-r)
+ 
+&#10024; [Google Scholar](http://scholar.google.com/citations?user=fjls7x0AAAAJ)
+
+&#10024; [Nicky Poison's](https://nickpoison.github.io/) road map page
+
+
+
+<br/><br/><br/>
 
 ## Reading Material
 
 
-<p><li class="newbullet">Website for 
-<a href="http://www.stat.pitt.edu/stoffer/tsda/"><i>Time Series: A Data Analysis Approach Using R</a></i> by R.H. Shumway and D.S.
-Stoffer. Chapman &amp; Hall, 2019.</p>
-<blockquote>	                       
-There is a fifth dimension beyond that which is known to man. It is a dimension as vast as space and as timeless as infinity. It is the middle ground between light and shadow, between science and superstition, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an area which we call  T i M e &nbsp; S e R i e S.                 </blockquote>                    
+* Website for [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsa4/blob/master/textRcode.md) by R.H. Shumway and D.S.
+Stoffer. Chapman &amp; Hall, 2019.
+
+> _There is a fifth dimension beyond that which is known to man. It is a dimension as vast as space and as timeless as infinity. It is the middle ground between light and shadow, between science and superstition, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an area which we call  T i M e &nbsp; S e R i e S._                                    
 
 
 <p><li class="newbullet">Website for Douc, Moulines &amp; Stoffer (2014).<i>
@@ -319,4 +323,3 @@ algorithm can also be found in  Gauss TSM.
  
 
 <p><li class="newbullet"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?dispmax=20&term=Stoffer%20D&db=PubMed&pmfilter_EDatLimit=added%20to%20PubMed%20in%20the%20last%200%20i&cmd_current=Limits&orig_db=PubMed&cmd=Search&doptcmdl=DocSum" target="_blank">PubMed</a> ...some info for my med school friends.</p>
-
