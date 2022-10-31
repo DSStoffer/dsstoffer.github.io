@@ -1,6 +1,6 @@
 # ![](figs/favicon.ico) Stoffer's GitHome
 
-<!--<img  align="left" src="figs/AC.jpg" alt="Angela" width="33%" hspace=12/> -->
+
 <img style="float: left; padding: 0px 10px 0px 0px; width: 333px;" src="figs/AC.jpg"/>
 
 David S. Stoffer  is Emeritus Professor  
@@ -35,8 +35,11 @@ David S. Stoffer  is Emeritus Professor
 
 <br/><br/><br/>
 
-### Reading Material 
+---
 
+## Reading Material 
+
+---
 
 
 
@@ -97,6 +100,8 @@ in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 
 * Local spectral analysis via a Bayesian mixture of smoothing splines (with O. Rosen and S. Wood). [mix.pdf](files/mix.pdf)
 
 
+
+<!--
 <p><li class="newbullet">
 Discrimination and Classification of Nonstationary Time Series using the
 SLEX Model (with H-Y Huang &amp; H. Ombao - based on Huang's dissertation):
@@ -267,4 +272,6 @@ algorithm can also be found in  Gauss TSM.
  </blockquote>
  
 
-<p><li class="newbullet"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?dispmax=20&term=Stoffer%20D&db=PubMed&pmfilter_EDatLimit=added%20to%20PubMed%20in%20the%20last%200%20i&cmd_current=Limits&orig_db=PubMed&cmd=Search&doptcmdl=DocSum" target="_blank">PubMed</a> ...some info for my med school friends.</p>
+<p><li class="newbullet"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?dispmax=20&term=Stoffer%20D&db=PubMed&pmfilter_EDatLimit=added%20to%20PubMed%20in%20the%20last%200%20i&cmd_current=Limits&orig_db=PubMed&cmd=Search&doptcmdl=DocSum" target="_blank">PubMed</a> ...some info for my med school friends.
+
+-->
