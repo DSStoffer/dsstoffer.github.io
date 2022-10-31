@@ -1,4 +1,4 @@
-# Stoffer's GitHome
+# ![](figs/favicon.ico) Stoffer's GitHome
 
 <!--<img  align="left" src="figs/AC.jpg" alt="Angela" width="33%" hspace=12/> -->
 <img style="float: left; padding: 0px 10px 0px 0px; width: 333px;" src="figs/AC.jpg"/>
@@ -35,25 +35,22 @@ David S. Stoffer  is Emeritus Professor
 
 <br/><br/><br/>
 
-## Reading Material 
+### Reading Material 
 
 
 
 
-* Website for [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsa4/blob/master/textRcode.md) by R.H. Shumway and D.S.
-Stoffer. Chapman &amp; Hall, 2019.
+* Website for [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsa4/blob/master/textRcode.md) by R.H. Shumway and D.S. Stoffer. Chapman &amp; Hall, 2019.
 
 > _There is a fifth dimension beyond that which is known to man. It is a dimension as vast as space and as timeless as infinity. It is the middle ground between light and shadow, between science and superstition, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an area which we call  T i M e &nbsp; S e R i e S._                                    
 
 
-* Website for Douc, Moulines &amp; Stoffer (2014) [Nonlinear Time Series: Theory, Methods and Applications with R Examples](http://www.stat.pitt.edu/stoffer/nltsa/)    
- Chapman &amp; Hall  Texts in Statistical Science. 
+* Website for Douc, Moulines &amp; Stoffer (2014) [Nonlinear Time Series: Theory, Methods and Applications with R Examples](http://www.stat.pitt.edu/stoffer/nltsa/)  Chapman &amp; Hall  Texts in Statistical Science. 
 
 > _You're travelling through another dimension, a dimension not only of sight and sound but of mind; a journey into a wondrous land whose boundaries are that of imagination. That's the signpost up ahead - your next stop ... N o N L i N e a R   &nbsp;    T i M e &nbsp; S e R i e S_   
 
 
-* Website for [Time Series Analysis and Its Applications: With R Examples](http://www.stat.pitt.edu/stoffer/tsa4/) (4th Edition) by R.H. Shumway and D.S.
-Stoffer. Springer Texts in Statistics, 2017.
+* Website for [Time Series Analysis and Its Applications: With R Examples](http://www.stat.pitt.edu/stoffer/tsa4/) (4th Edition) by R.H. Shumway and D.S. Stoffer. Springer Texts in Statistics, 2017.
 
 > _You unlock this door with the key of imagination. Beyond it is another dimension...    a dimension of sound, a dimension of sight, a dimension of mind. You're moving into a land of both shadow and substance, of things and ideas. You've just crossed over into...  T i M e &nbsp; S e R i e S  &nbsp; a N a L y S i S_     
 
@@ -97,10 +94,7 @@ in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 
 
 
 
-<p><li class="newbullet">
-Local spectral analysis via a Bayesian mixture of
-smoothing splines (with O. Rosen and S. Wood).
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/mix.pdf" target="_blank">mix.pdf</a>.</p>
+* Local spectral analysis via a Bayesian mixture of smoothing splines (with O. Rosen and S. Wood). [mix.pdf](files/mix.pdf)
 
 
 <p><li class="newbullet">
