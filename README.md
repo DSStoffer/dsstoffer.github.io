@@ -60,37 +60,20 @@ Stoffer. Springer Texts in Statistics, 2017.
 [Code](https://github.com/nickpoison/Stochastic-Volatility-Models).
 
    
+* AdaptSPEC: Adaptive Spectral Estimation for Nonstationary Time Series  (with Ori Rosen and Sally Wood). _Journal of the American Statistical Association_, 1575-1589, 2012.
+[AdaptSPEC.pdf](files/adaptSPECjasa.pdf)
 
-<p><li class="newbullet">
-AdaptSPEC: Adaptive Spectral Estimation
-for Nonstationary Time Series  (with Ori Rosen and Sally Wood).
- <i>Journal of the American Statistical Association</i>, 1575-1589, 2012.
-<a href="dss_files/adaptSPECjasa.pdf" target="_blank">AdaptSPEC.pdf</a>  </p>
-
- <blockquote>  
- There is an R package for this called  
- <a href="http://cran.rstudio.com/web/packages/BayesSpec/index.html"  target="_blank">
-  BayesSpec  </a>
- <br/> 
- 
- Matlab programs are
-also available from Ori:
-<a href="http://www.math.utep.edu/Faculty/ori/AdaptSpec.zip"  target="_blank">mAdaptSPEC.zip</a>
- </blockquote>
-</p>
+> _There is an R package for this called  [BayesSpec](http://cran.rstudio.com/web/packages/BayesSpec/index.html) <br/> Matlab programs are also available from Ori: [mAdaptSPEC.zip](http://www.math.utep.edu/Faculty/ori/AdaptSpec.zip)_ 
 
 
-<p><li class="newbullet">
-Local Spectral Analysis via a Bayesian Mixture of
-Smoothing Splines (with Ori Rosen and Sally Wood). <i>Journal of
-the American Statistical Association</i>, 249-262, 2009. 
-<a href="dss_files/mixss.pdf" target="_blank">mixss.pdf</a> </p>
 
-<p><li class="newbullet">
-Smoothing Spline ANOPOW (with Sangdae Han, Li Qin and Wensheng Guo). 
-<i> Journal of Statistical Planning and Inference</i> [special volume in honor of Manny Parzen - thanks Manny for
-all the slaps, with extra force, on the back],  3789-3796, 2010.  
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/ssanopow.pdf" target="_blank">ssanopow.pdf</a></p>
+* Local Spectral Analysis via a Bayesian Mixture of
+Smoothing Splines (with Ori Rosen and Sally Wood). _Journal of
+the American Statistical Association_, 249-262, 2009. [mixss.pdf](files/mixss.pdf)
+
+* Smoothing Spline ANOPOW (with Sangdae Han, Li Qin and Wensheng Guo). 
+_Journal of Statistical Planning and Inference_ (special volume in honor of Manny Parzen - thanks Manny for all the slaps, with extra force, on the back),  3789-3796, 2010.  
+[ssanopow.pdf](files/ssanopow.pdf)
 
 <p><li class="newbullet">
 A Stochastic Volatility Mixture Model:
