@@ -4,6 +4,6 @@
 
 moving pitt stuff here
 
-check 
+check it b4 you wreck it
 
 $$ \sum x +  \int  y = \neq z$$
