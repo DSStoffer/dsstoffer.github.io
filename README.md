@@ -44,35 +44,20 @@ Stoffer. Chapman &amp; Hall, 2019.
 > _There is a fifth dimension beyond that which is known to man. It is a dimension as vast as space and as timeless as infinity. It is the middle ground between light and shadow, between science and superstition, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an area which we call  T i M e &nbsp; S e R i e S._                                    
 
 
-<p><li class="newbullet">Website for Douc, Moulines &amp; Stoffer (2014).<i>
-<a href="http://www.stat.pitt.edu/stoffer/nltsa/">   Nonlinear Time Series: Theory, Methods and Applications with R Examples</a> </i>
- Chapman &amp; Hall  Texts in Statistical Science.</p>
+* Website for Douc, Moulines &amp; Stoffer (2014) [Nonlinear Time Series: Theory, Methods and Applications with R Examples](http://www.stat.pitt.edu/stoffer/nltsa/)    
+ Chapman &amp; Hall  Texts in Statistical Science. 
 
-<blockquote> 
-You're travelling through another dimension, a dimension not only of sight and sound but of mind; a journey into a wondrous land whose boundaries are that of imagination. That's the signpost up ahead - your next stop ...
-N o N L i N e a R   &nbsp;    T i M e &nbsp; S e R i e S                                                                         
- </blockquote>   
+> _You're travelling through another dimension, a dimension not only of sight and sound but of mind; a journey into a wondrous land whose boundaries are that of imagination. That's the signpost up ahead - your next stop ... N o N L i N e a R   &nbsp;    T i M e &nbsp; S e R i e S_   
 
 
+* Website for [Time Series Analysis and Its Applications: With R Examples](http://www.stat.pitt.edu/stoffer/tsa4/) (4th Edition) by R.H. Shumway and D.S.
+Stoffer. Springer Texts in Statistics, 2017.
 
-<p><li class="newbullet">Website for 
-<a href="http://www.stat.pitt.edu/stoffer/tsa4/"><i>Time Series Analysis and Its Applications: With R Examples
-(4th Edition)</a></i> by R.H. Shumway and D.S.
-Stoffer. Springer Texts in Statistics, 2017.</p>
+> _You unlock this door with the key of imagination. Beyond it is another dimension...    a dimension of sound, a dimension of sight, a dimension of mind. You're moving into a land of both shadow and substance, of things and ideas. You've just crossed over into...  T i M e &nbsp; S e R i e S  &nbsp; a N a L y S i S_     
 
-<blockquote> 
-You unlock this door with the key of imagination.     
-       Beyond it is another dimension...    a dimension of sound,    
-a dimension of sight,      a dimension of mind.     
-You're moving into a land of both shadow and substance,          
-of things and ideas.      You've just crossed over into...  <br />    
-T i M e &nbsp; S e R i e S  &nbsp; a N a L y S i S                                                                        
- </blockquote>     
 
-<p><li class="newbullet">
-A Note on Efficient Fitting of Stochastic Volatility Models (with Chen Gong).
-Article and code available at <a href="https://github.com/nickpoison/Stochastic-Volatility-Models" target='new'>GitHub</a>.
- </p>
+* Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. J. Time Ser. Anal., 42: 186-200. [Article](https://doi.org/10.1111/jtsa.12561) and
+[Code](https://github.com/nickpoison/Stochastic-Volatility-Models).
 
    
 
