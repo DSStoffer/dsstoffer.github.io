@@ -35,7 +35,9 @@ David S. Stoffer  is Emeritus Professor
 
 <br/><br/><br/>
 
-## Reading Material
+## Reading Material 
+
+
 
 
 * Website for [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsa4/blob/master/textRcode.md) by R.H. Shumway and D.S.
@@ -71,46 +73,27 @@ Stoffer. Springer Texts in Statistics, 2017.
 Smoothing Splines (with Ori Rosen and Sally Wood). _Journal of
 the American Statistical Association_, 249-262, 2009. [mixss.pdf](files/mixss.pdf)
 
-* Smoothing Spline ANOPOW (with Sangdae Han, Li Qin and Wensheng Guo). 
-_Journal of Statistical Planning and Inference_ (special volume in honor of Manny Parzen - thanks Manny for all the slaps, with extra force, on the back),  3789-3796, 2010.  
-[ssanopow.pdf](files/ssanopow.pdf)
+* Smoothing Spline ANOPOW (with Sangdae Han, Li Qin and Wensheng Guo). _Journal of Statistical Planning and Inference_ (special volume in honor of Manny Parzen - thanks Manny for all the slaps, with extra force, on the back),  3789-3796, 2010.  [ssanopow.pdf](files/ssanopow.pdf)
 
-<p><li class="newbullet">
-A Stochastic Volatility Mixture Model:
-Estimation in the Presence of Irregular Sampling via Particle Methods and the
-EM Algorithm (with J. Kim - based on her dissertation).
-<i>Journal of Time Series Analysis</i>,
-29, Issue 5, 811-833, 2008.
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/svmm.pdf" target="_blank">svmm.pdf</a></p>
 
- <blockquote>   
- The Matlab programs are
-also available <a href="http://www.stat.pitt.edu/stoffer/dss_files/jkmatlab.pdf" target="_blank"> 
-as a pdf file</a> for ease of reading and as 
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/jkmatlab.txt" target="_blank">
-an ascii file</a>.
- </blockquote>
+* A Stochastic Volatility Mixture Model: Estimation in the Presence of Irregular Sampling via Particle Methods and the EM Algorithm (with J. Kim). _Journal of Time Series Analysis_,
+29, Issue 5, 811-833, 2008. [svmm.pdf](files/svmm.pdf)
+
+> _Matlab programs are also available: [jkmatlab.m](files/jkmatlab.m)_
 
 
 
-<p><li class="newbullet">
-Automatic  Estimation of  Multivariate Spectra
-via Smoothing Splines (with O. Rosen). <i>Biometrika</i>, 94,  335-345, 2007.
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/multspec.pdf" target="_blank">multspec.pdf</a> 
-</p>
+* Automatic  Estimation of  Multivariate Spectra via Smoothing Splines (with O. Rosen). _Biometrika_, 94,  335-345, 2007. [multspec.pdf](files/multspec.pdf).
 
 
 
 
 
-<p><li class="newbullet">
-A Residuals-Based Transition Model for Longitudinal Analysis with Estimation 
-in the Presence of Missing Data
-(with T. Koru-Sengul - based on her dissertation).
- <i>Statistics in Medicine</i> 26, 3330-3341,  2007.  <a href="dss_files/tmla.pdf" target="_blank">tmla.pdf</a></p>
+* A Residuals-Based Transition Model for Longitudinal Analysis with Estimation 
+in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 26, 3330-3341,  2007. [tmla.pdf](files/tmla.pdf)
  
- <blockquote>   The  <a href="dss_files/tmla_code.pdf" target="_blank">code</a> for SAS, Splus and R.
- </blockquote>
+
+>  _The [code](files/tmla_code.pdf) for SAS, Splus and R._
 
 
 
