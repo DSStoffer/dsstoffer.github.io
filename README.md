@@ -8,9 +8,9 @@ David S. Stoffer  is Emeritus Professor
 <br/> 
  
 
- &#10024; The R package [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) along with the latest news
+&#10024; The R package [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) along with the latest news
 
- &#10024;  [FUN WITH ASTSA](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md) has many examples of `astsa` capabilities
+&#10024;  [FUN WITH ASTSA](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md) has many examples of `astsa` capabilities
 
 &#10024;  All the R code used in [Time Series Analysis and Its Applications](https://github.com/nickpoison/tsa4/blob/master/textRcode.md)
 
@@ -20,9 +20,9 @@ David S. Stoffer  is Emeritus Professor
 
 &#10024; [Time Series  Course @ Data Camp](https://www.datacamp.com/courses/arima-modeling-with-r)
 
- &#10024; The [Time Series R Issues](https://nickpoison.github.io/rissues) page is back with more issues than ever
+&#10024; The [Time Series R Issues](https://nickpoison.github.io/rissues) page is back with more issues than ever
 
- &#10024; The [Time Series Graphics](https://nickpoison.github.io/tsgraph) page is also alive again
+&#10024; The [Time Series Graphics](https://nickpoison.github.io/tsgraph) page is also alive again
  
 &#10024; [Google Scholar](http://scholar.google.com/citations?user=fjls7x0AAAAJ)
 
@@ -35,25 +35,6 @@ David S. Stoffer  is Emeritus Professor
 ---
 
 ## Reading Material 
-
-
-
-* Website for [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4) (4th Edition) by R.H. Shumway and D.S. Stoffer. Springer Texts in Statistics, 2017.
-
-> _You unlock this door with the key of imagination. Beyond it is another dimension...    a dimension of sound, a dimension of sight, a dimension of mind. You're moving into a land of both shadow and substance, of things and ideas. You've just crossed over into...  T i M e &nbsp; S e R i e S  &nbsp; a N a L y S i S_  
-
-
-* Website for [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda) by R.H. Shumway and D.S. Stoffer. Chapman &amp; Hall, 2019.
-
-> _There is a fifth dimension beyond that which is known to man. It is a dimension as vast as space and as timeless as infinity. It is the middle ground between light and shadow, between science and superstition, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an area which we call  T i M e &nbsp; S e R i e S._                                    
-
-
-* Website for Douc, Moulines &amp; Stoffer (2014) [Nonlinear Time Series: Theory, Methods and Applications with R Examples](http://www.stat.pitt.edu/stoffer/nltsa/)  Chapman &amp; Hall  Texts in Statistical Science. 
-
-> _You're travelling through another dimension, a dimension not only of sight and sound but of mind; a journey into a wondrous land whose boundaries are that of imagination. That's the signpost up ahead - your next stop ... N o N L i N e a R   &nbsp;    T i M e &nbsp; S e R i e S_   
-
-   
-
 
 * Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. J. Time Ser. Anal., 42: 186-200. [Article](files/SVmodels.pdf) and [Code](https://github.com/nickpoison/Stochastic-Volatility-Models).
 
@@ -108,6 +89,23 @@ the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos0
   
 * Stoffer, D.S. (1999). Detecting common signals in multiple time series using the spectral envelope. _Journal of the American Statistical Association_, 94, 1341-1356.
 [sigs.pdf](files/sigs.pdf) 
+
+
+
+
+* Website for [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4) (4th Edition) by R.H. Shumway and D.S. Stoffer. Springer Texts in Statistics, 2017.
+
+> _You unlock this door with the key of imagination. Beyond it is another dimension...    a dimension of sound, a dimension of sight, a dimension of mind. You're moving into a land of both shadow and substance, of things and ideas. You've just crossed over into...  T i M e &nbsp; S e R i e S  &nbsp; a N a L y S i S_  
+
+
+* Website for [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda) by R.H. Shumway and D.S. Stoffer. Chapman &amp; Hall, 2019.
+
+> _There is a fifth dimension beyond that which is known to man. It is a dimension as vast as space and as timeless as infinity. It is the middle ground between light and shadow, between science and superstition, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an area which we call  T i M e &nbsp; S e R i e S._                                    
+
+
+* Website for Douc, Moulines &amp; Stoffer (2014) [Nonlinear Time Series: Theory, Methods and Applications with R Examples](http://www.stat.pitt.edu/stoffer/nltsa/)  Chapman &amp; Hall  Texts in Statistical Science. 
+
+> _You're travelling through another dimension, a dimension not only of sight and sound but of mind; a journey into a wondrous land whose boundaries are that of imagination. That's the signpost up ahead - your next stop ... N o N L i N e a R   &nbsp;    T i M e &nbsp; S e R i e S_   
 
 <br/><br/>
 ---
