@@ -5,27 +5,24 @@
 
 David S. Stoffer  is Emeritus Professor  
  at (or near) the [University of Pittsburgh](http://www.pitt.edu)
-<br/><br/>
+<br/> 
  
- &#10024; The [Time Series R Issues](https://nickpoison.github.io/rissues) page is back with more issues than ever
-
- &#10024; The [Time Series Graphics](https://nickpoison.github.io/tsgraph) page is also alive again
 
  &#10024; The R package [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) along with the latest news and information is here too
 
-
  &#10024;  [FUN WITH ASTSA](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md) has many examples of `astsa` capabilities
 
-
 &#10024;  All the R code used in [Time Series Analysis and Its Applications](https://github.com/nickpoison/tsa4/blob/master/textRcode.md)
-
-
 
 &#10024;  All the R code used in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda/blob/main/Rcode.md)
 
 &#10024; [Nonlinear Time Series Text](http://www.stat.pitt.edu/stoffer/nltsa/)
 
 &#10024; [Time Series  Course @ Data Camp](https://www.datacamp.com/courses/arima-modeling-with-r)
+
+ &#10024; The [Time Series R Issues](https://nickpoison.github.io/rissues) page is back with more issues than ever
+
+ &#10024; The [Time Series Graphics](https://nickpoison.github.io/tsgraph) page is also alive again
  
 &#10024; [Google Scholar](http://scholar.google.com/citations?user=fjls7x0AAAAJ)
 
