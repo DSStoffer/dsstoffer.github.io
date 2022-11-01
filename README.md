@@ -1,4 +1,4 @@
-# &#128018;  Stoffer's GitHome
+# &#128041;  Stoffer's GitHome
 
 
 <img style="float: left; padding: 0px 10px 0px 0px; width: 333px;" src="figs/AC.jpg"/>
