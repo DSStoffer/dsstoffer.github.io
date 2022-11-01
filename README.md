@@ -1,4 +1,4 @@
-#  Stoffer's GitHome
+# &#128018;  Stoffer's GitHome
 
 
 <img style="float: left; padding: 0px 10px 0px 0px; width: 333px;" src="figs/AC.jpg"/>
@@ -100,6 +100,13 @@ in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 
 the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](http://www.stat.pitt.edu/stoffer/dss_files/hos04.pdf).
 
 > _The [Matlab programs](http://www.stat.pitt.edu/stoffer/dss_files/slex/matlab.html)_
+
+* Resampling in State Space Models [booty.pdf](files/booty.pdf). Chapter 9 (pp. 171-202) of _State Space and Unobserved Component Models: Theory and Applications._ Cambridge University Press, 2004.  
+
+
+<br/><br/>
+---
+---
 
 <!--
 
