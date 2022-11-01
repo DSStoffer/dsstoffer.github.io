@@ -40,7 +40,6 @@ David S. Stoffer  is Emeritus Professor
 ## Reading Material 
 
 
-
 * Website for [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsa4/blob/master/textRcode.md) by R.H. Shumway and D.S. Stoffer. Chapman &amp; Hall, 2019.
 
 > _There is a fifth dimension beyond that which is known to man. It is a dimension as vast as space and as timeless as infinity. It is the middle ground between light and shadow, between science and superstition, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an area which we call  T i M e &nbsp; S e R i e S._                                    
