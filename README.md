@@ -106,6 +106,9 @@ the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos0
 
 * The Spectral Envelope and Its Applications (with D.E. Tyler &amp; D.A. Wendt). _Statistical Science_. 15(3): 224-253 (2000).  
   [specrev.pdf](files/specrev.pdf)  
+  
+* Stoffer, D.S. (1999). Detecting common signals in multiple time series using the spectral envelope. _Journal of the American Statistical Association_, 94, 1341-1356.
+[sigs.pdf](files/sigs.pdf) 
 
 <br/><br/>
 ---
@@ -121,12 +124,7 @@ the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos0
 
 
 
- <p><li class="newbullet">
-Stoffer, D.S. (1999).
-Detecting common signals in multiple time series using the spectral envelope.
-<i>Journal of
-the American Statistical Association</i>, 94, 1341-1356.
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/sigs.pdf" target="_blank">sigs.pdf</a></p>
+ 
 
 
 <p><li class="newbullet">Stoffer,
