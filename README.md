@@ -55,8 +55,7 @@ David S. Stoffer  is Emeritus Professor
    
 
 
-* Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. J. Time Ser. Anal., 42: 186-200. [Article](https://doi.org/10.1111/jtsa.12561) and
-[Code](https://github.com/nickpoison/Stochastic-Volatility-Models).
+* Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. J. Time Ser. Anal., 42: 186-200. [Article](files/SVmodels) and [Code](https://github.com/nickpoison/Stochastic-Volatility-Models).
 
    
 * AdaptSPEC: Adaptive Spectral Estimation for Nonstationary Time Series  (with Ori Rosen and Sally Wood). _Journal of the American Statistical Association_, 1575-1589, 2012.
