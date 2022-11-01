@@ -122,6 +122,20 @@ of categorical time series. _Biometrika_, 85, 201-213.  [match.pdf](files/match.
 
 
 
+* McDougall, A.J., Stoffer, D.S. &amp; Tyler, D.E. (1997). Optimal transformations and the spectral envelope for real-valued time series. _Journal of Statistical Planning and
+Inference_, 57, 195-214.  [mst97.pdf](files/mst97.pd)
+
+
+*  Stoffer, D.S., Tyler, D.E. &amp; McDougall, A.J. (1993). Spectral analysis for categorical
+time series: Scaling and the spectral envelope. _Biometrika_, 80, 611-622. [spenv.pdf](files/spenv.pdf)
+
+
+* Stoffer, D.S. (1991). Walsh-Fourier analysis and its statistical applications (with
+discussion). _Journal of the American Statistical Association_, 86, 462-483. [walshapps.pdf](files/walshapps.pdf)
+
+> Fortran program to calculate the finite Walsh transform: [wft.for](files/wft.txt) 
+
+
 
 
 
@@ -134,36 +148,6 @@ of categorical time series. _Biometrika_, 85, 201-213.  [match.pdf](files/match.
 
 
 
-
-
-
-
-
- 
-
-
-
-
-<p><li class="newbullet">McDougall, A.J., Stoffer,
-D.S. &amp; Tyler, D.E. (1997). Optimal transformations and the spectral envelope
-for real-valued time series. <i>Journal of Statistical Planning and
-Inference,</i> 57, 195-214. <a href="dss_files/mst97.pdf" target="_blank">mst97.pdf</a></p>
-
-
-
-<p><li class="newbullet">Stoffer,
-D.S., Tyler, D.E. &amp; McDougall, A.J. (1993). Spectral analysis for categorical
-time series: Scaling and the spectral envelope. <i>Biometrika</i>, 80,
-611-622. <a href="http://www.stat.pitt.edu/stoffer/dss_files/spenv.pdf" target="_blank">spenv.pdf</a> </p>
-
-
-<p><li class="newbullet">Stoffer,
-D.S. (1991). Walsh-Fourier analysis and its statistical applications (with
-discussion).<i> Journal of the American Statistical Association</i>, 86,
-462-483. <a href="http://www.stat.pitt.edu/stoffer/dss_files/walshapps.pdf" target="_blank">walshapps.pdf</a> </p>
-
-<blockquote>  <a href="http://www.stat.pitt.edu/stoffer/dss_files/wft.txt" target="_blank">wft.for</a>
-Fortran program to calculate the finite Walsh transform.</blockquote> 
 
 
 <p><li class="newbullet">Stoffer,
