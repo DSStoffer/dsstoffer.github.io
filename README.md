@@ -146,6 +146,11 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 
 
+* Stoffer, D.S. (1990). Multivariate Walsh-Fourier Analysis.  _Journal of Time Series   Analysis_,  11, 57-73. [mwalsh.pdf](files/mwalsh.pdf)
+
+> _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as `sleep1` and `sleep2`.-
+
+
 <br/><br/>
 ---
 ---
@@ -159,19 +164,6 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 
 
-
-
-<p><li class="newbullet">
-Stoffer, D.S. (1990). Multivariate Walsh-Fourier Analysis.  <i> Journal of Time Series   
-Analysis</i>,  11, 57-73. <a href="http://www.stat.pitt.edu/stoffer/dss_files/mwalsh.pdf" target="_blank">mwalsh.pdf</a> </p>
-
-<blockquote>  
-I've been asked for the data from this a few times, so here they are: 
-<a href="dss_files/slpmv1.dat.txt" target="_blank">slpmv1.dat.txt</a>,&nbsp;
-<a href="dss_files/slpmv2.dat.txt" target="_blank">slpmv2.dat.txt</a>.
-The data files are similar to the sleep state data files with an additional column
-of the per minute number of movements.
- </blockquote>
 
 <p><li class="newbullet">Shumway,
 R.H. &amp; Stoffer, D.S. (1992). Dynamic linear models with switching.
