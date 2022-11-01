@@ -1,0 +1,72 @@
+       	SUBROUTINE WFT(NUM,X)
+C
+C	THIS COMPUTES THE FAST WALSH-FOURIER TRANSFORM
+C	  IN SEQUENCY ORDER (ref: Ahmed & Rao 1975)
+c
+c       The data X are a univariate series of length NUM
+C
+c	NUM is 2^power, max is 2^15=32768
+c		but this can be adjusted in IPOWER
+c
+c	The data X are returned as the Walsh-Fourier transform
+c              in sequency order
+C	 
+C
+C
+	REAL X(32768),Y(32768)
+	INTEGER IPOWER(15)
+C
+C
+	DO 11 I=1,NUM
+	IB=I-1
+	IL=1
+9	IBD=IB/2
+	IPOWER(IL)=1
+	IF (IB .EQ. (IBD*2)) IPOWER(IL)=0
+        IF (IB .EQ. 0) GO TO 10
+	IB=IBD
+	IL=IL+1
+	GO TO 9
+10	CONTINUE
+	IP=1
+	IFAC=NUM
+	DO 12 I1=1,IL
+	IFAC=IFAC/2
+12	IP=IP+IFAC*IPOWER(I1)
+11	Y(IP)=X(I)
+	DO 13 I=1,NUM
+13	X(I)=Y(I)
+C
+65	ITER=0
+	IREM=NUM
+1	IREM=IREM/2
+	IF (IREM .EQ. 0) GO TO 2
+	ITER=ITER+1
+	GO TO 1
+2	CONTINUE
+C
+	DO 50 M=1,ITER
+	IF (M .EQ. 1) NUMP=1
+	IF (M .NE. 1) NUMP=NUMP*2
+	MNUM=NUM/NUMP
+	MNUM2=MNUM/2
+C
+	ALPH=1.0
+	DO 49 MP=1,NUMP
+	IB=(MP-1)*MNUM
+C
+	DO 48 MP2=1,MNUM2
+	MNUM21=MNUM2+MP2+IB
+	IBA=IB+MP2
+	Y(IBA)=X(IBA)+ALPH*X(MNUM21)
+	Y(MNUM21)=X(IBA)-ALPH*X(MNUM21)
+48	CONTINUE
+	ALPH=-ALPH
+49	CONTINUE
+C
+	r=1.0/sqrt(float(num))
+	DO 7 I=1,NUM
+7	X(I)=Y(I)*r
+50	CONTINUE
+	RETURN
+	END
