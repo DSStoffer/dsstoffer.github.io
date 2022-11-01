@@ -1,4 +1,4 @@
-# ![](figs/favicon.ico) Stoffer's GitHome
+#  Stoffer's GitHome
 
 
 <img style="float: left; padding: 0px 10px 0px 0px; width: 333px;" src="figs/AC.jpg"/>
@@ -38,9 +38,6 @@ David S. Stoffer  is Emeritus Professor
 ---
 
 ## Reading Material 
-
----
-
 
 
 * Website for [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsa4/blob/master/textRcode.md) by R.H. Shumway and D.S. Stoffer. Chapman &amp; Hall, 2019.
