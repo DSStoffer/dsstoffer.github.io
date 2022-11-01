@@ -50,7 +50,8 @@ David S. Stoffer  is Emeritus Professor
 
 * Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. J. Time Ser. Anal., 42: 186-200. [Article](files/SVmodels.pdf) and [Code](https://github.com/nickpoison/Stochastic-Volatility-Models).
 
-   
+ 
+ 
 * AdaptSPEC: Adaptive Spectral Estimation for Nonstationary Time Series  (with Ori Rosen and Sally Wood). _Journal of the American Statistical Association_, 1575-1589, 2012.
 [AdaptSPEC.pdf](files/adaptSPECjasa.pdf)
 
@@ -58,9 +59,12 @@ David S. Stoffer  is Emeritus Professor
 
 
 
+
 * Local Spectral Analysis via a Bayesian Mixture of
 Smoothing Splines (with Ori Rosen and Sally Wood). _Journal of
 the American Statistical Association_, 249-262, 2009. [mixss.pdf](files/mixss.pdf)
+
+
 
 * Smoothing Spline ANOPOW (with Sangdae Han, Li Qin and Wensheng Guo). _Journal of Statistical Planning and Inference_ (special volume in honor of Manny Parzen - thanks Manny for all the slaps, with extra force, on the back),  3789-3796, 2010.  [ssanopow.pdf](files/ssanopow.pdf)
 
@@ -69,6 +73,7 @@ the American Statistical Association_, 249-262, 2009. [mixss.pdf](files/mixss.pd
 29, Issue 5, 811-833, 2008. [svmm.pdf](files/svmm.pdf)
 
 > _Matlab programs are also available: [jkmatlab.m](files/jkmatlab.m)_
+
 
 
 
@@ -86,21 +91,35 @@ in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 
 
 
 
+
 * Local spectral analysis via a Bayesian mixture of smoothing splines (with O. Rosen and S. Wood). [mix.pdf](files/mix.pdf)
+
+
 
 * Discrimination and Classification of Nonstationary Time Series using the SLEX Model (with H-Y Huang &amp; H. Ombao). _Journal of
 the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos04.pdf).
 
 > _The [Matlab programs](http://www.stat.pitt.edu/stoffer/dss_files/slex/matlab.html)_
 
+
+
 * Resampling in State Space Models. Chapter 9 (pp. 171-202) of _State Space and Unobserved Component Models: Theory and Applications._ Cambridge University Press, 2004. [booty.pdf](files/booty.pdf)  
+
 
 * Local Spectral Envelope: An Approach Using Dyadic Tree Based Adaptive Segmentation (with H. Ombao and D.E. Tyler). _Annals of the Institute of Statistical Mathematics_,  54, 201-223, 2002. [lospen.pdf](files/lospen.pdf)
 
+
 * The Spectral Envelope and Its Applications (with D.E. Tyler &amp; D.A. Wendt). _Statistical Science_. 15(3): 224-253 (2000).  [specrev.pdf](files/specrev.pdf)  
   
+
 * Stoffer, D.S. (1999). Detecting common signals in multiple time series using the spectral envelope. _Journal of the American Statistical Association_, 94, 1341-1356.
 [sigs.pdf](files/sigs.pdf) 
+
+
+
+* Stoffer,  D.S. &amp; Tyler, D.E. (1998). Matching sequences: Cross spectral analysis
+of categorical time series. _Biometrika_, 85, 201-213.  [match.pdf](files/match.pdf)
+
 
 
 
@@ -123,9 +142,7 @@ the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos0
  
 
 
-<p><li class="newbullet">Stoffer,
-D.S. &amp; Tyler, D.E. (1998). Matching sequences: Cross spectral analysis
-of categorical time series. <i>Biometrika, </i>85, 201-213. <a href="http://www.stat.pitt.edu/stoffer/dss_files/match.pdf" target="_blank">match.pdf</a></p>
+
 
 <p><li class="newbullet">McDougall, A.J., Stoffer,
 D.S. &amp; Tyler, D.E. (1997). Optimal transformations and the spectral envelope
