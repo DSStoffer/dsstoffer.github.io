@@ -98,7 +98,10 @@ the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos0
 
 > _The [Matlab programs](http://www.stat.pitt.edu/stoffer/dss_files/slex/matlab.html)_
 
-* Resampling in State Space Models [booty.pdf](files/booty.pdf). Chapter 9 (pp. 171-202) of _State Space and Unobserved Component Models: Theory and Applications._ Cambridge University Press, 2004.  
+* Resampling in State Space Models. Chapter 9 (pp. 171-202) of _State Space and Unobserved Component Models: Theory and Applications._ Cambridge University Press, 2004. [booty.pdf](files/booty.pdf)  
+
+
+* Local Spectral Envelope: An Approach Using Dyadic Tree Based Adaptive Segmentation (with H. Ombao and D.E. Tyler). _Annals of the Institute of Statistical Mathematics_,  54, 201-223, 2002. [lospen.pdf](files/lospen.pdf)
 
 
 <br/><br/>
@@ -107,16 +110,9 @@ the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos0
 
 <!--
 
-<p><li class="newbullet">
-Resampling in State Space Models
-(<a href="http://www.stat.pitt.edu/stoffer/dss_files/booty.pdf" target="_blank">booty.pdf</a>) 
-Chapter 9 (pp. 171-202) of <i>State Space and Unobserved Component Models: Theory and Applications.</i> Cambridge University Press, 2004.  </p>
 
-<p><li class="newbullet">
-Local Spectral Envelope: An Approach Using Dyadic Tree Based Adaptive 
-Segmentation (with H. Ombao and D.E. Tyler).
-<i>Annals of the Institute of Statistical Mathematics</i>,  54, 201-223, 2002.
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/lospen.pdf" target="_blank">lospen.pdf</a> </p>
+
+
 
 
 
