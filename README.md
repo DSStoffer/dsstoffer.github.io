@@ -97,7 +97,7 @@ in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 
 * Local spectral analysis via a Bayesian mixture of smoothing splines (with O. Rosen and S. Wood). [mix.pdf](files/mix.pdf)
 
 * Discrimination and Classification of Nonstationary Time Series using the SLEX Model (with H-Y Huang &amp; H. Ombao). _Journal of
-the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](http://www.stat.pitt.edu/stoffer/dss_files/hos04.pdf).
+the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos04.pdf).
 
 > _The [Matlab programs](http://www.stat.pitt.edu/stoffer/dss_files/slex/matlab.html)_
 
