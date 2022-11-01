@@ -136,6 +136,13 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 > Fortran program to calculate the finite Walsh transform: [wft.for](files/wft.txt) 
 
 
+* D.S., Scher, M., Richardson, G., Day, N. &amp; Coble, P. (1988). A Walsh-Fourier analysis of the effects of moderate maternal alcohol consumption on neonatal sleep-state cycling. _Journal of the American Statistical Association_, 83, 954-963. DOI: [10.2307/2290119](files/Stoffer1998)
+
+> _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as `sleep1` and `sleep2`. This paper won the American Statistical Association's Outstanding Statistical Application  Award for 1989. The theory for this paper was given in Stoffer (1987)... just below:_
+
+
+
+* Stoffer, D.S. (1987). Walsh-Fourier analysis of discrete-valued time series. _Journal of Time Series Analysis_, 8, 449-467. [discrete.pdf](files/discrete.pdf)
 
 
 
@@ -150,25 +157,9 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 
 
-<p><li class="newbullet">Stoffer,
-D.S., Scher, M., Richardson, G., Day, N. &amp; Coble, P. (1988). A Walsh-
-Fourier analysis of the effects of moderate maternal alcohol consumption
-on neonatal sleep-state cycling. <i>Journal of the American Statistical
-Association</i>, 83, 954-963. </p>
 
-<blockquote> Here are the data files: <a href="dss_files/grp1.dat.txt" target="_blank">group1</a> and <a href="dss_files/grp2.dat.txt" target="_blank">group2</a>; details
-are in the first file. 
-This
-paper won the 
- <em>
- American Statistical Association's Outstanding
-Statistical Application  Award</em> for 1989.
-The theory for this paper was given in Stoffer (1987)... just below: </blockquote>
 
-<p><li class="newbullet">Stoffer, D.S. (1987). Walsh-Fourier analysis of discrete-valued time
-series.
-<i>Journal of Time Series Analysis</i>, 8, 449-467. 
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/discrete.pdf" target="_blank">discrete.pdf</a> </p>
+
 
 <p><li class="newbullet">
 Stoffer, D.S. (1990). Multivariate Walsh-Fourier Analysis.  <i> Journal of Time Series   
