@@ -148,7 +148,7 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 * Stoffer, D.S. (1990). Multivariate Walsh-Fourier Analysis.  _Journal of Time Series   Analysis_,  11, 57-73. [mwalsh.pdf](files/mwalsh.pdf)
 
-> _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as `sleep1` and `sleep2`.-
+> _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as `sleep1` and `sleep2`._
 
 
 <br/><br/>
