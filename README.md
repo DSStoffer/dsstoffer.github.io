@@ -102,12 +102,9 @@ the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos0
 
 * Resampling in State Space Models. Chapter 9 (pp. 171-202) of _State Space and Unobserved Component Models: Theory and Applications._ Cambridge University Press, 2004. [booty.pdf](files/booty.pdf)  
 
-
 * Local Spectral Envelope: An Approach Using Dyadic Tree Based Adaptive Segmentation (with H. Ombao and D.E. Tyler). _Annals of the Institute of Statistical Mathematics_,  54, 201-223, 2002. [lospen.pdf](files/lospen.pdf)
 
-
-* The Spectral Envelope and Its Applications (with D.E. Tyler &amp; D.A. Wendt). _Statistical Science_. 15(3): 224-253 (2000).  
-  [specrev.pdf](files/specrev.pdf)  
+* The Spectral Envelope and Its Applications (with D.E. Tyler &amp; D.A. Wendt). _Statistical Science_. 15(3): 224-253 (2000).  [specrev.pdf](files/specrev.pdf)  
   
 * Stoffer, D.S. (1999). Detecting common signals in multiple time series using the spectral envelope. _Journal of the American Statistical Association_, 94, 1341-1356.
 [sigs.pdf](files/sigs.pdf) 
