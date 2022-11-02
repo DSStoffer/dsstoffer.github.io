@@ -38,15 +38,15 @@ David S. Stoffer  is Emeritus Professor
 
 - Website for [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4) (4th Edition) by R.H. Shumway and D.S. Stoffer. Springer Texts in Statistics, 2017.
 
-> _You unlock this door with the key of imagination. Beyond it is another dimension...    a dimension of sound, a dimension of sight, a dimension of mind. You're moving into a land of both shadow and substance, of things and ideas. You've just crossed over into...  T i M e &nbsp; S e R i e S  &nbsp; a N a L y S i S_  
+> You unlock this door with the key of imagination. Beyond it is another dimension...    a dimension of sound, a dimension of sight, a dimension of mind. You're moving into a land of both shadow and substance, of things and ideas. You've just crossed over into...  T i M e &nbsp; S e R i e S  &nbsp; a N a L y S i S
 
 - Website for [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda) by R.H. Shumway and D.S. Stoffer. Chapman &amp; Hall, 2019.
 
-> _There is a fifth dimension beyond that which is known to man. It is a dimension as vast as space and as timeless as infinity. It is the middle ground between light and shadow, between science and superstition, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an area which we call  T i M e &nbsp; S e R i e S._                                    
+> There is a fifth dimension beyond that which is known to man. It is a dimension as vast as space and as timeless as infinity. It is the middle ground between light and shadow, between science and superstition, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an area which we call  T i M e &nbsp; S e R i e S.                                    
 
 - Website for Douc, Moulines &amp; Stoffer (2014) [Nonlinear Time Series: Theory, Methods and Applications with R Examples](http://www.stat.pitt.edu/stoffer/nltsa/)  Chapman &amp; Hall  Texts in Statistical Science. 
 
-> _You're travelling through another dimension, a dimension not only of sight and sound but of mind; a journey into a wondrous land whose boundaries are that of imagination. That's the signpost up ahead - your next stop ... N o N L i N e a R   &nbsp;    T i M e &nbsp; S e R i e S_   
+> You're travelling through another dimension, a dimension not only of sight and sound but of mind; a journey into a wondrous land whose boundaries are that of imagination. That's the signpost up ahead - your next stop ... N o N L i N e a R   &nbsp;    T i M e &nbsp; S e R i e S   
 
 * Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. J. Time Ser. Anal., 42: 186-200. [Article](files/SVmodels.pdf) and [Code](https://github.com/nickpoison/Stochastic-Volatility-Models).
 
@@ -55,7 +55,7 @@ David S. Stoffer  is Emeritus Professor
 * AdaptSPEC: Adaptive Spectral Estimation for Nonstationary Time Series  (with Ori Rosen and Sally Wood). _Journal of the American Statistical Association_, 1575-1589, 2012.
 [AdaptSPEC.pdf](files/adaptSPECjasa.pdf)
 
-> _There is an R package for this called  [BayesSpec](http://cran.rstudio.com/web/packages/BayesSpec/index.html) <br/> Matlab programs are also available from Ori: [mAdaptSPEC.zip](http://www.math.utep.edu/Faculty/ori/AdaptSpec.zip)_ 
+> There is an R package for this called  [BayesSpec](http://cran.rstudio.com/web/packages/BayesSpec/index.html) <br/> Matlab programs are also available from Ori: [mAdaptSPEC.zip](http://www.math.utep.edu/Faculty/ori/AdaptSpec.zip) 
 
 
 
@@ -72,7 +72,7 @@ the American Statistical Association_, 249-262, 2009. [mixss.pdf](files/mixss.pd
 * A Stochastic Volatility Mixture Model: Estimation in the Presence of Irregular Sampling via Particle Methods and the EM Algorithm (with J. Kim). _Journal of Time Series Analysis_,
 29, Issue 5, 811-833, 2008. [svmm.pdf](files/svmm.pdf)
 
-> _Matlab programs are also available: [jkmatlab.m](files/jkmatlab.m)_
+> Matlab programs are also available: [jkmatlab.m](files/jkmatlab.m)
 
 
 
@@ -87,7 +87,7 @@ the American Statistical Association_, 249-262, 2009. [mixss.pdf](files/mixss.pd
 in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 26, 3330-3341,  2007. [tmla.pdf](files/tmla.pdf)
  
 
->  _The [code](files/tmla_code.pdf) for SAS, Splus and R._
+>  The [code](files/tmla_code.pdf) for SAS, Splus and R.
 
 
 
@@ -99,7 +99,7 @@ in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 
 * Discrimination and Classification of Nonstationary Time Series using the SLEX Model (with H-Y Huang &amp; H. Ombao). _Journal of
 the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos04.pdf).
 
-> _The [Matlab programs](http://www.stat.pitt.edu/stoffer/dss_files/slex/matlab.html)_
+> The [Matlab programs](http://www.stat.pitt.edu/stoffer/dss_files/slex/matlab.html)
 
 
 
@@ -138,7 +138,7 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 * Stoffer, D.S., Scher, M., Richardson, G., Day, N. &amp; Coble, P. (1988). A Walsh-Fourier analysis of the effects of moderate maternal alcohol consumption on neonatal sleep-state cycling. _Journal of the American Statistical Association_, 83, 954-963.  [stoffer88.pdf](files/stoffer88.pdf)
 
-> _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as columns in `sleep1` and `sleep2`. This paper won the American Statistical Association's Outstanding Statistical Application  Award for 1989. The theory for this paper was given in Stoffer (1987)... just below:_
+> The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as columns in `sleep1` and `sleep2`. This paper won the American Statistical Association's Outstanding Statistical Application  Award for 1989. The theory for this paper was given in Stoffer (1987)... just below:
 
 
 
@@ -148,7 +148,7 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 * Stoffer, D.S. (1990). Multivariate Walsh-Fourier Analysis.  _Journal of Time Series   Analysis_,  11, 57-73. [mwalsh.pdf](files/mwalsh.pdf)
 
-> _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as `sleep1` and `sleep2`._
+> The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as `sleep1` and `sleep2`.
 
 
 * Shumway, R.H. &amp; Stoffer, D.S. (1992). Dynamic linear models with switching. _Journal of the American Statistical Association_, 86, 763-769.  [dlmws.pdf](files/dlmws.pdf)
@@ -156,22 +156,32 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 * Shumway, R.H. &amp; Stoffer, D.S. (1982). An approach to time series smoothing and forecasting using the EM algorithm. _Journal of Time Series Analysis_, 3, 253-264. [em.pdf](files/em.pdf) 
 
-> _R code for the algorithm is in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) and more details are in Chapter 6 of [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4)_
+> R code for the algorithm is in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) and more details are in Chapter 6 of [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4)
 
 
 * Stoffer, D.S. (1986). Estimation and identification of space-time ARMAX models in the presence of missing data. _Journal of the American Statistical Association_, 81, 762-772. [starmax.pdf](files/starmax.pdf) 
 
 
-> _The data (details in the 1st file): [cpue1](files/cpue1.dat.txt), [cpue2](files/cpue2.dat.txt), [cpue3](files/cpue3.dat.txt), [cpue4](files/cpue4.dat.txt), [cpue5](files/cpue5.dat.txt)_
+> The data (details in the 1st file): [cpue1](files/cpue1.dat.txt), [cpue2](files/cpue2.dat.txt), [cpue3](files/cpue3.dat.txt), [cpue4](files/cpue4.dat.txt), [cpue5](files/cpue5.dat.txt)
 
 
 
+* Carlin, B.P., Polson, N.G. &amp; Stoffer, D.S. (1992). A Monte Carlo approach to
+nonnormal and nonlinear state space modeling. _Journal of the American Statistical Association_, 87, 493-500. [gibbs.pdf](files/gibbs.pdf)
 
-<br/><br/>
+
+* Stoffer, D.S. &amp; Wall, K. (1991). Bootstrapping state space models: Gaussian maximum likelihood estimation and the Kalman filter. _Journal of the American Statistical Association_, 86, 1024-1033. [boots.pdf](files/boots.pdf)
+
+> The material in this paper is discussed in Chapter 6 of [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4).  There is a demonstration at [FUN WITH ASTSA](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md#7-state-space-models), which is more fun than a barrel of monkeys.  
+
+*  A list of papers at [PubMed](http://www.ncbi.nlm.nih.gov/sites/entrez?dispmax=20&term=Stoffer%20D&db=PubMed&pmfilter_EDatLimit=added%20to%20PubMed%20in%20the%20last%200%20i&cmd_current=Limits&orig_db=PubMed&cmd=Search&doptcmdl=DocSum) 
+
+<br/><br/><br><br>
+
 ---
+
 ---
 
-<!--
 
 
 
@@ -184,36 +194,15 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 
 
-<p><li class="newbullet">Carlin,
-B.P., Polson, N.G. &amp; Stoffer, D.S. (1992). A Monte Carlo approach to
-nonnormal and nonlinear state space modeling. <i>Journal of the American
-Statistical Association</i>, 87, 493-500. 
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/gibbs.pdf" target="_blank">
-gibbs.pdf</a> </p>
 
 
 
 
 
-<p><li class="newbullet">Stoffer,
-D.S. &amp; Wall, K. (1991). Bootstrapping state space models: Gaussian
-maximum likelihood estimation and the Kalman filter. <i>Journal of the
-American Statistical Association</i>, 86, 1024-1033. <a href="http://www.stat.pitt.edu/stoffer/dss_files/boots.pdf" target="_blank">
-boots.pdf</a></p>
 
 
-<blockquote>  This material is discussed in Chapter 6 of 
-Shumway &amp; Stoffer (2006).
-Some
-<a href="http://www.stat.pitt.edu/stoffer/tsa4/chap6.htm">R
-code</a> and examples can be found at 
- the website for the second editon of the text.
- 
- An implementation of the
-algorithm can also be found in  Gauss TSM.
- </blockquote>
  
 
-<p><li class="newbullet"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?dispmax=20&term=Stoffer%20D&db=PubMed&pmfilter_EDatLimit=added%20to%20PubMed%20in%20the%20last%200%20i&cmd_current=Limits&orig_db=PubMed&cmd=Search&doptcmdl=DocSum" target="_blank">PubMed</a> ...some info for my med school friends.
 
--->
+
+
