@@ -138,7 +138,7 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 * D.S., Scher, M., Richardson, G., Day, N. &amp; Coble, P. (1988). A Walsh-Fourier analysis of the effects of moderate maternal alcohol consumption on neonatal sleep-state cycling. _Journal of the American Statistical Association_, 83, 954-963. DOI: [10.2307/2290119](files/Stoffer1998)
 
-> _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as `sleep1` and `sleep2`. This paper won the American Statistical Association's Outstanding Statistical Application  Award for 1989. The theory for this paper was given in Stoffer (1987)... just below:_
+> _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as columns in `sleep1` and `sleep2`. This paper won the American Statistical Association's Outstanding Statistical Application  Award for 1989. The theory for this paper was given in Stoffer (1987)... just below:_
 
 
 
@@ -149,6 +149,14 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 * Stoffer, D.S. (1990). Multivariate Walsh-Fourier Analysis.  _Journal of Time Series   Analysis_,  11, 57-73. [mwalsh.pdf](files/mwalsh.pdf)
 
 > _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as `sleep1` and `sleep2`._
+
+
+* Shumway, R.H. &amp; Stoffer, D.S. (1992). Dynamic linear models with switching. _Journal of the American Statistical Association_, 86, 763-769.  [dlmws.pdf](files/dlmws.pdf)
+
+
+* Shumway, R.H. &amp; Stoffer, D.S. (1982). An approach to time series smoothing and forecasting using the EM algorithm. _Journal of Time Series Analysis_, 3, 253-264. [em.pdf](files/em.pdf) 
+
+> _R code for the algorithm is in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) and more details are in Chapter 6 of [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4)_
 
 
 <br/><br/>
@@ -165,33 +173,7 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 
 
-<p><li class="newbullet">Shumway,
-R.H. &amp; Stoffer, D.S. (1992). Dynamic linear models with switching.
-<i>Journal of the American Statistical Association</i>, 86, 763-769. 
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/dlmws.pdf" target="_blank">dlmws.pdf</a> 
-</p>
 
-<p><li class="newbullet">Shumway,
-R.H. &amp; Stoffer, D.S. (1982). An approach to time series smoothing and
-forecasting using the EM algorithm. <i>Journal of Time Series Analysis</i>,
-3, 253-264.
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/em.pdf" target="_blank">em.pdf</a></p>
-
-<blockquote> 
-R
-code for the algorithm can be found in the R package, 
-<a href="http://www.stat.pitt.edu/stoffer/tsa4/xChanges.htm">astsa</a>.
-We still get many requests for the tech report corresponding to
-this paper. Unfortunately, the
-tech reports are long gone (believe it or not, in those days people
-typed their papers using an <a href="http://en.wikipedia.org/wiki/IBM_Selectric_typewriter" target="_blank">
-IBM selectric typewriter</a> with little balls
-that had to be changed for math symbols). Fortunately, the details of the proofs 
-(in more depth than was
-given in the tech report) are
-presented in  <a href="http://www.stat.pitt.edu/stoffer/tsa4" target="_blank">our text</a>
- in Sections 6.2 to 6.4. 
- </blockquote>
 
 
 <p><li class="newbullet">Carlin,
