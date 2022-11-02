@@ -40,7 +40,7 @@ David S. Stoffer  is Emeritus Professor
 
 ---
 
-## Reading Material
+## &#128218; Reading Material
 
 - Website for [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4) (4th Edition) by R.H. Shumway and D.S. Stoffer. Springer Texts in Statistics, 2017.
 
