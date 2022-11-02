@@ -136,7 +136,7 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 > Fortran program to calculate the finite Walsh transform: [wft.for](files/wft.txt) 
 
 
-* D.S., Scher, M., Richardson, G., Day, N. &amp; Coble, P. (1988). A Walsh-Fourier analysis of the effects of moderate maternal alcohol consumption on neonatal sleep-state cycling. _Journal of the American Statistical Association_, 83, 954-963. DOI: [10.2307/2290119](files/Stoffer1998)
+* D.S., Scher, M., Richardson, G., Day, N. &amp; Coble, P. (1988). A Walsh-Fourier analysis of the effects of moderate maternal alcohol consumption on neonatal sleep-state cycling. _Journal of the American Statistical Association_, 83, 954-963. DOI: [10.2307/2290119](files/Stoffer1998.pdf)
 
 > _The data are included in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) as columns in `sleep1` and `sleep2`. This paper won the American Statistical Association's Outstanding Statistical Application  Award for 1989. The theory for this paper was given in Stoffer (1987)... just below:_
 
