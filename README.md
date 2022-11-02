@@ -98,7 +98,7 @@ in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 
 
 
 
-* Local spectral analysis via a Bayesian mixture of smoothing splines (with O. Rosen and S. Wood). [mix.pdf](files/mix.pdf)
+* Local spectral analysis via a Bayesian mixture of smoothing splines (with O. Rosen and S. Wood). _Journal of the American Statistical Association_, 104(485), 249-262. [mix.pdf](files/mix.pdf)
 
 
 
