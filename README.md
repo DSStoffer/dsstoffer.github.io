@@ -159,6 +159,14 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 > _R code for the algorithm is in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) and more details are in Chapter 6 of [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4)_
 
 
+* Stoffer, D.S. (1986). Estimation and identification of space-time ARMAX models in the presence of missing data. _Journal of the American Statistical Association_, 81, 762-772. [starmax.pdf](files/starmax.pdf) 
+
+
+> _The data (details in the 1st file): [cpue1](files/cpue1.dat.txt), [cpue2](files/cpue2.dat.txt), [cpue3](files/cpue3.dat.txt), [cpue4](files/cpue4.dat.txt), [cpue5](files/cpue5.dat.txt)_
+
+
+
+
 <br/><br/>
 ---
 ---
@@ -185,18 +193,7 @@ gibbs.pdf</a> </p>
 
 
 
-<p><li class="newbullet">Stoffer,
-D.S. (1986). Estimation and identification of space-time ARMAX models in
-the presence of missing data. <i>Journal of the American Statistical Association</i>,
-81, 762-772. <a href="http://www.stat.pitt.edu/stoffer/dss_files/starmax.pdf" target="_blank">starmax.pdf
-</a> </p>
 
-<blockquote> The data (details in the 1st file): <a href="http://www.stat.pitt.edu/stoffer/dss_files/cpue1.dat.txt" target="_blank">cpue1.dat.txt</a>,&nbsp;
- <a href="http://www.stat.pitt.edu/stoffer/dss_files/cpue2.dat.txt" target="_blank">cpue2.dat.txt</a>,&nbsp;
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/cpue3.dat.txt" target="_blank">cpue3.dat.txt</a>,&nbsp;
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/cpue4.dat.txt" target="_blank">cpue4.dat.txt</a>,&nbsp;
-<a href="http://www.stat.pitt.edu/stoffer/dss_files/cpue5.dat.txt" target="_blank">cpue5.dat.txt</a>&nbsp;
-<br></blockquote>
 
 <p><li class="newbullet">Stoffer,
 D.S. &amp; Wall, K. (1991). Bootstrapping state space models: Gaussian
