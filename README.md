@@ -123,7 +123,7 @@ of categorical time series. _Biometrika_, 85, 201-213.  [match.pdf](files/match.
 
 
 * McDougall, A.J., Stoffer, D.S. &amp; Tyler, D.E. (1997). Optimal transformations and the spectral envelope for real-valued time series. _Journal of Statistical Planning and
-Inference_, 57, 195-214.  [mst97.pdf](files/mst97.pd)
+Inference_, 57, 195-214.  [mst97.pdf](files/mst97.pdf)
 
 
 *  Stoffer, D.S., Tyler, D.E. &amp; McDougall, A.J. (1993). Spectral analysis for categorical
