@@ -28,6 +28,15 @@ David S. Stoffer  is Emeritus Professor
 
 &#10024; [Nicky Poison's](https://nickpoison.github.io/) road map page
 
+<br/>
+
+Email: <script language="JavaScript"><!-- Begin
+             jemail("stoffer", "pitt", "edu");
+             //  End --></script>
+
+<noscript>
+   	Enable JavaScript to see my email address.
+</noscript>     
 
 
 <br/><br/><br/>
@@ -179,15 +188,7 @@ nonnormal and nonlinear state space modeling. _Journal of the American Statistic
 <br/><br/><br><br>
 
 ---
-
-Email: <script language="JavaScript"><!-- Begin
-             jemail("stoffer", "pitt", "edu");
-             //  End --></script>
-
-<noscript>
-   	Enable JavaScript to see my email address.
-</noscript>                  
-
+             
 ---
 
 
