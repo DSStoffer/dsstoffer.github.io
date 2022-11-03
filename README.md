@@ -42,6 +42,9 @@ David S. Stoffer  is Emeritus Professor
 
 ## &#128218; Reading Material
 
+
+* [All the R code is over here](https://nickpoison.github.io/)
+
 - Website for [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4) (4th Edition) by R.H. Shumway and D.S. Stoffer. Springer Texts in Statistics, 2017.
 
 > You unlock this door with the key of imagination. Beyond it is another dimension...    a dimension of sound, a dimension of sight, a dimension of mind. You're moving into a land of both shadow and substance, of things and ideas. You've just crossed over into...  T i M e &nbsp; S e R i e S  &nbsp; a N a L y S i S
