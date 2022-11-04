@@ -3,7 +3,7 @@
 
 <img style="float: left; padding: 5px 10px 0px 0px; width: 333px;" src="figs/AC.jpg"/>
 
-David S. Stoffer  is Emeritus Professor  
+David S. Stoffer  is Professor Emeritus <br/>
  at (or near) the [University of Pittsburgh](http://www.pitt.edu)
 <br/> 
  
