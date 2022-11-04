@@ -28,6 +28,8 @@ David S. Stoffer  is Professor Emeritus <br/>
 
 &#10024; [Nicky Poison's](https://nickpoison.github.io/) road map page
 
+&#10024; [Amazon Author Page](https://www.amazon.com/author/david.stoffer)
+
 📧 <script language="JavaScript"><!-- Begin
              jemail("stoffer", "pitt", "edu");
              //  End --></script>
