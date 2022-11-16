@@ -45,8 +45,6 @@ David S. Stoffer  is Professor Emeritus <br/>
 ## &#128218; Reading Material
 
 
-* [All the R code is over here](https://nickpoison.github.io/)
-
 - Website for [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4) (4th Edition) by R.H. Shumway and D.S. Stoffer. Springer Texts in Statistics, 2017.
 
 > You unlock this door with the key of imagination. Beyond it is another dimension...    a dimension of sound, a dimension of sight, a dimension of mind. You're moving into a land of both shadow and substance, of things and ideas. You've just crossed over into...  T i M e &nbsp; S e R i e S  &nbsp; a N a L y S i S
@@ -58,6 +56,9 @@ David S. Stoffer  is Professor Emeritus <br/>
 - Website for Douc, Moulines &amp; Stoffer (2014) [Nonlinear Time Series: Theory, Methods and Applications with R Examples](http://www.stat.pitt.edu/stoffer/nltsa/)  Chapman &amp; Hall  Texts in Statistical Science. 
 
 > You're travelling through another dimension, a dimension not only of sight and sound but of mind; a journey into a wondrous land whose boundaries are that of imagination. That's the signpost up ahead - your next stop ... N o N L i N e a R   &nbsp;    T i M e &nbsp; S e R i e S   
+
+
+*  Stoffer, D. S. (2023). AutoSpec: detection of narrowband frequency changes in time series. _Statistics and Its Interface_, 16(1), 97-108. [Article](https://dx.doi.org/10.4310/21-SII703) and [Code](https://github.com/nickpoison/autoSpec).
 
 * Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. J. Time Ser. Anal., 42: 186-200. [Article](files/SVmodels.pdf) and [Code](https://github.com/nickpoison/Stochastic-Volatility-Models).
 
