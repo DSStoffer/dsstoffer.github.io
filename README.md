@@ -58,9 +58,9 @@ David S. Stoffer  is Professor Emeritus <br/>
 > You're travelling through another dimension, a dimension not only of sight and sound but of mind; a journey into a wondrous land whose boundaries are that of imagination. That's the signpost up ahead - your next stop ... N o N L i N e a R   &nbsp;    T i M e &nbsp; S e R i e S   
 
 
-*  Stoffer, D. S. (2023). AutoSpec: Detection of narrowband frequency changes in time series. _Statistics and Its Interface_, 16(1), 97-108. [Article](https://dx.doi.org/10.4310/21-SII703) and [Code](https://github.com/nickpoison/autoSpec).
+*  Stoffer, D. S. (2023). AutoSpec: Detection of narrowband frequency changes in time series. _Statistics and Its Interface_, 16(1), 97-108. [Article here](https://dx.doi.org/10.4310/21-SII703) - the [code is in astsa as autoSpec]((https://github.com/nickpoison/astsa/blob/master/README.md)).
 
-* Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. _J. Time Ser. Anal._, 42: 186-200. [Article](files/SVmodels.pdf) and [Code](https://github.com/nickpoison/Stochastic-Volatility-Models).
+* Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. _J. Time Ser. Anal._, 42: 186-200. [Article here](files/SVmodels.pdf) - the [code is in astsa as SV.mcmc]((https://github.com/nickpoison/astsa/blob/master/README.md)).
 
  
  
