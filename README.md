@@ -25,6 +25,8 @@ David S. Stoffer  is Professor Emeritus <br/>
 &#10024; The [Time Series R Issues](https://nickpoison.github.io/rissues) page is back with more issues than ever
 
 &#10024; The [Time Series Graphics](https://nickpoison.github.io/tsgraph) page is also alive again
+
+&#10024; How to EASILY [Link Math Libraries (MKL) to R](https://nickpoison.github.io/mkl) on Windows 
  
 &#10024; [Google Scholar](http://scholar.google.com/citations?user=fjls7x0AAAAJ)
 
