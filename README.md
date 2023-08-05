@@ -34,6 +34,9 @@ David S. Stoffer  is Professor Emeritus <br/>
 
 &#10024; [Amazon Author Page](https://www.amazon.com/author/david.stoffer)
 
+&#10024; [So... you think you know Seinfeld](https://github.com/DSStoffer/dsstoffer.github.io/blob/main/Seinfeld.md)
+
+
 📧 <script language="JavaScript"><!-- Begin
              jemail("stoffer", "pitt", "edu");
              //  End --></script>
