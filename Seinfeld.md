@@ -24,7 +24,7 @@ Sic semper tyrannis?
 hair-challenged star in his bathroom?
 </li><li>        Jerry quotes from what movie
 as he stands at Susan Ross' grave?
-</li><li>        Golden Boy is <span style="text-decoration: underline; white-space: pre;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>?
+</li><li>        Golden Boy is &#129300; ?
 </li><li>       What childhood taunt was directed
 at George regarding Mrs Costanza?
 </li><li>       Name the character Kramer
@@ -44,11 +44,10 @@ with which famous model?
 </li><li>        If George were a porn star,
 what would he call himself?
 </li><li>        Kramer rarely says yes, he
-says <span style="text-decoration: underline; white-space: pre;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>?
+says &#129300; ?
 </li><li>        Jerry has had two phone numbers-what
 are they?
-</li><li>        George refers to Seattle as
-<span style="text-decoration: underline; white-space: pre;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>?
+</li><li>        George refers to Seattle as &#129300; ?
 </li><li>        According to Jerry, what's
 the biggest step in a male friendship?
 </li><li>        In the first pilot meeting
@@ -67,7 +66,7 @@ wedgies.  How, according to Elaine,
 </li><li>        Who has Newman booked to play
 at his millennium party?
 </li><li>        George's parents' address
-is <span style="text-decoration: underline; white-space: pre;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>?
+is &#129300; ?
 </li><li>        Who regularly eats at Reggies?
 </li><li>        Elaine thinks what percentage
 of people are good-looking?
