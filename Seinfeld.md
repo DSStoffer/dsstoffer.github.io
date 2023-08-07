@@ -1,6 +1,6 @@
 ## So You Think You Know Seinfeld
 
-
+<p>
 
 <ol> 
 <li>        If George were abducted by aliens,
@@ -93,7 +93,9 @@ a cologne?
 </li><li>        According to George, what
 is the only thing worse
  than fixing two people up?
+
  </ol>
+ </p>
 <br>
 <br>
 
