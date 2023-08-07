@@ -34,7 +34,7 @@ David S. Stoffer  is Professor Emeritus <br/>
 
 &#10024; [Amazon Author Page](https://www.amazon.com/author/david.stoffer)
 
-&#10024; [So... you think you know Seinfeld](Seinfeld.md)
+&#10024; [So... you think you know Seinfeld](Seinfeld.html)
 
 
 📧 <script language="JavaScript"><!-- Begin
