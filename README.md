@@ -1,7 +1,7 @@
 # &#128041;  Stoffer's GitHome
 
 
-<img style="float: left; padding: 5px 10px 0px 0px; width: 300px;" src="figs/doll.gif"/>
+<img style="float: left; padding: 5px 10px 0px 0px; width: 250px;" src="figs/doll.gif"/>
 
 David S. Stoffer  is Professor Emeritus <br/>
  at (or near) the [University of Pittsburgh](http://www.pitt.edu)
