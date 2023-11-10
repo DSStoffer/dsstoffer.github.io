@@ -14,7 +14,7 @@ This site replaces Appendix R in the texts _Time Series Analysis and Its Applica
   * [Objects and Assignment](#objects-and-assignment)
   * [Regression and Time Series Primer](#regression-and-time-series-primer)
 
-
+ 
 <br/>
 
 ## Installing R
