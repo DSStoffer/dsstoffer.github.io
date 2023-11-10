@@ -336,14 +336,12 @@ dim(mydata)    # now it has dimensions
 
 
 
+If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:
 
-If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:<br/>
 
-<table>
-  <tr><td>1<td>2</td><td>3</td><td>2</td><td>1<td></tr>
-  <tr><td>9<td>0</td><td>2</td><td>1</td><td>0<td></tr>
-</table>
-<br/>
+| 1 | 2 | 3 | 2 | 1 |
+|---|---|---|---|---|
+| 9 | 0 | 2 | 1 | 0 |
 
 
 
@@ -397,12 +395,13 @@ You can also use `save` and `load` to work with R compressed data files if you h
 
 You may also include a _header_ in the data file to avoid `colnames`. For example, if you have a _comma separated values_ file `dummy.csv`   that looks like this,<br/>
  
-<table>
-  <tr><td>Dog, Cat, Rat, Pig, Man</td></tr>
-  <tr><td>1, 2, 3, 2, 1</td></tr>
-  <tr><td>9, 0, 2, 1, 0</td></tr>
-</table>
-<br/>
+|Dog, Cat, Rat, Pig, Man|
+|:---|
+|1, 2, 3, 2, 1|
+|9, 0, 2, 1, 0|
+
+
+
 
 then use the following command to read the data.
  ```r 
