@@ -23,13 +23,12 @@ This site replaces Appendix R in the texts _Time Series Analysis and Its Applica
 R is an open source programming language and software environment for statistical computing and graphics that runs on many operating systems. It is an interpreted language and is  accessed  through a command-line interpreter.  A user types a command, presses enter, and the answer is returned.  
  
 
-To obtain  R,  point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it.
+&#128018; To obtain  R,  point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it.
 The installation includes help files and some user   manuals. 
 An internet search  can pull up various short tutorials and  videos,
 for example, [R Cookbook](https://rc2e.com/), 
 [Hand-On Programming with R](https://rstudio-education.github.io/hopr/)
- and the website
-[Quick-R](https://www.statmethods.net/r-tutorial/index.html).
+ and the website [Quick-R](https://www.statmethods.net/r-tutorial/index.html).
 And we state the obvious:
 
  > &nbsp;&nbsp;&nbsp;  _If you can't figure out how to do something, do an internet search_.
@@ -37,16 +36,15 @@ And we state the obvious:
  
 [RStudio](https://posit.co/downloads/) can make using  R   easier and we recommend using it for course work.
   It  is an  open source integrated development environment (IDE) for R. 
-  It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging, and workspace management.     
- This tutorial does not assume you are using RStudio;  if you do use it, a number of the command-driven tasks
- can be accomplished by pointing and clicking.
+  It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging, and workspace management.   This tutorial does not assume you are using RStudio;  if you do use it, a number of the command-driven tasks can be accomplished by pointing and clicking.
 
  
-There are some simple exercises in this appendix that will help you get used to using \R. For example,
+There are some simple exercises that will help you get used to using R. For example,
 
 - __Exercise:__ Install R and RS (optional) now.  
-- _Solution:_ Follow the directions above.
+- _Solution:_ Find the monkey above &#128018; and follow the directions.
 
+<br/>
 
 ## Packages and ASTSA 
  
@@ -57,8 +55,7 @@ a number of preloaded packages that are available immediately.
 There are base packages that install with R and load automatically.
 Then there are priority packages that are installed with R but not loaded
 automatically.  Finally, there are  user-created packages that must be installed
-and loaded into R before use.
-If you are using RStudio, there is a _Packages_ tab to help you manage your packages.
+and loaded into R before use. If you are using RStudio, there is a _Packages_ tab to help you manage your packages.
 
 
 Most packages can be obtained from CRAN and its mirrors.  _The package used extensively in the text is `astsa` (Applied Statistical Time Series Analysis)_.  If you are using RStudio, then use  _Install_ from the _Packages_ tab.  If asked to choose a repository, select _0-Cloud_, the first choice, and that
@@ -99,25 +96,24 @@ This is a good time to get those packages:
 - __Exercise:__ Install and then load `xts` and consequently  `zoo`.
 - _Solution:_ Follow the directions above.
 
- 
+ <br/>
 
 ## Getting Help
 
 R is not consistent with help files across different operating systems.
-In RStudio, there is a _Help_ tab. Otherwise,
-the  R html help system can be started by issuing the command 
+In RStudio, there is a _Help_ tab. Otherwise, the  R html help system can be started by issuing the command 
+
 ```r
 help.start()
 ```
-The help files for installed packages can also be found there.  {\em Notice
-the parentheses} in all the commands above; they are necessary to run scripts. If you simply type
+
+The help files for installed packages can also be found there.  _Notice
+the parentheses_ in all the commands above; they are necessary to run scripts. If you simply type
 ```r
 help.start     
 ```
-nothing will happen and 
-you will just see the commands that make up the script. 
-To get help for a particular command, say `library`, 
-do this:
+nothing will happen and you will just see the commands that make up the script. 
+To get help for a particular command, say `library`,  do this:
 ```r
 help(library) 
 ?library        # same thing    
@@ -128,6 +124,7 @@ help(library)
 
 Notice the use of a semicolon for multiple commands on one line
 
+<br/>
  
 ## Basics
 
@@ -179,18 +176,16 @@ Hint:  `help("%%")`
 - _Solution:_  `exp(1i*pi)`
 
 Extra credit: $e^{i \pi} + 1 =0$ is a famous formula that uses 
-the five most basic values in mathematics.  What name is associated
+the five most basic values in mathematics.  Whose name is associated
 with this awesome equation? 
 
 
 - __Exercise:__  Calculate these four numbers:
  $$ \cos(\pi/2),\, \cos(\pi),\, \cos(3\pi/2),\, \cos(2\pi)$$
-- _Solution:_   One of the advantages of R is you can do many things in one line. So
- rather than doing this in four separate evaluations, consider using a sequence such 
- as `cos(pi*1:4/2)`. Notice that you don't always get zero (0) where you should, 
-but you will get something close to zero.    Here 
+- _Solution:_   One of the advantages of R is you can do many things in one line. So  rather than doing this in four separate evaluations, consider using a sequence such  as `cos(pi*1:4/2)`. Notice that you don't always get zero (0) where you should, but you will get something close to zero.    Here 
 you'll see what it looks like.
 
+<br/>
 
 ## Objects and Assignment
 
@@ -216,8 +211,7 @@ z <- c(TRUE, TRUE, FALSE)   # logical vector
 ```
 
  Missing values are represented by the symbol `NA`, $\infty$ by `Inf` and
- impossible values  are `NaN`.
-Here are some examples:
+ impossible values  are `NaN` (not a number). Here are some examples:
 ```r
 ( x = c(0, 1, NA) )
  [1]  0  1 NA  
@@ -230,7 +224,7 @@ x/0
 ```
 
 There is a difference between `<-` and `=`.  From R  `help(assignOps)`,
-you will find: _The operator `<-` can be used anywhere, whereas the operator `=` is only allowed at the top level \dots\ ._
+you will find: _The operator `<-` can be used anywhere, whereas the operator `=` is only allowed at the top level ... ._
 
 - __Exercise:__  What is the difference between these two lines?
 ```r
@@ -297,8 +291,8 @@ write(cpg, file="cpg.txt", ncolumns=1)
 
 
 
-- __Exercise:__ Find the file {\ttt cpg.txt} previously created (leave it there for now).
-- _Solution:_  In \RS, use the {\sf Files} tab. Otherwise, go to your working directory: 
+- __Exercise:__ Find the file `cpg.txt` previously created (leave it there for now).
+- _Solution:_  In RStudio, use the _Files_ tab. Otherwise, go to your working directory: 
 
 ```r
 getwd()
@@ -307,8 +301,7 @@ getwd()
 Now find the file and  look at it; there should be 29 numbers in one column.
 
 
-To create your own data set, you can make a data vector
-as follows:
+To create your own data set, you can make a data vector as follows:
 ```r
 mydata = c(1,2,3,2,1)
 ```
@@ -346,10 +339,10 @@ dim(mydata)    # now it has dimensions
 
 If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:
 
-
-| 1 | 2 | 3 | 2 | 1 |
-|---|---|---|---|---|
-| 9 | 0 | 2 | 1 | 0 |
+<table>
+  <tr><td>1<td>2</td><td>3</td><td>2</td><td>1<td></tr>
+  <tr><td>9<td>0</td><td>2</td><td>1</td><td>0<td></tr>
+</table>
 
 
 
@@ -378,14 +371,13 @@ There is a difference between `scan` and `read.table`. The former produced a dat
 
 When you use `read.table` or similar, you create a data frame.
 In this case, if you want to list (or use) the second
-variate, `V2``, you could use
+variate, `V2`, you could use
  ```r 
 dummy$V2
  [1] 2 0
 ```
 and so on. You might want to look at the help files `?scan` and `?read.table` now.
-Data frames (`?data.frame`) are _used as the fundamental data structure by most of R's modeling software._
-Notice that R gave the columns of `dummy`  generic names, `V1,..., V5`.  You can provide your own names and then use  the names to access the data without the use of `$` as   above.
+Data frames (`?data.frame`) are _used as the fundamental data structure by most of R's modeling software._ Notice that R gave the columns of `dummy`  generic names, `V1,..., V5`.  You can provide your own names and then use  the names to access the data without the use of `$` as   above.
  ```r 
 colnames(dummy) = c("Dog", "Cat", "Rat", "Pig", "Man")
 attach(dummy)    # this can cause problems; see ?attach
@@ -397,19 +389,18 @@ head(dummy)      # view the first few lines of a data file
 detach(dummy)    # clean up  
 ```
 
-R is case sensitive, thus `cat` and `Cat` are different.  Also, `cat` is a reserved name (`?cat`)
-in R, so using `cat` instead of `Cat` may  cause problems later.
-It is noted that `attach` can lead to confusion: _The possibilities for creating errors when using attach are numerous. Avoid._  If you use it, it is best to clean it up when you are done.
+R is case sensitive, thus `cat` and `Cat` are different.  Also, `cat` is a reserved name (`?cat`) in R, so using `cat` instead of `Cat` may  cause problems later. It is noted that `attach` can lead to confusion: _The possibilities for creating errors when using attach are numerous. Avoid._  If you use it, it is best to clean it up when you are done.
 
-You can also use `save` and `load` to work with R compressed data files if you have large files. If interested, investigate the use of the `save` and `load`` commands. The best way to do this is to do an internet search on _R save and load_, but you knew this already.
+You can also use `save` and `load` to work with R compressed data files if you have large files. If interested, investigate the use of the `save` and `load` commands. The best way to do this is to do an internet search on _R save and load_, but you knew this already.
 
 
 You may also include a _header_ in the data file to avoid `colnames`. For example, if you have a _comma separated values_ file `dummy.csv`   that looks like this,
  
-|Dog,Cat,Rat,Pig,Man|
-|:-----------------|
-|1, 2, 3, 2, 1|   
-|9, 0, 2, 1, 0| 
+<table>
+  <tr><td>Dog, Cat, Rat, Pig, Man</td></tr>
+  <tr><td>1, 2, 3, 2, 1</td></tr>
+  <tr><td>9, 0, 2, 1, 0</td></tr>
+</table>
 
 then use the following command to read the data.
  ```r 
