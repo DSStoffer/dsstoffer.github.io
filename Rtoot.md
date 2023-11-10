@@ -159,9 +159,9 @@ rep(2, 3)     # repeat 2 three times
 - _Solution:_  Yes, there are a bunch of numbers that look like what
 is below, but explain why those are the numbers that were produced.
 Hint:  `help("%%")`  
-```r 
-  [1] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0
- [11] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0 
+```r
+ [1] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0
+[11] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0 
 ```
 
 - __Exercise:__ Verify that $1/i = -i$ where $i = \sqrt{-1}$.
@@ -337,12 +337,13 @@ dim(mydata)    # now it has dimensions
 
 
 
-If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:
+If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:<br/>
 
 <table>
   <tr><td>1<td>2</td><td>3</td><td>2</td><td>1<td></tr>
   <tr><td>9<td>0</td><td>2</td><td>1</td><td>0<td></tr>
 </table>
+<br/>
 
 
 
@@ -394,13 +395,14 @@ R is case sensitive, thus `cat` and `Cat` are different.  Also, `cat` is a reser
 You can also use `save` and `load` to work with R compressed data files if you have large files. If interested, investigate the use of the `save` and `load` commands. The best way to do this is to do an internet search on _R save and load_, but you knew this already.
 
 
-You may also include a _header_ in the data file to avoid `colnames`. For example, if you have a _comma separated values_ file `dummy.csv`   that looks like this,
+You may also include a _header_ in the data file to avoid `colnames`. For example, if you have a _comma separated values_ file `dummy.csv`   that looks like this,<br/>
  
 <table>
   <tr><td>Dog, Cat, Rat, Pig, Man</td></tr>
   <tr><td>1, 2, 3, 2, 1</td></tr>
   <tr><td>9, 0, 2, 1, 0</td></tr>
 </table>
+<br/>
 
 then use the following command to read the data.
  ```r 
