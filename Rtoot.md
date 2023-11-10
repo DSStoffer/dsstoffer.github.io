@@ -1,17 +1,29 @@
-## Time Series Analysis and Its Applications: With R Examples (R Supplement)
+# R Tutorial 
 
 ---
-### Installing R
 
- 
-R is an open source programming language and software environment for statistical computing and graphics
-that runs on many operating systems. It is an interpreted language and is 
-accessed  through a command-line interpreter.  A user types a command, presses enter,
-and the answer is returned.  
+This site replaces Appendix R in the texts _Time Series Analysis and Its Applications: With R Examples_ and _Time Series:  A Data Analysis Approach Using R_ both by Shumway & Stoffer
+
+
+### Table of Contents
+
+  * [Installing R](#installing-r)
+  * [Packages and ASTSA ](#packages-and-astsa )
+  * [Getting Help](#getting-help)
+  * [Basics](#basics)
+  * [Objects and Assignment](#objects-and-assignment)
+  * [Regression and Time Series Primer](#regression-and-time-series-primer)
+
+
+<br/>
+
+## Installing R
+
+
+R is an open source programming language and software environment for statistical computing and graphics that runs on many operating systems. It is an interpreted language and is  accessed  through a command-line interpreter.  A user types a command, presses enter, and the answer is returned.  
  
 
-To obtain  R,
- point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it.
+To obtain  R,  point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it.
 The installation includes help files and some user   manuals. 
 An internet search  can pull up various short tutorials and  videos,
 for example, [R Cookbook](https://rc2e.com/), 
@@ -35,8 +47,8 @@ There are some simple exercises in this appendix that will help you get used to 
 - __Exercise:__ Install R and RS (optional) now.  
 - _Solution:_ Follow the directions above.
 
----
-### Packages and ASTSA 
+
+## Packages and ASTSA 
  
 
 At this point, you should have R (or RStudio) up and running.
@@ -88,8 +100,8 @@ This is a good time to get those packages:
 - _Solution:_ Follow the directions above.
 
  
----
-### Getting Help
+
+## Getting Help
 
 R is not consistent with help files across different operating systems.
 In RStudio, there is a _Help_ tab. Otherwise,
@@ -116,13 +128,13 @@ help(library)
 
 Notice the use of a semicolon for multiple commands on one line
 
+ 
+## Basics
 
----
-### Basics
+The convention throughout the texts is that  R code is in <font color="blue"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  That does not apply to this site where syntax highlighting is controlled by GitHub. 
 
-The convention throughout the text is that
-  R code is in <font color="blue"> blue </font>  with <font color="red"> red </font> operators, output is
-<font color="purple">  purple </font>, and comments are <font color="green">green</font>.   Get comfortable, start R and try some simple tasks.
+Get comfortable, start R and try some simple tasks.
+
 ```r
 2+2           # addition 
  [1] 5
@@ -172,16 +184,15 @@ with this awesome equation?
 
 
 - __Exercise:__  Calculate these four numbers:
- $\cos(\pi/2),\, \cos(\pi),\, \cos(3\pi/2),\, \cos(2\pi) $
+ $$ \cos(\pi/2),\, \cos(\pi),\, \cos(3\pi/2),\, \cos(2\pi)$$
 - _Solution:_   One of the advantages of R is you can do many things in one line. So
  rather than doing this in four separate evaluations, consider using a sequence such 
- as `cos(pi*1:4/2)`.
-Notice that you don't always get zero (0) where you should, 
+ as `cos(pi*1:4/2)`. Notice that you don't always get zero (0) where you should, 
 but you will get something close to zero.    Here 
 you'll see what it looks like.
 
----
-### Objects and Assignment
+
+## Objects and Assignment
 
 Next,  we'll use  assignment to make some  objects: 
 ```r
@@ -276,7 +287,7 @@ If you want to __keep your files separated for different projects__, then having
 - __Exercise:__  Create a directory that you will use for the course and 
 use the tricks previously mentioned to make it your working directory (or use the default if
 you   do not care). Load `astsa` and use help to find out what is in the data file `cpg`. Write `cpg` as text to your working directory.
-- _Solution:_  Assuming you started R\in the working directory:
+- _Solution:_  Assuming you started R in the working directory:
 ```r
 library(astsa)
 help(cpg)     # or ?cpg
@@ -286,8 +297,9 @@ write(cpg, file="cpg.txt", ncolumns=1)
 
 
 
-- __Exercise:__ Find the file {\ttt cpg.txt} previously created (leave it there for now).\\
+- __Exercise:__ Find the file {\ttt cpg.txt} previously created (leave it there for now).
 - _Solution:_  In \RS, use the {\sf Files} tab. Otherwise, go to your working directory: 
+
 ```r
 getwd()
  "C:\TimeSeries"  
@@ -332,12 +344,7 @@ dim(mydata)    # now it has dimensions
 
 
 
-If you have an external data set, you can use {\ssf scan} or
-{\ssf read.table} (or some variant) to input the data.
-For example, suppose you have an {\sc ascii} (text) data file called {\ssf dummy.txt}
-in your working directory,
-%in a directory called {\ssf TimeSeries} \label{getwd2} in your root directory,
-and the file looks like this:
+If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:
 
 
 | 1 | 2 | 3 | 2 | 1 |
@@ -355,10 +362,7 @@ and the file looks like this:
   1  2  3  2  1
   9  0  2  1  0
 ``` 
-There is a difference between `scan` and `read.table`.
-The former produced a data vector of 10 items while the latter
-produced a _data frame_ with names `V1` to `V5` and two observations
-per variate. 
+There is a difference between `scan` and `read.table`. The former produced a data vector of 10 items while the latter produced a _data frame_ with names `V1` to `V5` and two observations per variate. 
 
 
 - __Exercise:__ Scan and view  the data in the file `cpg.txt` that you previously created. 
@@ -510,8 +514,8 @@ pwr(25, .5)
 ```
 
 
----
-### Regression and Time Series Primer
+
+## Regression and Time Series Primer
 
 These topics run throughout the text, but we will give a brief introduction here.
 The workhorse for linear regression in R is `lm()`.  Suppose we want to fit a simple linear regression,
