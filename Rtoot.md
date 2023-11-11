@@ -795,6 +795,7 @@ There was no need to rename `lag(part,-4)` to `part4`, it's just an example of w
 
  - __Exercise:__ Rerun the previous example of mortality on pollution but without using `ts.intersect`.  
  - _Solution:_  First lag particulates and then put it in to the regression. In this case, the lagged pollution value gets kicked out of the regression because `lm()` sees `part` and `part4` as the same thing.
+ 
 ```r
 part4 <- lag(part, -4)
 
