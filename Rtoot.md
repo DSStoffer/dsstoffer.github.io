@@ -338,11 +338,11 @@ dim(mydata)    # now it has dimensions
 
 If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:
 
-|     | 
+| &nbsp;    | 
 :------
 |1 2 3 2 1 |
 |9 0 2 1 0 |
-
+| &nbsp; |
 
 
  ```r
