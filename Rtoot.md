@@ -48,6 +48,12 @@ There are some simple exercises that will help you get used to using R. For exam
 
 <br/>
 
+[<sub>top</sub>](#table-of-contents)
+
+<br/>
+
+
+
 ## Packages and ASTSA 
  
 
@@ -127,6 +133,10 @@ help(library)
 Notice the use of a semicolon for multiple commands on one line
 
 <br/>
+
+[<sub>top</sub>](#table-of-contents)
+
+<br/>
  
 ## Basics
 
@@ -199,6 +209,10 @@ Ok, now try this.
 
 <br/>
 
+[<sub>top</sub>](#table-of-contents)
+
+<br/>
+
 ## Objects and Assignment
 
 Next,  we'll use  assignment to make some  objects: 
@@ -229,8 +243,7 @@ y <- c("one","two","three") # character vector
 z <- c(TRUE, TRUE, FALSE)   # logical vector
 ```
 
- Missing values are represented by the symbol `NA`, $\infty$ by `Inf` and
- impossible values  are `NaN` (not a number). Here are some examples:
+ Missing values are represented by the symbol `NA`, $\infty$ by `Inf` and  impossible values  are `NaN` (not a number). Here are some examples:
 ```r
 ( x = c(0, 1, NA) )
  [1]  0  1 NA  
@@ -245,8 +258,7 @@ x/0
  [1] NaN Inf  NA  
 ```
 
-There is a difference between `<-` and `=`.  From R  `help(assignOps)`,
-you will find: _The operator `<-` can be used anywhere, whereas the operator `=` is only allowed at the top level ... ._
+There is a difference between `<-` and `=`.  From R  `help(assignOps)`, you will find: _The operator `<-` can be used anywhere, whereas the operator `=` is only allowed at the top level ... ._
 
 - __Exercise:__  What is the difference between these two lines?
 ```r
@@ -341,6 +353,7 @@ mydata = c(1,2,3,2,1)
 ```
 
 Now you have an object called `mydata` that contains five elements.  R calls these objects `vectors` even though they have no dimensions (no rows, no columns); they do  have order and length:
+
 ```r
 mydata         # display the data 
  [1] 1 2 3 2 1
@@ -482,8 +495,7 @@ rbind(x,y)         # row bind the two vectors (2 by 4 matrix)
 ```
 
 - __Exercise:__ Make two vectors, say `a` with odd numbers  and `b` with even numbers between
-1 and 10.  Then, use `cbind` to make a matrix,  `x` from  `a` and `b`.
-After that, display each column of `x` separately.
+1 and 10.  Then, use `cbind` to make a matrix,  `x` from  `a` and `b`. After that, display each column of `x` separately.
 - _Solution:_ 
 ```r
 a = seq(1, 10, by=2)
@@ -576,6 +588,10 @@ crazy(200)       # run it - plot below
 ```
 
 <img src="figs/crazy.png"  alt="crazy"  width="70%"><br/>
+
+<br/>
+
+[<sub>top</sub>](#table-of-contents)
 
 <br/>
 
@@ -871,6 +887,10 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 
 <br/>
 
+[<sub>top</sub>](#table-of-contents)
+
+<br/>
+
 ## Graphics
 
 - Graphics has its own page:   [Time Series and R Graphics](https://nickpoison.github.io/tsgraph.html)
@@ -887,7 +907,9 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 
+[<sub>top</sub>](#table-of-contents)
 
+<br/>
 
 
 
