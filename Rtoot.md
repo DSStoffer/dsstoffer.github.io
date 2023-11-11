@@ -577,11 +577,11 @@ pwr(25, .5)
 Finally, consider a simple program that we will call `crazy` to produce a graph of a sequence of sample means of increasing sample sizes from a Cauchy distribution with location parameter zero.
 
 ```r
-crazy <- function(num) {
-  x <- c()
-  for (n in 1:num) { x[n] <- mean(rcauchy(n)) }
-  plot(x, type="l", xlab="sample size", ylab="sample mean")
-  }
+crazy <- function(num) {   # start the script - 1 argument, num, is final sample size
+  x <- c()                 # start a vector in object x
+  for (n in 1:num) { x[n] <- mean(rcauchy(n)) }  # x[n] holds mean of n standard Cauchys
+  plot(x, type="l", xlab="sample size", ylab="sample mean") # plot mean for each sample size n
+  }                        # end/close the script
 
 set.seed(1001)   # set a seed and
 crazy(200)       # run it - plot below
@@ -826,8 +826,9 @@ summary(fit)
 ```
 
 
-In Chapter 1 problems, you are asked to fit a regression  model $$ x_t = \beta t + \alpha_1 Q_1(t) +
-\alpha_2 Q_2(t) + \alpha_3 Q_3(t) + \alpha_4 Q_4(t) +  w_t $$ where $x_t$ is  logged Johnson & Johnson quarterly earnings ($n=84$), and $Q_i(t)$ is the indicator of quarter $i=1,2,3,4$. The indicators can be
+In Chapter 1 problems, you are asked to fit a regression  model 
+$$ x_t = \beta t + \alpha_1 Q_1(t) + \alpha_2 Q_2(t) + \alpha_3 Q_3(t) + \alpha_4 Q_4(t) +  w_t $$ 
+where $x_t$ is  logged Johnson & Johnson quarterly earnings ($n=84$), and $Q_i(t)$ is the indicator of quarter $i=1,2,3,4$. The indicators can be
 made using `factor`.
  ```r
 trend = time(jj) - 1970        # helps to 'center' time
