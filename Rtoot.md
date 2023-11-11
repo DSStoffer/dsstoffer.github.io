@@ -494,9 +494,9 @@ rbind(x,y)         # row bind the two vectors (2 by 4 matrix)
   y 0.72 0.34 0.90 0.95
 ```
 
-- __Exercise:__ Make two vectors, say `a` with odd numbers  and `b` with even numbers between
-1 and 10.  Then, use `cbind` to make a matrix,  `x` from  `a` and `b`. After that, display each column of `x` separately.
-- _Solution:_ 
+- __Exercise:__ Make two vectors, say `a` with odd numbers  and `b` with even numbers between 1 and 10.  Then, use `cbind` to make a matrix,  `x` from  `a` and `b`. After that, display each column of `x` separately.
+- _Solution:_
+
 ```r
 a = seq(1, 10, by=2)
 
