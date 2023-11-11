@@ -338,10 +338,10 @@ dim(mydata)    # now it has dimensions
 
 If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:
 
-
-| 1 | 2 | 3 | 2 | 1 |
-|---|---|---|---|---|
-| 9 | 0 | 2 | 1 | 0 |
+|     | 
+:------
+|1 2 3 2 1 |
+|9 0 2 1 0 |
 
 
 
@@ -505,7 +505,7 @@ pwr(25, .5)
   [1] 5  
 ```
 
-
+<br/>
 
 ## Regression and Time Series Primer
 
@@ -549,7 +549,7 @@ abline(v=mean(x), h=mean(y), col=2, lty=2)  # col 2 is red and lty 2 is dashed
 <img src="figs/lmplot.png" alt="lmplot"  width="50%"><br/>
 
 
-The `lm`} object that we called `fit` in  our simulation contains all sorts of information that
+The `lm` object that we called `fit` in  our simulation contains all sorts of information that
 can be extracted.  Sometimes, however, it might be difficult to find where that information is stored.
 The easiest way to find what is stored in an object is to look at the _structure_ of the object.  We list only a partial output because this particular list is very long.
 ```r
@@ -611,9 +611,9 @@ To use part of a time series object,  use `window()`:
 
 Next, we'll look at lagging and differencing, which are fundamental transformations used frequently in the analysis of time series. For example, if I'm interested in predicting todays from yesterdays, I would look at the relationship between $x_t$ and its lag, $x_{t-1}$. First make a simple series, $x_t$:
 
+ 
 
-
- &#128683; WARNING  If the R package `dplyr` is attached or `tidyverse` is loaded, then
+ &#128683; __WARNING:__  If the R package `dplyr` is attached or `tidyverse` is loaded, then
 `lag` has been corrupted. In this case, issue the command `filter = stats::filter` before analyzing time series in R.
 
 
@@ -668,7 +668,7 @@ but note that
 ```r 
 diff(x, 2)    
 ```
-is $x_t - x_{t-2}$ and {\it not} second order differencing. For second-order differencing, that is, $\nabla^2 x_t = \nabla (\nabla x_t)$, do one of these:
+is $x_t - x_{t-2}$ and _not_ second order differencing. For second-order differencing, that is, $\nabla^2 x_t = \nabla (\nabla x_t)$, do one of these:
 ```r
 diff(diff(x))    
 diff(x, diff=2)   # same thing
@@ -681,21 +681,12 @@ and so on for higher-order differencing.
 
 
 
-You have to be careful if you  use {\ttt lm()} for lagged values of a time series.
- If you use {\ssf lm()}, then
-what you have to do is align the series 
-using {\ssf ts.intersect}.    Please read the warning {\em Using time series} in the
-{\ssf lm()} help file [{\ssf help(lm)}]. Here is an example regressing {\ttt astsa} data,
-weekly cardiovascular
-mortality ($M_t$ {\ssf cmort}) on particulate pollution ($P_t$ {\ssf part})
-at the present value and lagged four weeks ($P_{t-4}$ {\ttt part4}).
-The model is
-\[
-M_t = \alpha + \beta_1 P_t + \beta_2 P_{t-4} + w_t\,,
-\]
-where we assume $w_t$ is the usual normal regression error term.
-First, we create the data matrix   {\ttt ded}, which consists of
-the intersection of the three series:
+You have to be careful if you  use `lm()` for lagged values of a time series.  If you use `lm()`, then what you have to do is align the series using `ts.intersect`.    Please read the warning _Using time series_ in the `lm()` help file [`help(lm)`]. Here is an example regressing `astsa` data, weekly cardiovascular mortality ($M_t$ `cmort`) on particulate pollution ($P_t$ `part`)
+at the present value and lagged four weeks ($P_{t-4}$ `part4`). The model is
+
+$$M_t = \alpha + \beta_1 P_t + \beta_2 P_{t-4} + w_t\,, $$
+
+where we assume $w_t$ is the usual normal regression error term. First, we create the data matrix  `ded`, which consists of the intersection of the three series:
  ```r
 library(astsa)   # load astsa first
 ded = ts.intersect(cmort, part, part4=lag(part,-4))
@@ -713,18 +704,13 @@ summary(fit <- lm(cmort~part+part4, data=ded, na.action=NULL) )
  Multiple R-squared:  0.3091,    Adjusted R-squared:  0.3063 
  F-statistic: 112.1 on 2 and 501 DF,  p-value: < 2.2e-16 
 ```
-There was no need to rename {\ssf lag(part,-4)} to {\ssf part4},
-it's just an example of what you can do.  
-Also,   {\ttt na.action=NULL} is necessary to retain the time series
-attributes. It should be there whenever you 
-do time series regression.
+There was no need to rename `lag(part,-4)` to `part4`, it's just an example of what you can do.  
+Also,   `na.action=NULL` is necessary to retain the time series attributes. It should be there whenever you  do time series regression.
 
-\needsp{2}
-\Exer Rerun the previous example of mortality on pollution but without
-using {\ttt ts.intersect}.  In this case, the lagged pollution value gets
-kicked out of the regression because {\ttt lm()} sees {\ttt part} and {\ttt part4} 
-as the same thing.\\
-\Soln First lag particulates and then put it in to the regression.
+
+ - __Exercise:__ Rerun the previous example of mortality on pollution but without using `ts.intersect`.  
+ - _Solution:_  First lag particulates and then put it in to the regression. In this case, the lagged pollution value gets kicked out of the regression because `lm()`} sees `part` and `part4` 
+as the same thing.
 ```r
 part4 <- lag(part, -4)
 summary(fit <- lm(cmort~ part + part4, na.action=NULL) )
@@ -735,38 +721,15 @@ summary(fit <- lm(cmort~ part + part4, na.action=NULL) )
   part4             NA         NA      NA       NA 
 ```
 
-
-
-\begin{soln}
-It doesn't work  with or without the {\ttt na.action} statement; notice the
-warning.
-```r
-> part4 <- lag(part, -4)
-> summary(fit <- lm(cmort~part+part4, na.action=NULL) )
-  Coefficients: (1 not defined because of singularities)   <- ouch
-              Estimate Std. Error t value Pr(>|t|)    
-  (Intercept) 74.79860    1.30943   57.12   <2e-16 ***
-  part         0.29317    0.02631   11.14   <2e-16 ***
-  part4             NA         NA      NA       NA         <- ouch
+An alternative to the above is the package `dynlm`, which has to be installed.  After the package
+is installed, you can do the previous example as follows:
+ ```r
+library(dynlm)                         # load the package
+fit = dynlm(cmort~part + L(part,4))    # no data frame needed
+summary(fit)
+  Call: dynlm(formula = mort ~ part + lag(part, -4))
+    The rest of the output is identical to the lm output.
 ```
-\end{soln}
-
-%
-%There is a package called
-%{\ssf dynlm} that makes it easy to fit lagged regressions.  The basic advantage
-%of {\ttt dynlm} is that it avoids having to make a data frame; that is, line
-%2 would be avoided.
-
-%An alternative to the above is the package {\ssf dynlm},
-%which has to be installed.  After the package
-%is installed, you can do the previous example as follows:
-% ```r
-%> library(dynlm)                         # load the package
-%> fit = dynlm(cmort~part + L(part,4))    # no data frame needed
-%> summary(fit)
-%    Call: dynlm(formula = mort ~ part + lag(part, -4))
-% The rest of the output is identical to the lm output.
-%```
 
 %\needsp{3}
 %In \autoref{p1.16}, you are asked to fit
