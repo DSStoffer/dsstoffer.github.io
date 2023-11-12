@@ -1,7 +1,7 @@
 # R Tutorial 
 
 ---
-<p>
+
 
 This site replaces Appendix R in the texts _Time Series Analysis and Its Applications: With R Examples_ and _Time Series:  A Data Analysis Approach Using R_ both by Shumway & Stoffer
 
@@ -911,7 +911,7 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 
 <br/>
 
-</p>
+
 
 ---
 <p style="text-align: center;">&#128018; &Eopf; &#8469; &#120123; &#128018;</p>
