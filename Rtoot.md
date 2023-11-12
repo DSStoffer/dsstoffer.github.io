@@ -15,6 +15,7 @@ This site replaces Appendix R in the texts _Time Series Analysis and Its Applica
   * [Regression and Time Series Primer](#regression-and-time-series-primer)
   * [Graphics](#graphics)
   * [R Time Series Issues](#r-time-series-issues)
+  * [Explore ASTSA](#fun-with-astsa)
 
  
 <br/>
@@ -906,6 +907,13 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 - R Issues has its own page: [R Time Series Issues](https://nickpoison.github.io/rissues.html)
 
 <br/>
+
+## Fun with ASTSA
+
+- Fun with ASTSA has its own page: [FUN WITH ASTSA](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md)
+
+<br/>
+
 
 [<sub>top</sub>](#table-of-contents)
 
