@@ -1,6 +1,7 @@
 # R Tutorial 
 
 ---
+<p>
 
 This site replaces Appendix R in the texts _Time Series Analysis and Its Applications: With R Examples_ and _Time Series:  A Data Analysis Approach Using R_ both by Shumway & Stoffer
 
@@ -15,7 +16,7 @@ This site replaces Appendix R in the texts _Time Series Analysis and Its Applica
   * [Regression and Time Series Primer](#regression-and-time-series-primer)
   * [Graphics](#graphics)
   * [R Time Series Issues](#r-time-series-issues)
-  * [Explore ASTSA](#fun-with-astsa)
+  * [More on ASTSA](#more-on-astsa)
 
  
 <br/>
@@ -26,25 +27,17 @@ This site replaces Appendix R in the texts _Time Series Analysis and Its Applica
 R is an open source programming language and software environment for statistical computing and graphics that runs on many operating systems. It is an interpreted language and is  accessed  through a command-line interpreter.  A user types a command, presses enter, and the answer is returned.  
  
 
-&#128018; To obtain  R,  point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it.
-The installation includes help files and some user   manuals. 
-An internet search  can pull up various short tutorials and  videos,
-for example, [R Cookbook](https://rc2e.com/), 
-[Hand-On Programming with R](https://rstudio-education.github.io/hopr/)
- and the website [Quick-R](https://www.statmethods.net/r-tutorial/index.html).
-And we state the obvious:
+&#128018; To obtain  R,  point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it. The installation includes help files and some user   manuals.  An internet search  can pull up various short tutorials and  videos, for example, [R Cookbook](https://rc2e.com/), [Hand-On Programming with R](https://rstudio-education.github.io/hopr/)  and the website [Quick-R](https://www.statmethods.net/r-tutorial/index.html). And we state the obvious:
 
  > &nbsp;&nbsp;&nbsp;  _If you can't figure out how to do something, do an internet search_.
 
  
-[RStudio](https://posit.co/downloads/) can make using  R   easier and we recommend using it for course work.
-  It  is an  open source integrated development environment (IDE) for R. 
-  It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging, and workspace management.   This tutorial does not assume you are using RStudio;  if you do use it, a number of the command-driven tasks can be accomplished by pointing and clicking.
+[RStudio](https://posit.co/downloads/) can make using  R easier and we recommend that novices use it for course work.   It  is an  open source integrated development environment (IDE) for R.    It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging, and workspace management.   This tutorial does not assume you are using RStudio;  if you do use it, a number of the command-driven tasks can be accomplished by pointing and clicking.
 
  
 There are some simple exercises that will help you get used to using R. For example,
 
-- __Exercise:__ Install R and RS (optional) now.  
+- __Exercise:__ Install R and RStudio (optional) now.  
 - _Solution:_ Find the monkey   &#128018; above and follow the directions.
 
 <br/>
@@ -58,28 +51,22 @@ There are some simple exercises that will help you get used to using R. For exam
 ## Packages and ASTSA 
  
 
-At this point, you should have R (or RStudio) up and running.
-The capabilities of R are extended through packages. R comes with 
-a number of preloaded packages that are available immediately.
-There are base packages that install with R and load automatically.
+At this point, you should have R (or RStudio) up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. There are base packages that install with R and load automatically.
 Then there are priority packages that are installed with R but not loaded
 automatically.  Finally, there are  user-created packages that must be installed
 and loaded into R before use. If you are using RStudio, there is a _Packages_ tab to help you manage your packages.
 
 
-Most packages can be obtained from CRAN and its mirrors.  _The package used extensively in the text is `astsa` (Applied Statistical Time Series Analysis)_.  If you are using RStudio, then use  _Install_ from the _Packages_ tab.  If asked to choose a repository, select _0-Cloud_, the first choice, and that
-will find your closest repository. Get it now:
+Most packages can be obtained from CRAN and its mirrors.  _The package used extensively in the text is `astsa` (Applied Statistical Time Series Analysis)_.  If you are using RStudio, then use  _Install_ from the _Packages_ tab.  If asked to choose a repository, select _0-Cloud_, the first choice, and that will find your closest repository. Get it now:
 
 - __Exercise:__ Install  `astsa` 
 - _Solution:_ Issue the command: `install.packages('astsa')` 
 
 
  The latest version of `astsa`  will  always be   available from GitHub.
- More information may be found at [GitHub](https://github.com/nickpoison/astsa/blob/master/NEWS.md). 
+ More information may be found at [ASTSA NEWS](https://github.com/nickpoison/astsa/blob/master/NEWS.md). 
 
-
-To use a package you have to load it
-after starting R, for example:
+Except for base packages, to use a package you have to load it after starting R, for example:
 ```r
 library(astsa)
 ```
@@ -908,7 +895,7 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 
 <br/>
 
-## Fun with ASTSA
+## More on ASTSA
 
 - Fun with ASTSA has its own page: [FUN WITH ASTSA](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md)
 
@@ -924,7 +911,7 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 
 <br/>
 
-
+</p>
 
 ---
 <p style="text-align: center;">&#128018; &Eopf; &#8469; &#120123; &#128018;</p>
