@@ -905,11 +905,14 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 
 - R Issues has its own page: [R Time Series Issues](https://nickpoison.github.io/rissues.html)
 
+<br/>
+
+[<sub>top</sub>](#table-of-contents)
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 
-[<sub>top</sub>](#table-of-contents)
+
 
 <br/>
 
