@@ -191,8 +191,7 @@ Let's get complex:
 
 Ok, now try this.
 
-- __Exercise:__  Calculate these four numbers:
- $$ \cos(\pi/2),\, \cos(\pi),\, \cos(3\pi/2),\, \cos(2\pi)$$
+- __Exercise:__  Calculate these four numbers: $ \cos(\pi/2),\, \cos(\pi),\, \cos(3\pi/2),\, \cos(2\pi)$
 - _Solution:_   One of the advantages of R is you can do many things in one line. So  rather than doing this in four separate evaluations, consider using a sequence such  as `cos(pi*1:4/2)`. Notice that you don't always get zero (0) where you should, but you will get something close to zero.    Here  you'll see what it looks like.
 
 <br/>
@@ -319,7 +318,7 @@ you   do not care). Load `astsa` and use help to find out what is in the data fi
 ```r
 library(astsa)
 help(cpg)     # or ?cpg
-  Median annual cost per gigabyte (GB) of storage. 
+ #  Median annual cost per gigabyte (GB) of storage. 
 write(cpg, file="cpg.txt", ncolumns=1)   
 ```
 
@@ -438,7 +437,7 @@ You can also use `save` and `load` to work with R compressed data files if you h
 
 You may also include a _header_ in the data file to avoid `colnames`. For example, if you have a _comma separated values_ file `dummy.csv`   that looks like this,<br/>
  
- `--------------------------`<br/>
+`--------------------------`<br/>
 `Dog, Cat, Rat, Pig, Man`<br/>
 `1, 2, 3, 2, 1` <br/>
 `9, 0, 2, 1, 0` <br/>
