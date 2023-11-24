@@ -120,6 +120,15 @@ help(library)
 
 Notice the use of a semicolon for multiple commands on one line
 
+
+### 	&#128683; PACKAGE WARNINGS: 	&#128683;
+If the R package `dplyr` is attached or `tidyverse` is loaded, then `filter` and `lag` have probably  been corrupted. In this case, before analyzing time series in R, use the commands
+```r
+filter = stats::filter
+lag    = stats::lag 
+``````
+
+
 <br/>
 
 [<sub>top</sub>](#table-of-contents)
@@ -127,6 +136,8 @@ Notice the use of a semicolon for multiple commands on one line
 <br/>
  
 ## Basics
+
+
 
 The convention throughout the text is that  R code is in <font color="blue"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  That does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
 
@@ -686,12 +697,19 @@ To use part of a time series object,  use `window()`:
 
 Next, we'll look at lagging and differencing, which are fundamental transformations used frequently in the analysis of time series. For example, if I'm interested in predicting todays from yesterdays, I would look at the relationship between $x_t$ and its lag, $x_{t-1}$. First, a warning:
 
- &#128683;  &#128683;  &#128683;  
+---
+---
+### 	&#128683; PACKAGE WARNINGS: 	&#128683;
+If the R package `dplyr` is attached or `tidyverse` is loaded, then `filter` and `lag` have probably  been corrupted. In this case, before analyzing time series in R, use the commands
+```r
+filter = stats::filter
+lag    = stats::lag 
+``````
 
-__WARNING:__  If the R package `dplyr` is attached or `tidyverse` is loaded, then
-`lag` has been corrupted. In this case, issue the command `lag = stats::lag` before analyzing time series in R.  While we're here, this also applies to the command `filter` that we use extensively in the text.  Thus, if `dplyr` or the `tidyverse` has been attached, it would be smart to issue the command `filter = stats::filter`.
+---
+---
 
- &#128683;  &#128683;  &#128683; 
+<br/> 
 
 Now let's make a simple series $x_t$
 
