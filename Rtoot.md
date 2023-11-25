@@ -121,12 +121,7 @@ help(library)
 Notice the use of a semicolon for multiple commands on one line
 
 
-### 	&#128683; PACKAGE WARNINGS: 	&#128683;
-If the R package `dplyr` is attached or `tidyverse` is loaded, then `filter` and `lag` have probably  been corrupted. In this case, before analyzing time series in R, use the commands
-```r
-filter = stats::filter
-lag    = stats::lag 
-``````
+
 
 
 <br/>
@@ -697,17 +692,7 @@ To use part of a time series object,  use `window()`:
 
 Next, we'll look at lagging and differencing, which are fundamental transformations used frequently in the analysis of time series. For example, if I'm interested in predicting todays from yesterdays, I would look at the relationship between $x_t$ and its lag, $x_{t-1}$. First, a warning:
 
----
----
-### 	&#128683; PACKAGE WARNINGS: 	&#128683;
-If the R package `dplyr` is attached or `tidyverse` is loaded, then `filter` and `lag` have probably  been corrupted. In this case, before analyzing time series in R, use the commands
-```r
-filter = stats::filter
-lag    = stats::lag 
-``````
 
----
----
 
 <br/> 
 
