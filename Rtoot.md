@@ -120,7 +120,11 @@ help(library)
 
 Notice the use of a semicolon for multiple commands on one line
 
+Finally, you can lots of help from the internet:
 
+- __Exercise:__  Find some good places to get R help on the internet.
+- _Solution:_  [Try the Google](https://googlethatforyou.com?q=R%20help)  
+- _Solution:_ [Stack Overflow](https://stackoverflow.com/questions/tagged/r)
 
 
 
