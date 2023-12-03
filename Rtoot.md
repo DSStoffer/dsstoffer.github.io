@@ -9,7 +9,7 @@ This site replaces Appendix R in the texts _Time Series Analysis and Its Applica
 ### Table of Contents
 
   * [Installing R](#installing-r)
-  * [Packages and ASTSA ](#packages-and-astsa )
+  * [Packages and ASTSA](#packages-and-astsa )
   * [Getting Help](#getting-help)
   * [Basics](#basics)
   * [Objects and Assignment](#objects-and-assignment)
@@ -23,8 +23,7 @@ This site replaces Appendix R in the texts _Time Series Analysis and Its Applica
 
 ## Installing R
 
-
-R is an open source programming language and software environment for statistical computing and graphics that runs on many operating systems. It is an interpreted language and is  accessed  through a command-line interpreter.  A user types a command, presses enter, and the answer is returned.  
+ R is an open source statistical computing and graphics system that runs on many operating systems. It is an interpreted language and is  accessed  through a command-line interpreter. A user types a command, presses enter, and an answer is returned. 
  
 
 &#128018; To obtain  R,  point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it. The installation includes help files and some user   manuals.  An internet search  can pull up various short tutorials and  videos, for example, [R Cookbook](https://rc2e.com/), [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)  and the website [Quick-R](https://www.statmethods.net/r-tutorial/index.html). And we state the obvious:
@@ -138,7 +137,7 @@ Finally, you can lots of help from the internet:
 
 
 
-The convention throughout the text is that  R code is in <font color="blue"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  That does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
+The convention throughout the text is that  R code is in <font color="blue"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  This  does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
 
 Get comfortable, start R and try some simple tasks.
 
