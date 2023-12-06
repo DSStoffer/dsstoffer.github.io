@@ -17,6 +17,7 @@ This site replaces Appendix R in the texts _Time Series Analysis and Its Applica
   * [Graphics](#graphics)
   * [R Time Series Issues](#r-time-series-issues)
   * [More on ASTSA](#more-on-astsa)
+  * [R Code in Texts](#r-code-in-texts)
 
  
 <br/>
@@ -902,6 +903,15 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 
 <br/>
 
+
+## R Code in Texts
+
+- Code in [Time Series Analysis and Its Applications (Ed 4)](https://github.com/nickpoison/tsa4/blob/master/textRcode.md)
+
+- _Coming in 2024:_  &nbsp; Code in [Time Series Analysis and Its Applications (Ed 5)](https://github.com/nickpoison/tsa5/blob/master/textRcode.md)
+
+- Code in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda/blob/main/Rcode.md)
+<br/>
 
 [<sub>top</sub>](#table-of-contents)
 
