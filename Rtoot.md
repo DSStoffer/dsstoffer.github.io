@@ -3,7 +3,8 @@
 ---
 
 
-This site replaces Appendix R in the texts _Time Series Analysis and Its Applications: With R Examples_ and _Time Series:  A Data Analysis Approach Using R_ both by Shumway & Stoffer
+_Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis and Its Applications: With R Examples_ and _Time Series:  A Data Analysis Approach Using R_ both by Shumway & Stoffer
+
 
 
 ### Table of Contents
