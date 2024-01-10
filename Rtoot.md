@@ -93,6 +93,17 @@ This is a good time to get those packages:
 - __Exercise:__ Install and then load `xts` and consequently  `zoo`.
 - _Solution:_ Follow the directions above.
 
+<br/>
+
+&#128534; __WARNING:__   If loaded, the package `dplyr` may corrupt the base scripts  `filter` 
+and  `lag`  that we use often. In this case, to avoid problems, issue the commands 
+
+```r
+filter = stats::filter
+lag = stats::lag
+``` 
+before analyzing time series data. &#128534; (If you are wondering how it is possible to corrupt a base package, you are not alone.)
+
  <br/>
 
 ## Getting Help
