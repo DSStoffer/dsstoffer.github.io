@@ -95,7 +95,7 @@ This is a good time to get those packages:
 
 <br/>
 
-&#128534; __WARNING:__   If loaded, the package `dplyr` may corrupt the base scripts  `filter` 
+&#9940; &#9940;   __WARNING:__   If loaded, the package `dplyr` may corrupt the base scripts  `filter` 
 and  `lag`  that we use often. In this case, to avoid problems, issue the commands 
 
 ```r
