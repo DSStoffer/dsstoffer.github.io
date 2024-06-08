@@ -37,8 +37,9 @@ R is an open source statistical computing and graphics system that runs on many 
 
 There are some simple exercises that will help you get used to using R. For example,
 
-- __Exercise:__ Install R and RStudio (optional) now.  
-- _Solution:_ Find the monkey   &#128018; above and follow the directions.
+- __Exercise:__ Install R and RStudio (optional) now.  
+
+- _Solution:_ Find the monkey   &#128018; above and follow the directions.
 
 <br/>
 
@@ -85,9 +86,9 @@ library(xts)
 ```
 This is a good time to get those packages: 
 
-   🔵 __Exercise:__ Install and then load `xts` and consequently  `zoo`.
+-  __Exercise:__ Install and then load `xts` and consequently  `zoo`.
 
-   🔵 _Solution:_ Follow the directions above.
+- _Solution:_ Follow the directions above.
 
 <br/>
 
