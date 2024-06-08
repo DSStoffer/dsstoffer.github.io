@@ -97,7 +97,6 @@ and  `lag`  that we use often. In this case, to avoid problems, either detach th
 
 ```r
 detach(package:dplyr)
-
 ```
 
 or issue the commands 
@@ -105,7 +104,6 @@ or issue the commands
 ```r
 filter = stats::filter
 lag = stats::lag
-
 ```
 before analyzing time series data.  &#128534; If you are wondering how it is possible to corrupt a base package, you are not alone. 
 
@@ -151,7 +149,7 @@ Finally, you can find lots of help from the internet.  If you have a specific an
 
 
 
-The convention throughout the text is that  R code is in <font color="blue"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  This  does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
+The convention throughout the text is that  R code is in <font color="#0909FF"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  This  does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
 
 Get comfortable, start R and try some simple tasks.
 
