@@ -20,7 +20,6 @@ _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis
   * [More on ASTSA](#more-on-astsa)
   * [R Code in Texts](#r-code-in-texts)
 
-
 <br/>
 
 ## Installing R
@@ -38,8 +37,8 @@ R is an open source statistical computing and graphics system that runs on many 
 
 There are some simple exercises that will help you get used to using R. For example,
 
-- __Exercise:__ Install R and RStudio (optional) now.  
-- _Solution:_ Find the monkey   &#128018; above and follow the directions.
+- __Exercise:__ Install R and RStudio (optional) now.  
+- _Solution:_ Find the monkey   &#128018; above and follow the directions.
 
 <br/>
 
@@ -52,17 +51,13 @@ There are some simple exercises that will help you get used to using R. For exam
 ## Packages and ASTSA 
 
 
-At this point, you should have R (or RStudio) up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. There are base packages that install with R and load automatically.
-Then there are priority packages that are installed with R but not loaded
-automatically.  Finally, there are  user-created packages that must be installed
-and loaded into R before use. If you are using RStudio, there is a _Packages_ tab to help you manage your packages.
-
+At this point, you should have R (or RStudio) up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. There are base packages that install with R and load automatically. Then there are priority packages that are installed with R but not loaded automatically.  Finally, there are  user-created packages that must be installed and loaded into R before use. If you are using RStudio, there is a _Packages_ tab to help you manage your packages.
 
 Most packages can be obtained from CRAN and its mirrors.  _The package used extensively in the text is `astsa` (Applied Statistical Time Series Analysis)_.  If you are using RStudio, then use  _Install_ from the _Packages_ tab.  If asked to choose a repository, select _0-Cloud_, the first choice, and that will find your closest repository. Get it now:
 
 - __Exercise:__ Install  `astsa` 
-- _Solution:_ Issue the command: `install.packages('astsa')` 
 
+- _Solution:_ Issue the command: `install.packages('astsa')` 
 
  The latest version of `astsa`  will  always be   available from GitHub.
  More information may be found at [ASTSA NEWS](https://github.com/nickpoison/astsa/blob/master/NEWS.md). 
@@ -90,8 +85,9 @@ library(xts)
 ```
 This is a good time to get those packages: 
 
-- __Exercise:__ Install and then load `xts` and consequently  `zoo`.
-- _Solution:_ Follow the directions above.
+   🔵 __Exercise:__ Install and then load `xts` and consequently  `zoo`.
+
+   🔵 _Solution:_ Follow the directions above.
 
 <br/>
 
