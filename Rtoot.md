@@ -25,7 +25,7 @@ _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis
 
 ## Installing R
 
- R is an open source statistical computing and graphics system that runs on many operating systems. It is an interpreted language and is  accessed  through a command-line interpreter. A user types a command, presses enter, and an answer is returned. 
+R is an open source statistical computing and graphics system that runs on many operating systems. It is an interpreted language and is  accessed  through a command-line interpreter. A user types a command, presses enter, and an answer is returned. 
 
 
 &#128018; To obtain  R,  point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it. The installation includes help files and some user   manuals.  An internet search  can pull up various short tutorials and  videos, for example, [R Cookbook](https://rc2e.com/), [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)  and the website [Quick-R](https://www.statmethods.net/r-tutorial/index.html). And we state the obvious:
