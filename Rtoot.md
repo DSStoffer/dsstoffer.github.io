@@ -20,22 +20,22 @@ _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis
   * [More on ASTSA](#more-on-astsa)
   * [R Code in Texts](#r-code-in-texts)
 
- 
+
 <br/>
 
 ## Installing R
 
  R is an open source statistical computing and graphics system that runs on many operating systems. It is an interpreted language and is  accessed  through a command-line interpreter. A user types a command, presses enter, and an answer is returned. 
- 
+
 
 &#128018; To obtain  R,  point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it. The installation includes help files and some user   manuals.  An internet search  can pull up various short tutorials and  videos, for example, [R Cookbook](https://rc2e.com/), [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)  and the website [Quick-R](https://www.statmethods.net/r-tutorial/index.html). And we state the obvious:
 
  > &nbsp;&nbsp;&nbsp;  _If you can't figure out how to do something, do an internet search_.
 
- 
+
 [RStudio](https://posit.co/downloads/) can make using  R easier and we recommend that novices use it for course work.   It  is an  open source integrated development environment (IDE) for R.    It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging, and workspace management.   This tutorial does not assume you are using RStudio;  if you do use it, a number of the command-driven tasks can be accomplished by pointing and clicking.
 
- 
+
 There are some simple exercises that will help you get used to using R. For example,
 
 - __Exercise:__ Install R and RStudio (optional) now.  
@@ -50,7 +50,7 @@ There are some simple exercises that will help you get used to using R. For exam
 
 
 ## Packages and ASTSA 
- 
+
 
 At this point, you should have R (or RStudio) up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. There are base packages that install with R and load automatically.
 Then there are priority packages that are installed with R but not loaded
@@ -87,7 +87,7 @@ install.packages("xts")  # installs both xts and zoo
 And again, to use the package    you must load it first by issuing the command 
 ```r
 library(xts)
-``` 
+```
 This is a good time to get those packages: 
 
 - __Exercise:__ Install and then load `xts` and consequently  `zoo`.
@@ -95,16 +95,24 @@ This is a good time to get those packages:
 
 <br/>
 
-&#9940; &#9940;   __WARNING:__   If loaded, the package `dplyr` may corrupt the base scripts  `filter` 
-and  `lag`  that we use often. In this case, to avoid problems, issue the commands 
+&#9940; &#9940;  __WARNING:__   If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` 
+and  `lag`  that we use often. In this case, to avoid problems, either detach the problem package
+
+```r
+detach(package:dplyr)
+
+```
+
+or issue the commands 
 
 ```r
 filter = stats::filter
 lag = stats::lag
-``` 
-before analyzing time series data. &#128534; (If you are wondering how it is possible to corrupt a base package, you are not alone.)
 
- <br/>
+```
+before analyzing time series data.  &#128534; If you are wondering how it is possible to corrupt a base package, you are not alone. 
+
+<br/>
 
 ## Getting Help
 
@@ -141,7 +149,7 @@ Finally, you can find lots of help from the internet.  If you have a specific an
 [<sub>top</sub>](#table-of-contents)
 
 <br/>
- 
+
 ## Basics
 
 
@@ -180,7 +188,7 @@ seq(1, 10, by=2)   # sequences
 
 rep(2, 3)     # repeat 2 three times
  [1] 2 2 2
-``` 
+```
 
 - __Exercise:__  Explain what you get if you do this: `(1:20/10) %% 1`
 - _Solution:_  Yes, there are a bunch of numbers that look like what
@@ -291,7 +299,7 @@ y + z    # oops
 - __Exercise:__  Why was `y+z` above the vector (10, 7, 4) and why is there a warning?
 - _Solution:_ `y + z = (2+8=10, 4+3=7, 2+2=4)`.  `y` is being recycled
 but not fully.   This type of calculation is usually done in error.
- 
+
 
 
 
@@ -319,8 +327,8 @@ setwd()             # change working directory
 q()                 # end the session (keep reading)
 ```
 and a [reference card may be found here](https://cran.r-project.org/doc/contrib/Short-refcard.pdf).
-  
-  
+
+
 &#10024; When you quit, R will prompt you to save an image of your current workspace.
 Answering _yes_ will  save   the work  you have done so far, and load it   when you next start R. We have never regretted selecting _yes_, but we 
  have regretted answering _no_.
@@ -411,7 +419,7 @@ If you have an external data set, you can use `scan` or `read.table` (or some va
  V1 V2 V3 V4 V5
   1  2  3  2  1
   9  0  2  1  0
-``` 
+ ```
 There is a difference between `scan` and `read.table`. The former produced a data vector of 10 items while the latter produced a _data frame_ with names `V1` to `V5` and two observations per variate. 
 
 
@@ -423,14 +431,14 @@ There is a difference between `scan` and `read.table`. The former produced a dat
   [1] 2.13e+05 2.95e+05 2.60e+05 1.75e+05 1.60e+05
   [6] 7.10e+04 6.00e+04 3.00e+04 3.60e+04 9.00e+03 
  [11] 7.00e+03 4.00e+03 ... 
-``` 
+```
 
 
 When you use `read.table` or similar, you create a data frame. In this case, if you want to list (or use) the second variate, `V2`, you could use
  ```r 
 dummy$V2
  [1] 2 0
-```
+ ```
 and so on. You might want to look at the help files `?scan` and `?read.table` now. Data frames (`?data.frame`) are _used as the fundamental data structure by most of R's modeling software._ Notice that R gave the columns of `dummy`  generic names, `V1,..., V5`.  You can provide your own names and then use  the names to access the data without the use of `$` as   above.
  ```r 
 colnames(dummy) = c("Dog", "Cat", "Rat", "Pig", "Man")
@@ -446,7 +454,7 @@ Rat*(Pig - Man)  # animal arithmetic
 head(dummy)      # view the first few lines of a data file
 
 detach(dummy)    # clean up  
-```
+ ```
 
 R is case sensitive, thus `cat` and `Cat` are different.  Also, `cat` is a reserved name (`?cat`) in R, so using `cat` instead of `Cat` may  cause problems later. It is noted that `attach` can lead to confusion: _The possibilities for creating errors when using attach are numerous. Avoid._  If you use it, it is best to clean it up when you are done.
 
@@ -454,7 +462,7 @@ You can also use `save` and `load` to work with R compressed data files if you h
 
 
 You may also include a _header_ in the data file to avoid `colnames`. For example, if you have a _comma separated values_ file `dummy.csv`   that looks like this,<br/>
- 
+
 `--------------------------`<br/>
 `Dog, Cat, Rat, Pig, Man`<br/>
 `1, 2, 3, 2, 1` <br/>
@@ -470,11 +478,11 @@ then use the following command to read the data.
      Dog Cat Rat Pig Man
    1   1   2   3   2   1
    2   9   0   2   1   0
-``` 
-  
+ ```
+
 The default for `.csv` files is `header=TRUE`, type  `?read.table` for further information
   on similar types of files.
- 
+
 
 Two commands that are used frequently to manipulate data are `cbind` for _column binding_
 and `rbind` for _row binding_. The following is an example.
@@ -562,14 +570,14 @@ oneover(0)
 
 oneover(-4)
  [1] -0.25      
-``` 
+```
 
 A script can have multiple inputs, for example, guess what this does:
 ```r
 xtimesy <- function(x,y){ x * y }    
 xtimesy(20, .5)  # and try it
   [1] 10 
-``` 
+```
 
 - __Exercise:__  Write a simple function to return, for numbers `x` and `y`, the first input raised to the power of the second input, and then use it to find the square root of 25.
 - _Solution:_ It's similar to the previous example.
@@ -725,7 +733,7 @@ cbind(x, lag(x), lag(x,-1))
   4    4      5         3     #  lag(x) is ahead at 4, and  
   5    5     NA         4     #   lag(x,-1) is behind at 2  
   6   NA     NA         5 
-``` 
+```
 
 Compare `cbind` and `ts.intersect`:
 
@@ -778,7 +786,7 @@ where we assume $w_t$ is the usual normal regression error term. First, we creat
 library(astsa)   # load astsa first
 
 ded = ts.intersect(cmort, part, part4=lag(part,-4))
-```
+ ```
 Now the series are all aligned and the regression will work.
 ```r
 summary(fit <- lm(cmort ~ part + part4, data = ded, na.action = NULL) )
@@ -797,7 +805,7 @@ There was no need to rename `lag(part,-4)` to `part4`, it's just an example of w
 
  - __Exercise:__ Rerun the previous example of mortality on pollution but without using `ts.intersect`.  
  - _Solution:_  First lag particulates and then put it in to the regression. In this case, the lagged pollution value gets kicked out of the regression because `lm()` sees `part` and `part4` as the same thing.
- 
+
 ```r
 part4 <- lag(part, -4)
 
@@ -825,7 +833,7 @@ summary(fit)
   Residual standard error: 8.323 on 501 degrees of freedom 
   Multiple R-squared:  0.3091,    Adjusted R-squared:  0.3063 
   F-statistic: 112.1 on 2 and 501 DF,  p-value: < 2.2e-16
-```
+ ```
 
 
 In Chapter 1 problems, you are asked to fit a regression  model 
@@ -849,10 +857,10 @@ model.matrix(reg)              # view the model design matrix
      .     .    .  .  .  .
      .     .    .  .  .  .
 
-```
+ ```
 
 We'll end this part with simulating ARIMA models.  If you don't know what that means then it's ok, you will by the time you finish the course, and you can skip ahead or do something else now.
-  
+
 &#128014; The workhorse for ARIMA simulations is `sarima.sim` from `astsa`. Here are some examples; no output is shown so you're on your own. Note that `tsplot` is the generic `astsa` script for plotting time series.  Graphics is the next subject.
 
  ```r
@@ -886,7 +894,7 @@ tsplot(sarima.sim(n=100, ar=.99, innov=dog, burnin=50))
 ## a message to make sure that you wanted to do this on purpose: 
 tsplot(sarima.sim(ar=c(1.5,-.75), n=144, S=12), ylab='doggy', xaxt='n')
 mtext(seq(0,144,12), side=1, line=.5, at=0:12)
-```
+ ```
 
 
 <br/>
