@@ -51,10 +51,18 @@ There are some simple exercises that will help you get used to using R. For exam
 
 ## Packages and ASTSA 
 
+At this point, you should have R (or RStudio) up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. 
 
-At this point, you should have R (or RStudio) up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. There are base packages that install with R and load automatically. Then there are priority packages that are installed with R but not loaded automatically.  Finally, there are  user-created packages that must be installed and loaded into R before use. If you are using RStudio, there is a _Packages_ tab to help you manage your packages.
+- There are base packages that install with R and load automatically.  (e.g., `stats`)
 
-Most packages can be obtained from CRAN and its mirrors.  _The package used extensively in the text is `astsa` (Applied Statistical Time Series Analysis)_.  If you are using RStudio, then use  _Install_ from the _Packages_ tab.  If asked to choose a repository, select _0-Cloud_, the first choice, and that will find your closest repository. Get it now:
+- Then there are priority packages that are installed with R but not loaded automatically.  (e.g., `nlme`)
+
+- Finally, there are  user-created packages that must be installed and loaded into R before use.  (e.g., `astsa`)
+
+
+If you are using RStudio, there is a _Packages_ tab to help you manage your packages.
+
+Most packages can be obtained from CRAN and its mirrors.  The package used extensively in the text is `astsa` (Applied Statistical Time Series Analysis).  If you are using RStudio, then use  _Install_ from the _Packages_ tab.  If asked to choose a repository, select _0-Cloud_, the first choice, and that will find your closest repository. Get it now:
 
 - __Exercise:__ Install  `astsa` 
 
@@ -71,16 +79,14 @@ If you don't use RStudio,  you may want to create a `.First` function as follows
 ```r
 .First <- function(){library(astsa)}
 ```
-and save the workspace when you quit, then `astsa` will be loaded at every start.
-If you use RStudio, just tick the `astsa` box in the _Packages_ tab.
+and save the workspace when you quit, then `astsa` will be loaded at every start. If you use RStudio, just tick the `astsa` box in the _Packages_ tab.
 
 
-We will use the `xts` package and the `zoo` package throughout the text. 
-To  install both,  start R and type
+We will use the `xts` package and the `zoo` package throughout the text.  To  install both,  start R and type
 ```r
 install.packages("xts")  # installs both xts and zoo
 ```
-And again, to use the package    you must load it first by issuing the command 
+And again, to use the package you must load it first by issuing the command 
 ```r
 library(xts)
 ```
@@ -111,20 +117,17 @@ before analyzing time series data.  &#128534; If you are wondering how it is pos
 
 ## Getting Help
 
-R is not consistent with help files across different operating systems.
-In RStudio, there is a _Help_ tab. Otherwise, the  R html help system can be started by issuing the command 
+R is not consistent with help files across different operating systems. In RStudio, there is a _Help_ tab. Otherwise, the  R html help system can be started by issuing the command 
 
 ```r
 help.start()
 ```
 
-The help files for installed packages can also be found there.  _Notice
-the parentheses_ in all the commands above; they are necessary to run scripts. If you simply type
+The help files for installed packages can also be found there.  _Notice the parentheses_ in all the commands above; they are necessary to run scripts. If you simply type
 ```r
 help.start     
 ```
-nothing will happen and you will just see the commands that make up the script. 
-To get help for a particular command, say `library`,  do this:
+nothing will happen and you will just see the commands that make up the script.  To get help for a particular command, say `library`,  do this:
 ```r
 help(library) 
 ?library        # same thing    
@@ -186,9 +189,7 @@ rep(2, 3)     # repeat 2 three times
 ```
 
 - __Exercise:__  Explain what you get if you do this: `(1:20/10) %% 1`
-- _Solution:_  Yes, there are a bunch of numbers that look like what
-is below, but explain why those are the numbers that were produced.
-Hint:  `help("%%")`  
+- _Solution:_  Yes, there are a bunch of numbers that look like what is below, but explain why those are the numbers that were produced. Hint:  `help("%%")`  
 ```r
  [1] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0
 [11] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0 
@@ -241,8 +242,7 @@ x           # view object x
  [1]  0.96607946  1.98135811 -0.06064527  0.31028473  0.02046853
 ```
 
-Vectors can be of various types, and they can be put together using
-`c()` [_concatenate_ or _combine_]; for example
+Vectors can be of various types, and they can be put together using `c()` [_concatenate_ or _combine_]; for example
 ```r
 x <- c(1, 2, 3)             # numeric vector
 
@@ -251,7 +251,7 @@ y <- c("one","two","three") # character vector
 z <- c(TRUE, TRUE, FALSE)   # logical vector
 ```
 
- Missing values are represented by the symbol `NA`, $\infty$ by `Inf` and  impossible values  are `NaN` (not a number). Here are some examples:
+Missing values are represented by the symbol `NA`, $\infty$ by `Inf` and  impossible values  are `NaN` (not a number). Here are some examples:
 ```r
 ( x = c(0, 1, NA) )
  [1]  0  1 NA  
@@ -277,8 +277,7 @@ x <- 0 -> y
 
 
 
-&#9851; It is worth pointing out R's _recycling rule_ for doing arithmetic.
- Note again the use of the semicolon for multiple commands on one line. 
+&#9851; It is worth pointing out R's _recycling rule_ for doing arithmetic.  Note again the use of the semicolon for multiple commands on one line. 
 ```r
 x = c(1, 2, 3, 4); y = c(2, 4); z = c(8, 3, 2)
 
@@ -292,8 +291,7 @@ y + z    # oops
 ```
 
 - __Exercise:__  Why was `y+z` above the vector (10, 7, 4) and why is there a warning?
-- _Solution:_ `y + z = (2+8=10, 4+3=7, 2+2=4)`.  `y` is being recycled
-but not fully.   This type of calculation is usually done in error.
+- _Solution:_ `y + z = (2+8=10, 4+3=7, 2+2=4)`.  `y` is being recycled but not fully.   This type of calculation is usually done in error.
 
 
 
@@ -323,18 +321,13 @@ q()                 # end the session (keep reading)
 ```
 and a [reference card may be found here](https://cran.r-project.org/doc/contrib/Short-refcard.pdf).
 
-
-&#10024; When you quit, R will prompt you to save an image of your current workspace.
-Answering _yes_ will  save   the work  you have done so far, and load it   when you next start R. We have never regretted selecting _yes_, but we 
- have regretted answering _no_.
+&#10024; When you quit, R will prompt you to save an image of your current workspace. Answering _yes_ will  save   the work  you have done so far, and load it   when you next start R. We have never regretted selecting _yes_, but we have regretted answering _no_.
 
 
 If you want to __keep your files separated for different projects__, then having to set the working directory each time you run  R  is a pain.  If you use RStudio, then you can easily [create separate projects](https://support.posit.co/hc/en-us/articles/200526207).  There are some easy work-arounds, but it depends on your OS.  In Windows, copy the R or RStudio shortcut into the directory you want to use for your project. Right click on the shortcut icon, select _Properties_, and remove the text in the _Start in:_ field; leave it blank and press _OK_.  Then start R or RStudio from that shortcut.  
 
 
-- __Exercise:__  Create a directory that you will use for the course and 
-use the tricks previously mentioned to make it your working directory (or use the default if
-you   do not care). Load `astsa` and use help to find out what is in the data file `cpg`. Write `cpg` as text to your working directory.
+- __Exercise:__  Create a directory that you will use for the course and use the tricks previously mentioned to make it your working directory (or use the default if you   do not care). Load `astsa` and use help to find out what is in the data file `cpg`. Write `cpg` as text to your working directory.
 - _Solution:_  Assuming you started R in the working directory:
 ```r
 library(astsa)
@@ -342,8 +335,6 @@ help(cpg)     # or ?cpg
  #  Median annual cost per gigabyte (GB) of storage. 
 write(cpg, file="cpg.txt", ncolumns=1)   
 ```
-
-
 
 - __Exercise:__ Find the file `cpg.txt` previously created (leave it there for now).
 - _Solution:_  In RStudio, use the _Files_ tab. Otherwise, go to your working directory: 
@@ -401,7 +392,7 @@ dim(mydata)    # now it has dimensions
 If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:
 
 `-----------`<br/>
-`1 2 3 2 1` <br/> 
+`1 2 3 2 1` <br/>
 `9 0 2 1 0`<br/>
 `-----------`<br/>
 
@@ -451,7 +442,7 @@ head(dummy)      # view the first few lines of a data file
 detach(dummy)    # clean up  
  ```
 
-R is case sensitive, thus `cat` and `Cat` are different.  Also, `cat` is a reserved name (`?cat`) in R, so using `cat` instead of `Cat` may  cause problems later. It is noted that `attach` can lead to confusion: _The possibilities for creating errors when using attach are numerous. Avoid._  If you use it, it is best to clean it up when you are done.
+R is case sensitive, thus `cat` and `Cat` are different.  Also, `cat` is a reserved name (`?cat`), so using `cat` instead of `Cat` may  cause problems later. It is noted that `attach` can lead to problems: _The possibilities for creating errors when using attach are numerous. Avoid._  If you use it, it is best to clean it up when you are done.
 
 You can also use `save` and `load` to work with R compressed data files if you have large files. If interested, investigate the use of the `save` and `load` commands. The best way to do this is to do an internet search on _R save and load_, but you knew this already.
 
@@ -465,8 +456,6 @@ You may also include a _header_ in the data file to avoid `colnames`. For exampl
 `--------------------------`<br/>
 
 
-
-
 then use the following command to read the data.
  ```r 
 (dummy = read.csv("dummy.csv")) 
@@ -475,12 +464,10 @@ then use the following command to read the data.
    2   9   0   2   1   0
  ```
 
-The default for `.csv` files is `header=TRUE`, type  `?read.table` for further information
-  on similar types of files.
+The default for `.csv` files is `header=TRUE`, type  `?read.table` for further information   on similar types of files.
 
 
-Two commands that are used frequently to manipulate data are `cbind` for _column binding_
-and `rbind` for _row binding_. The following is an example.
+Two commands that are used frequently to manipulate data are `cbind` for _column binding_ and `rbind` for _row binding_. The following is an example.
 
 ```r
 options(digits=2)  # significant digits to print - default is 7
@@ -521,16 +508,18 @@ x[,2]
 
 
 
-Summary statistics of a data set are fairly easy to obtain.  We will 
-simulate 25 normals with $\mu=10$ and $\sigma=4$ and then perform some basic analyses.
-The first line of the code is `set.seed`, which fixes the seed for the generation of
- pseudorandom  numbers. Using the same seed yields the same results; to expect anything else would be insanity.
+Summary statistics of a data set are fairly easy to obtain.  We will simulate 25 normals with $\mu=10$ and $\sigma=4$ and then perform some basic analyses. The first line of the code is `set.seed`, which fixes the seed for the generation of pseudorandom  numbers. Using the same seed yields the same results; to expect anything else would be insanity.
+
 ```r
 options(digits=3)       # output control 
 
 set.seed(911)           # so you can reproduce these results
 
 x = rnorm(25, 10, 4)    # generate the data
+
+summary(x)
+  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  4.46    7.58   11.47   11.35   13.69   21.36 
 
 c( mean(x), median(x), var(x), sd(x) )  # guess
  [1] 11.35 11.47 19.07  4.37
@@ -545,8 +534,7 @@ boxplot(x);  hist(x);  stem(x)   # visual summaries (not shown)
 ```
 
 
-- __Exercise:__ Generate 100 standard normals and draw a boxplot of the results
-when there are at least two displayed "outliers'' (keep trying until you get at least two).
+- __Exercise:__ Generate 100 standard normals and draw a boxplot of the results when there are at least two displayed "outliers'' (keep trying until you get at least two).
 - _Solution:_ Even without cheating, it will not take long to complete:
 ```r
 set.seed(911)        # you can cheat -or-
@@ -591,7 +579,7 @@ crazy <- function(num) {   # start the script - 1 argument, num, is final sample
   plot(x, type="l", xlab="sample size", ylab="sample mean") # plot mean for each sample size n
   }                        # end/close the script
 
-set.seed(1001)   # set a seed and
+set.seed(1001)   # set a seed (not necessary) and
 crazy(200)       # run it - plot below
 ```
 
@@ -605,8 +593,7 @@ crazy(200)       # run it - plot below
 
 ## Regression and Time Series Primer
 
-These topics run throughout the text, but we will give a brief introduction here.
-The workhorse for linear regression in R is `lm()`.  Suppose we want to fit a simple linear regression, $y = \alpha + \beta x + \epsilon$.  In R, the formula is written as `y~x`. Let's simulate some data and do a simple example first.
+These topics run throughout the text, but we will give a brief introduction here. The workhorse for linear regression in R is `lm()`.  Suppose we want to fit a simple linear regression, $y = \alpha + \beta x + \epsilon$.  In R, the formula is written as `y~x`. Let's simulate some data and do a simple example first.
 
 ```r
 set.seed(666)           
@@ -630,23 +617,20 @@ plot(x, y)              # scatterplot of data (see below)
 abline(fit, col=4)      # add fitted blue line (col 4) to the plot  
 ```
 
-Note that we put the results  into an  object we called `fit`; this object contains 
- all of the information about the  regression.   Then we used `summary` to display some of the results   and used `abline` to plot the fitted line. The command `abline` is useful for drawing horizontal and vertical lines also.
+Note that we put the results  into an  object we called `fit`; this object contains all of the information about the  regression.   Then we used `summary` to display some of the results   and used `abline` to plot the fitted line. The command `abline` is useful for drawing horizontal and vertical lines also.
 
- - __Exercise:__ Add    red horizontal and vertical dashed lines
-to the previously generated graph to show that the fitted line goes through
-the point $(\bar x, \bar y)$.
+ - __Exercise:__ Add red horizontal and vertical dashed lines to the previously generated graph to show that the fitted line goes through the point $(\bar x, \bar y)$.
 - _Solution:_  Add the following line to the above code:
 ```r 
 abline(v=mean(x), h=mean(y), col=2, lty=2)  # col 2 is red and lty 2 is dashed
 ```
 
+<img src="figs/lmplot.png" alt="lmplot"  width="55%">
 
-<img src="figs/lmplot.png" alt="lmplot"  width="55%"><br/>
+<br/>
 
 
-The `lm` object that we called `fit` in  our simulation contains all sorts of information that
-can be extracted.  Sometimes, however, it might be difficult to find where that information is stored. The easiest way to find what is stored in an object is to look at the _structure_ of the object.  We list only a partial output because this particular list is very long.
+The `lm` object that we called `fit` in  our simulation contains all sorts of information that can be extracted.  Sometimes, however, it might be difficult to find where that information is stored. The easiest way to find what is stored in an object is to look at the _structure_ of the object.  We list only a partial output because this particular list is very long.
 ```r
 str(fit)     # partial listing below
   List of 12
@@ -699,15 +683,30 @@ time(mydata)  # view the dates
 
 To use part of a time series object,  use `window()`:
 ```r
-
-(x = window(mydata, start=c(2021,1), end=c(2021,3)) )
+( x = window(mydata, start=c(2021,1), end=c(2021,3)) )
        Qtr1 Qtr2 Qtr3
   2021    3    2    1
 ```
 
-Next, we'll look at lagging and differencing, which are fundamental transformations used frequently in the analysis of time series. For example, if I'm interested in predicting todays from yesterdays, I would look at the relationship between $x_t$ and its lag, $x_{t-1}$. First, a warning:
+Next, we'll look at lagging and differencing, which are fundamental transformations used frequently in the analysis of time series. For example, if I'm interested in predicting todays from yesterdays, I would look at the relationship between $x_t$ and its lag, $x_{t-1}$. First, another warning:
 
+ &#9940;  __WARNING:__   If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` 
+and  `lag`  that we use often. In this case, to avoid problems, either detach the problem package
 
+```r
+detach(package:dplyr)
+```
+
+or issue the commands 
+
+```r
+filter = stats::filter
+lag = stats::lag
+```
+
+before analyzing time series data.  &#128534;
+
+<br/>
 
 <br/> 
 
@@ -830,11 +829,10 @@ summary(fit)
   F-statistic: 112.1 on 2 and 501 DF,  p-value: < 2.2e-16
  ```
 
-
 In Chapter 1 problems, you are asked to fit a regression  model 
 $$ x_t = \beta t + \alpha_1 Q_1(t) + \alpha_2 Q_2(t) + \alpha_3 Q_3(t) + \alpha_4 Q_4(t) +  w_t $$ 
-where $x_t$ is  logged Johnson & Johnson quarterly earnings ($n=84$), and $Q_i(t)$ is the indicator of quarter $i=1,2,3,4$. The indicators can be
-made using `factor`.
+where $x_t$ is  logged Johnson & Johnson quarterly earnings ($n=84$), and $Q_i(t)$ is the indicator of quarter $i=1,2,3,4$. The indicators can be made using `factor`.
+
  ```r
 trend = time(jj) - 1970        # helps to 'center' time
 Q     = factor(cycle(jj))      # make (Q)uarter factors
@@ -942,4 +940,3 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 ---
 <p style="text-align: center;">&#128018; &Eopf; &#8469; &#120123; &#128018;</p>
 
----
