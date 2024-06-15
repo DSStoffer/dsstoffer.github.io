@@ -99,18 +99,24 @@ This is a good time to get those packages:
 <br/>
 
 &#9940; &#9940;  __WARNING:__   If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` 
-and  `lag`  that we use often. In this case, to avoid problems, either detach the problem package
+and  `lag`  that we use often. In this case, to avoid problems, here are some options:
 
 ```r
-detach(package:dplyr)
-```
+# either detach it
+detach(package:dplyr)  
 
-or issue the commands 
+# or fix it yourself if you want dplyr 
+# this is a great idea from  https://stackoverflow.com/a/65186251
+library(dplyr, exclude = c("filter", "lag"))  # remove the culprits
+Lag <- dplyr::lag            # and do what the dplyr ... 
+Filter <- dplyr::filter      # ... maintainers refuse to do
 
-```r
+# or just take back the commands
 filter = stats::filter
 lag = stats::lag
+
 ```
+
 before analyzing time series data.  &#128534; If you are wondering how it is possible to corrupt a base package, you are not alone. 
 
 <br/>
