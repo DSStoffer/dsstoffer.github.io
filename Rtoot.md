@@ -158,7 +158,7 @@ Finally, you can find lots of help from the internet.  If you have a specific an
 
 
 
-The convention throughout the text is that  R code is in <font color="blue"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  This  does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
+The convention throughout the text is that  R code is in <font color="#3366FF"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  This  does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
 
 Get comfortable, start R and try some simple tasks.
 
