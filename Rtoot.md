@@ -24,22 +24,23 @@ _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis
 
 ## Installing R
 
-R is an open source statistical computing and graphics system that runs on many operating systems. It is an interpreted language and is  accessed  through a command-line interpreter. A user types a command, presses enter, and an answer is returned. 
+R is an open source statistical computing and graphics system that runs on many operating systems. It comes with a very minimal GUI with which a user can type a command, presses enter, and an answer is returned. 
 
 
-&#128018; To obtain  R,  point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it. The installation includes help files and some user   manuals.  An internet search  can pull up various short tutorials and  videos, for example, [R Cookbook](https://rc2e.com/), [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)  and the website [Quick-R](https://www.statmethods.net/r-tutorial/index.html). And we state the obvious:
+&#128018; To obtain R, point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it. The installation includes help files and some user   manuals.  An internet search  can pull up various short tutorials and  videos, for example, [R Cookbook](https://rc2e.com/), [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)  and the website [Quick-R](https://www.statmethods.net/r-tutorial/index.html). And we state the obvious:
 
  > &nbsp;&nbsp;&nbsp;  _If you can't figure out how to do something, do an internet search_.
 
+[RStudio](https://posit.co/downloads/) is a more developed GUI and can make using R easier (there is a free version). We recommend that novices use it for course work. This tutorial does not assume you are using RStudio; if you do use it, a number of the command-driven tasks can be accomplished by pointing and clicking.  
 
-[RStudio](https://posit.co/downloads/) can make using  R easier and we recommend that novices use it for course work.   It  is an  open source integrated development environment (IDE) for R.    It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging, and workspace management.   This tutorial does not assume you are using RStudio;  if you do use it, a number of the command-driven tasks can be accomplished by pointing and clicking.
+Other viable (and free) options are (1) [VSCode](https://code.visualstudio.com) with the [R Extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r) installed or (2) [Notepad++](https://notepad-plus-plus.org) along with [NpptoR](https://github.com/halpo/NppToR), which is our preference (but it's not a GUI).  
 
 
 There are some simple exercises that will help you get used to using R. For example,
 
-- __Exercise:__ Install R and RStudio (optional) now.  
+- __Exercise:__ Install R and any other interactive software (optional) now.  
 
-- _Solution:_ Find the monkey   &#128018; above and follow the directions.
+- _Solution:_ Find the monkey &#128018; above and follow the directions.
 
 <br/>
 
@@ -51,38 +52,34 @@ There are some simple exercises that will help you get used to using R. For exam
 
 ## Packages and ASTSA 
 
-At this point, you should have R (or RStudio) up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. 
+At this point, you should have R up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. 
 
 - There are base packages that install with R and load automatically.  (e.g., `stats`)
 
 - Then there are priority packages that are installed with R but not loaded automatically.  (e.g., `nlme`)
 
-- Finally, there are  user-created packages that must be installed and loaded into R before use.  (e.g., `astsa`)
+- Finally, there are  user-created packages that must be installed (once) and then loaded into R before use.  (e.g., `astsa`)
 
-
-If you are using RStudio, there is a _Packages_ tab to help you manage your packages.
-
-Most packages can be obtained from CRAN and its mirrors.  The package used extensively in the text is `astsa` (Applied Statistical Time Series Analysis).  If you are using RStudio, then use  _Install_ from the _Packages_ tab.  If asked to choose a repository, select _0-Cloud_, the first choice, and that will find your closest repository. Get it now:
+Most packages can be obtained from CRAN and its mirrors.  The package used extensively in the text is `astsa` (Applied Statistical Time Series Analysis).   Get it now:
 
 - __Exercise:__ Install  `astsa` 
 
-- _Solution:_ Issue the command: `install.packages('astsa')` 
+- _Solution:_ Issue the command: `install.packages('astsa')` . If asked to choose a repository, select _0-Cloud_, the first choice, and that will find your closest repository. 
 
- The latest version of `astsa`  will  always be   available from GitHub.
- More information may be found at [ASTSA NEWS](https://github.com/nickpoison/astsa/blob/master/NEWS.md). 
+ The latest version of `astsa`  will  always be  available from GitHub.  More information may be found at [ASTSA NEWS](https://github.com/nickpoison/astsa/blob/master/NEWS.md). 
 
 Except for base packages, to use a package you have to load it after starting R, for example:
 ```r
 library(astsa)
 ```
-If you don't use RStudio,  you may want to create a `.First` function as follows, 
+You may want to create a `.First` function as follows, 
 ```r
 .First <- function(){library(astsa)}
 ```
-and save the workspace when you quit, then `astsa` will be loaded at every start. If you use RStudio, just tick the `astsa` box in the _Packages_ tab.
+and save the workspace when you quit, then `astsa` will be loaded at every start.  Other startup commands can be added later. 
 
 
-We will use the `xts` package and the `zoo` package throughout the text.  To  install both,  start R and type
+We will use the `xts` package and the `zoo` package throughout the text.  To install both,  start R and type
 ```r
 install.packages("xts")  # installs both xts and zoo
 ```
@@ -99,31 +96,31 @@ This is a good time to get those packages:
 <br/>
 
 &#9940; &#9940;  __WARNING:__   If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` 
-and  `lag`  that we use often. In this case, to avoid problems, here are some options:
+and  `lag`  that we use often. In this case, to avoid problems when analyzing time series, here are some options:
 
 ```r
-# either detach it
+(1) # either detach it
 detach(package:dplyr)  
 
-# or fix it yourself if you want dplyr 
+(2) # or fix it yourself if you want dplyr 
 # this is a great idea from  https://stackoverflow.com/a/65186251
 library(dplyr, exclude = c("filter", "lag"))  # remove the culprits
 Lag <- dplyr::lag            # and do what the dplyr ... 
 Filter <- dplyr::filter      # ... maintainers refuse to do
 
-# or just take back the commands
+(3) # or just take back the commands 
 filter = stats::filter
 lag = stats::lag
 
 ```
 
-before analyzing time series data.  &#128534; If you are wondering how it is possible to corrupt a base package, you are not alone. 
+ &#128534; If you are wondering how it is possible to corrupt a base package, you are not alone. 
 
 <br/>
 
 ## Getting Help
 
-R is not consistent with help files across different operating systems. In RStudio, there is a _Help_ tab. Otherwise, the  R html help system can be started by issuing the command 
+R is not consistent with help files across different operating systems. The  R html help system can be started by issuing the command 
 
 ```r
 help.start()
@@ -192,6 +189,9 @@ seq(1, 10, by=2)   # sequences
 
 rep(2, 3)     # repeat 2 three times
  [1] 2 2 2
+  
+6/2*(1+2)     # not one
+ [1] 9  
 ```
 
 - __Exercise:__  Explain what you get if you do this: `(1:20/10) %% 1`
@@ -327,7 +327,7 @@ q()                 # end the session (keep reading)
 ```
 and a [reference card may be found here](https://cran.r-project.org/doc/contrib/Short-refcard.pdf).
 
-&#10024; When you quit, R will prompt you to save an image of your current workspace. Answering _yes_ will  save   the work  you have done so far, and load it   when you next start R. We have never regretted selecting _yes_, but we have regretted answering _no_.
+&#10024; When you quit, R will prompt you to save an image of your current workspace. Answering _yes_ will  save   the work  you have done so far, and load it when you next start R. We have never regretted selecting _yes_, but we have regretted answering _no_.
 
 
 If you want to __keep your files separated for different projects__, then having to set the working directory each time you run  R  is a pain.  If you use RStudio, then you can easily [create separate projects](https://support.posit.co/hc/en-us/articles/200526207).  There are some easy work-arounds, but it depends on your OS.  In Windows, copy the R or RStudio shortcut into the directory you want to use for your project. Right click on the shortcut icon, select _Properties_, and remove the text in the _Start in:_ field; leave it blank and press _OK_.  Then start R or RStudio from that shortcut.  
@@ -547,7 +547,7 @@ set.seed(911)        # you can cheat -or-
 boxplot(rnorm(100))  # reissue until you see at least 2 outliers
 ```
 
-&#127817; Extra Credit: When is an outlier not an outlier?
+&#127817; Extra Credit: When is an outlier not an outlier?   Answer forthcoming.
 
 
 It can't hurt to learn a little about programming in R because you will see some of it along the way. First, let's try a simple example of a function that returns the reciprocal of a number:
@@ -602,7 +602,7 @@ crazy(200)       # run it - plot below
 These topics run throughout the text, but we will give a brief introduction here. The workhorse for linear regression in R is `lm()`.  Suppose we want to fit a simple linear regression, $y = \alpha + \beta x + \epsilon$.  In R, the formula is written as `y~x`. Let's simulate some data and do a simple example first.
 
 ```r
-set.seed(666)           
+set.seed(666)           # not that 666       
 
 x = rnorm(10)           # generate 10 standard normals  
 
@@ -657,7 +657,11 @@ plot(fitted(fit), resid(fit)) # not shown
 ```
 
 
+
+### Time Series
+
 Let's  focus a little on time series. To create a time series object, use the command `ts`.  Related commands are `as.ts` to coerce an object to a time series  and `is.ts` to test whether an object is a time series.  First, make a small data set:
+
 ```r
 (mydata = c(1,2,3,2,1) ) # make it and view it
   [1] 1 2 3 2 1
@@ -694,27 +698,7 @@ To use part of a time series object,  use `window()`:
   2021    3    2    1
 ```
 
-Next, we'll look at lagging and differencing, which are fundamental transformations used frequently in the analysis of time series. For example, if I'm interested in predicting todays from yesterdays, I would look at the relationship between $x_t$ and its lag, $x_{t-1}$. First, another warning:
-
- &#9940;  __WARNING:__   If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` 
-and  `lag`  that we use often. In this case, to avoid problems, either detach the problem package
-
-```r
-detach(package:dplyr)
-```
-
-or issue the commands 
-
-```r
-filter = stats::filter
-lag = stats::lag
-```
-
-before analyzing time series data.  &#128534;
-
-<br/>
-
-<br/> 
+Next, we'll look at lagging and differencing, which are fundamental transformations used frequently in the analysis of time series. For example, if I'm interested in predicting todays from yesterdays, I would look at the relationship between $x_t$ and its lag, $x_{t-1}$.  
 
 Now let's make a simple series $x_t$
 
