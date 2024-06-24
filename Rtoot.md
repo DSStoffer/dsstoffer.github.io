@@ -31,12 +31,23 @@ R is an open source statistical computing and graphics system that runs on many 
 
  > &nbsp;&nbsp;&nbsp;  _If you can't figure out how to do something, do an internet search_.
 
-[RStudio](https://posit.co/downloads/) is a more developed GUI and can make using R easier. We recommend that novices use it for course work.  There is a free version for Mac, Windows, and various Linux OSs. 
+ &#128312; &#128312; &#128312; &#128312; &#128312; 
 
-Another viable (and free) option for multiple OSs is [VSCode](https://code.visualstudio.com) with the [R Extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r).
+- [RStudio](https://posit.co/downloads/) is a more developed GUI and can make using R easier. We recommend that novices use it for course work.  There is a free version for Mac, Windows, and various Linux OSs. 
 
-For Windows, [Notepad++](https://notepad-plus-plus.org) along with [NpptoR](https://github.com/halpo/NppToR) works well, but it's not a GUI.  
+- Another viable (and free) option for multiple OSs is [VSCode](https://code.visualstudio.com) with the [R Extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r).
 
+- For Windows, [Notepad++](https://notepad-plus-plus.org) along with [NpptoR](https://github.com/halpo/NppToR) works well, but it's not a GUI.  In Linux (with Snap) it installs easily:
+
+```sh
+sudo snap install notepad-plus-plus
+```
+
+Sorry, no notepad++ for Mac or Cheese &#127858;.
+
+<br/>
+
+&#128312; &#128312; &#128312; &#128312; &#128312; 
 
 There are some simple exercises that will help you get used to using R. For example,
 
