@@ -24,16 +24,18 @@ _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis
 
 ## Installing R
 
-R is an open source statistical computing and graphics system that runs on many operating systems. It comes with a very minimal GUI with which a user can type a command, presses enter, and an answer is returned. 
+R is an open source statistical computing and graphics system that runs on many operating systems. It comes with a very minimal GUI (except for Linux) with which a user can type a command, presses enter, and an answer is returned. In Linux, it runs in a terminal.
 
 
 &#128018; To obtain R, point your browser to the Comprehensive R Archive Network ([CRAN](http://cran.r-project.org/)) and download and install it. The installation includes help files and some user   manuals.  An internet search  can pull up various short tutorials and  videos, for example, [R Cookbook](https://rc2e.com/), [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)  and the website [Quick-R](https://www.statmethods.net/r-tutorial/index.html). And we state the obvious:
 
  > &nbsp;&nbsp;&nbsp;  _If you can't figure out how to do something, do an internet search_.
 
-[RStudio](https://posit.co/downloads/) is a more developed GUI and can make using R easier (there is a free version). We recommend that novices use it for course work. This tutorial does not assume you are using RStudio; if you do use it, a number of the command-driven tasks can be accomplished by pointing and clicking.  
+[RStudio](https://posit.co/downloads/) is a more developed GUI and can make using R easier. We recommend that novices use it for course work.  There is a free version for Mac, Windows, and various Linux OSs. 
 
-Other viable (and free) options are (1) [VSCode](https://code.visualstudio.com) with the [R Extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r) installed or (2) [Notepad++](https://notepad-plus-plus.org) along with [NpptoR](https://github.com/halpo/NppToR), which is our preference (but it's not a GUI).  
+Another viable (and free) option for multiple OSs is [VSCode](https://code.visualstudio.com) with the [R Extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r).
+
+For Windows, [Notepad++](https://notepad-plus-plus.org) along with [NpptoR](https://github.com/halpo/NppToR) works well, but it's not a GUI.  
 
 
 There are some simple exercises that will help you get used to using R. For example,
@@ -155,7 +157,7 @@ Finally, you can find lots of help from the internet.  If you have a specific an
 
 
 
-The convention throughout the text is that  R code is in <font color="#3366FF"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  This  does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
+The convention throughout the texts is that  R code is in <font color="#3366FF"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  This  does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
 
 Get comfortable, start R and try some simple tasks.
 
@@ -330,7 +332,7 @@ and a [reference card may be found here](https://cran.r-project.org/doc/contrib/
 &#10024; When you quit, R will prompt you to save an image of your current workspace. Answering _yes_ will  save   the work  you have done so far, and load it when you next start R. We have never regretted selecting _yes_, but we have regretted answering _no_.
 
 
-If you want to __keep your files separated for different projects__, then having to set the working directory each time you run  R  is a pain.  If you use RStudio, then you can easily [create separate projects](https://support.posit.co/hc/en-us/articles/200526207).  There are some easy work-arounds, but it depends on your OS.  In Windows, copy the R or RStudio shortcut into the directory you want to use for your project. Right click on the shortcut icon, select _Properties_, and remove the text in the _Start in:_ field; leave it blank and press _OK_.  Then start R or RStudio from that shortcut.  
+If you want to __keep your files separated for different projects__, then having to set the working directory each time you run  R  is a pain.  If you use RStudio, then you can easily [create separate projects](https://support.posit.co/hc/en-us/articles/200526207).  There are some easy work-arounds, but it depends on your OS.  In Windows, copy the R shortcut into the directory you want to use for your project. Right click on the shortcut icon, select _Properties_, and remove the text in the _Start in:_ field; leave it blank and press _OK_.  Then start R from that shortcut (works for RStudio too).  
 
 
 - __Exercise:__  Create a directory that you will use for the course and use the tricks previously mentioned to make it your working directory (or use the default if you   do not care). Load `astsa` and use help to find out what is in the data file `cpg`. Write `cpg` as text to your working directory.
@@ -343,13 +345,13 @@ write(cpg, file="cpg.txt", ncolumns=1)
 ```
 
 - __Exercise:__ Find the file `cpg.txt` previously created (leave it there for now).
-- _Solution:_  In RStudio, use the _Files_ tab. Otherwise, go to your working directory: 
+- _Solution:_ Go to your working directory: 
 
 ```r
 getwd()
- "C:\TimeSeries"  
+ [1] "/home/TimeSeries" 
 ```
-Now find the file and  look at it; there should be 29 numbers in one column.
+Now find the file and  look at it... there should be 29 numbers in one column.
 
 
 To create your own data set, you can make a data vector as follows:
