@@ -337,6 +337,7 @@ If you want to __keep your files separated for different projects__, then having
 
 - __Exercise:__  Create a directory that you will use for the course and use the tricks previously mentioned to make it your working directory (or use the default if you   do not care). Load `astsa` and use help to find out what is in the data file `cpg`. Write `cpg` as text to your working directory.
 - _Solution:_  Assuming you started R in the working directory:
+
 ```r
 library(astsa)
 help(cpg)     # or ?cpg
@@ -419,6 +420,7 @@ There is a difference between `scan` and `read.table`. The former produced a dat
 
 - __Exercise:__ Scan and view  the data in the file `cpg.txt` that you previously created. 
 - _Solution:_ Hopefully it's in your working directory:
+
 ```r
 (cost_per_gig = scan("cpg.txt") )  # read and view
   Read 29 items
@@ -500,6 +502,7 @@ rbind(x,y)         # row bind the two vectors (2 by 4 matrix)
 - __Exercise:__ Make two vectors, say `a` with odd numbers  and `b` with even numbers between 1 and 10.  Then, use `cbind` to make a matrix,  `x` from  `a` and `b`. After that, display each column of `x` separately.
 - _Solution:_
 
+
 ```r
 a = seq(1, 10, by=2)
 
@@ -543,7 +546,10 @@ boxplot(x);  hist(x);  stem(x)   # visual summaries (not shown)
 
 
 - __Exercise:__ Generate 100 standard normals and draw a boxplot of the results when there are at least two displayed "outliers'' (keep trying until you get at least two).
+
 - _Solution:_ Even without cheating, it will not take long to complete:
+
+
 ```r
 set.seed(911)        # you can cheat -or-
 boxplot(rnorm(100))  # reissue until you see at least 2 outliers
@@ -629,6 +635,7 @@ Note that we put the results  into an  object we called `fit`; this object conta
 
  - __Exercise:__ Add red horizontal and vertical dashed lines to the previously generated graph to show that the fitted line goes through the point $(\bar x, \bar y)$.
 - _Solution:_  Add the following line to the above code:
+
 ```r 
 abline(v=mean(x), h=mean(y), col=2, lty=2)  # col 2 is red and lty 2 is dashed
 ```
