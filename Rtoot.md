@@ -198,6 +198,7 @@ rep(2, 3)     # repeat 2 three times
 
 - __Exercise:__  Explain what you get if you do this: `(1:20/10) %% 1`
 - _Solution:_  Yes, there are a bunch of numbers that look like what is below, but explain why those are the numbers that were produced. Hint:  `help("%%")`  
+
 ```r
  [1] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0
 [11] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0 
@@ -578,6 +579,7 @@ xtimesy(20, .5)  # and try it
 
 - __Exercise:__  Write a simple function to return, for numbers `x` and `y`, the first input raised to the power of the second input, and then use it to find the square root of 25.
 - _Solution:_ It's similar to the previous example.
+
 ```r
 pwr <- function(x, y){ x^y }
 pwr(25, .5)
