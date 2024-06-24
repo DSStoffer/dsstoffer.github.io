@@ -278,10 +278,12 @@ x/0
 There is a difference between `<-` and `=`.  From R  `help(assignOps)`, you will find: _The operator `<-` can be used anywhere, whereas the operator `=` is only allowed at the top level ... ._
 
 - __Exercise:__  What is the difference between these two lines?
+
 ```r
 x = 0 = y
 x <- 0 -> y
 ```
+
 - _Solution:_ Try them and discover what is in `x` and `y`. 
 
 
