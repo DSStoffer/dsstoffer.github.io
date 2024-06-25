@@ -297,7 +297,7 @@ x <- 0 -> y
 
 - _Solution:_ Try them and discover what is in `x` and `y`. 
 
-
+&#128312;&#128312;&#128312;&#128312;&#128312;
 
 &#9851; It is worth pointing out R's _recycling rule_ for doing arithmetic.  Note again the use of the semicolon for multiple commands on one line. 
 ```r
@@ -342,6 +342,8 @@ setwd()             # change working directory
 q()                 # end the session (keep reading)
 ```
 and a [reference card may be found here](https://cran.r-project.org/doc/contrib/Short-refcard.pdf).
+
+&#128312;&#128312;&#128312;&#128312;&#128312;
 
 &#10024; When you quit, R will prompt you to save an image of your current workspace. Answering _yes_ will  save   the work  you have done so far, and load it when you next start R. We have never regretted selecting _yes_, but we have regretted answering _no_.
 
@@ -411,6 +413,8 @@ dim(mydata)    # now it has dimensions
 ```
 
 
+
+&#128312;&#128312;&#128312;&#128312;&#128312;
 
 If you have an external data set, you can use `scan` or `read.table` (or some variant) to input the data. For example, suppose you have an ascii (text) data file called `dummy.txt` in your working directory, and the file looks like this:
 
@@ -572,6 +576,12 @@ boxplot(rnorm(100))  # reissue until you see at least 2 outliers
 &#127817; Extra Credit: When is an outlier not an outlier?   Answer forthcoming.
 
 
+
+&#128312;&#128312;&#128312;&#128312;&#128312;
+
+
+
+
 It can't hurt to learn a little about programming in R because you will see some of it along the way. First, let's try a simple example of a function that returns the reciprocal of a number:
 ```r
 oneover <- function(x){ 1/x }
@@ -681,6 +691,8 @@ plot(fitted(fit), resid(fit)) # not shown
 ```
 
 
+
+&#128312;&#128312;&#128312;&#128312;&#128312;
 
 ### Time Series
 
