@@ -694,7 +694,7 @@ plot(fitted(fit), resid(fit)) # not shown
 
 &#128312;&#128312;&#128312;&#128312;&#128312;
 
-### Time Series
+## Time Series
 
 Let's  focus a little on time series. To create a time series object, use the command `ts`.  Related commands are `as.ts` to coerce an object to a time series  and `is.ts` to test whether an object is a time series.  First, make a small data set:
 
