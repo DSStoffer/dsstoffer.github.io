@@ -23,7 +23,6 @@ _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis
 <br/>
 
 ## Installing R
-
 ---
 
 R is an open source statistical computing and graphics system that runs on many operating systems. It comes with a very minimal GUI (except for Linux) with which a user can type a command, presses enter, and an answer is returned. In Linux, it runs in a terminal.
@@ -66,7 +65,6 @@ There are some simple exercises that will help you get used to using R. For exam
 
 
 ## Packages and ASTSA 
-
 ---
 
 At this point, you should have R up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. 
@@ -119,11 +117,12 @@ and  `lag`  that we use often. In this case, to avoid problems when analyzing ti
 (1) # either detach it
 detach(package:dplyr)  
 
-(2) # or fix it yourself if you want dplyr 
+(2) # or fix it yourself if you want dplyr
 # this is a great idea from  https://stackoverflow.com/a/65186251
 library(dplyr, exclude = c("filter", "lag"))  # remove the culprits
 Lag <- dplyr::lag            # and do what the dplyr ... 
 Filter <- dplyr::filter      # ... maintainers refuse to do
+# and then use Lag and Filter for the corresponding dplyr commands
 
 (3) # or just take back the commands 
 filter = stats::filter
@@ -136,7 +135,6 @@ lag = stats::lag
 <br/>
 
 ## Getting Help
-
 ---
 
 R is not consistent with help files across different operating systems. The  R html help system can be started by issuing the command 
@@ -170,8 +168,7 @@ Finally, you can find lots of help from the internet.  If you have a specific an
 
 <br/>
 
-## Basics
-
+## Basics 
 ---
 
 
@@ -251,7 +248,6 @@ Ok, now try this.
 <br/>
 
 ## Objects and Assignment
-
 ---
 
 Next,  we'll use  assignment to make some  objects: 
@@ -641,7 +637,6 @@ crazy(200)       # run it - plot below
 <br/>
 
 ## Regression and Time Series Primer
-
 ---
 
 
@@ -709,7 +704,6 @@ plot(fitted(fit), resid(fit)) # not shown
 &#128312;&#128312;&#128312;&#128312;&#128312;
 
 ## Time Series
-
 ---
 
 Let's  focus a little on time series. To create a time series object, use the command `ts`.  Related commands are `as.ts` to coerce an object to a time series  and `is.ts` to test whether an object is a time series.  First, make a small data set:
@@ -939,7 +933,6 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 <br/>
 
 ## Graphics
-
 ---
 
 - Graphics has its own page:   [Time Series and R Graphics](https://nickpoison.github.io/tsgraph.html)
@@ -949,7 +942,6 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 <br/>
 
 ## R Time Series Issues
-
 ---
 
 - R Issues has its own page: [R Time Series Issues](https://nickpoison.github.io/rissues.html)
@@ -957,7 +949,6 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 <br/>
 
 ## More on ASTSA
-
 ---
 
 - Fun with ASTSA has its own page: [FUN WITH ASTSA](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md)
@@ -965,7 +956,6 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 <br/>
 
 ## R Code in Texts
-
 ---
 
 - Code in [Time Series Analysis and Its Applications (Ed 4)](https://github.com/nickpoison/tsa4/blob/master/textRcode.md)
