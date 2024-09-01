@@ -110,6 +110,8 @@ This is a good time to get those packages:
 
 <br/>
 
+&#128312;&#128312;&#128312;&#128312;&#128312;&#128312;&#128312;
+
 &#9940; &#9940;  __WARNING:__   If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` 
 and  `lag`  that we use often. In this case, to avoid problems when analyzing time series, here are some options:
 
@@ -121,16 +123,21 @@ detach(package:dplyr)
 # this is a great idea from  https://stackoverflow.com/a/65186251
 library(dplyr, exclude = c("filter", "lag"))  # remove the culprits
 Lag <- dplyr::lag            # and do what the dplyr ... 
-Filter <- dplyr::filter      # ... maintainers refuse to do
+Filter <- dplyr::filter      # ... maintainer refuses to do
 # and then use Lag and Filter for the corresponding dplyr commands
 
 (3) # or just take back the commands 
 filter = stats::filter
 lag = stats::lag
 
+ # in this case, you can still use these for dplyr
+ Lag <- dplyr::lag     
+ Filter <- dplyr::filter 
 ```
 
- &#128534; If you are wondering how it is possible to corrupt a base package, you are not alone. 
+ &#128534;  If you are wondering how it is possible to corrupt a base package, &#128125; you are not alone. 
+
+&#128312;&#128312;&#128312;&#128312;&#128312;&#128312;&#128312;
 
 <br/>
 
