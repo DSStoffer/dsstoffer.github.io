@@ -6,7 +6,7 @@
 David S. Stoffer  is Professor Emeritus <br/>
  at (or near) the [University of Pittsburgh](http://www.pitt.edu)
 <br/> 
- 
+
 
 &#10024; The R package [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) along with the latest news
 
@@ -14,7 +14,7 @@ David S. Stoffer  is Professor Emeritus <br/>
 
  &#10024;  [FUN WITH ASTSA](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md) has many demonstrations of `astsa` capabilities
 
-&#10024;  All the R code used in [Time Series Analysis and Its Applications](https://github.com/nickpoison/tsa4/blob/master/textRcode.md)
+&#10024;  All the R code used in [Time Series Analysis and Its Applications](https://github.com/nickpoison/tsa5/blob/master/textRcode.md) (edition 5)
 
 &#10024;  All the R code used in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda/blob/main/Rcode.md)
 
@@ -27,7 +27,7 @@ David S. Stoffer  is Professor Emeritus <br/>
 &#10024; The [Time Series Graphics](https://nickpoison.github.io/tsgraph) page is also alive again
 
 &#10024; How to EASILY [Link Math Libraries (MKL) to R](https://nickpoison.github.io/mkl) on Windows 
- 
+
 &#10024; [Google Scholar](http://scholar.google.com/citations?user=fjls7x0AAAAJ)
 
 &#10024; [Nicky Poison's](https://nickpoison.github.io/) road map page
@@ -70,7 +70,7 @@ David S. Stoffer  is Professor Emeritus <br/>
 * Gong, C. and Stoffer, D.S. (2021), A Note on Efficient Fitting of Stochastic Volatility Models. _J. Time Ser. Anal._, 42: 186-200. [Article here](files/SVmodels.pdf) - the [code is in astsa as SV.mcmc](https://github.com/nickpoison/astsa/blob/master/fun_with_astsa/fun_with_astsa.md#stochastic-volatility).
 
  
- 
+
 * AdaptSPEC: Adaptive Spectral Estimation for Nonstationary Time Series  (with Ori Rosen and Sally Wood). _Journal of the American Statistical Association_, 1575-1589, 2012.
 [AdaptSPEC.pdf](files/adaptSPECjasa.pdf)
 
@@ -104,7 +104,7 @@ the American Statistical Association_, 249-262, 2009. [mixss.pdf](files/mixss.pd
 
 * A Residuals-Based Transition Model for Longitudinal Analysis with Estimation 
 in the Presence of Missing Data (with T. Koru-Sengul). _Statistics in Medicine_ 26, 3330-3341,  2007. [tmla.pdf](files/tmla.pdf)
- 
+
 
 >  The [code](files/tmla_code.pdf) for SAS, Splus and R.
 
@@ -130,7 +130,6 @@ the American Statistical Association_, 99, 763-774, 2004. [hos04.pdf](files/hos0
 
 * The Spectral Envelope and Its Applications (with D.E. Tyler &amp; D.A. Wendt). _Statistical Science_. 15(3): 224-253 (2000).  [specrev.pdf](files/specrev.pdf)  
   
-
 * Stoffer, D.S. (1999). Detecting common signals in multiple time series using the spectral envelope. _Journal of the American Statistical Association_, 94, 1341-1356.
 [sigs.pdf](files/sigs.pdf) 
 
@@ -198,7 +197,7 @@ nonnormal and nonlinear state space modeling. _Journal of the American Statistic
 <br/><br/><br><br>
 
 ---
-             
+
 ---
 
 
@@ -220,7 +219,7 @@ nonnormal and nonlinear state space modeling. _Journal of the American Statistic
 
 
 
- 
+
 
 
 
