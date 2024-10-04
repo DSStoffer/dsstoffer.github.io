@@ -337,9 +337,9 @@ AmInice
  [1] 17
 ```
 
-__Bottom line__, get used to using the whole words  `TRUE` and `FALSE` and don't use the `T` and `F` shortcuts.
+__Bottom line__, get used to using the whole words  `TRUE` and `FALSE` and don't use the `T` and `F` shortcuts. This is especially concerning because T and F are some of our favorite distributions.
 
-
+<br/>
 &#128312;&#128312;&#128312;&#128312;&#128312;
 
 &#9851; It is worth pointing out R's _recycling rule_ for doing arithmetic.  Note again the use of the semicolon for multiple commands on one line. 
