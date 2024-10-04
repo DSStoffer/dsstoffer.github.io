@@ -146,13 +146,13 @@ lag = stats::lag
 ## Getting Help
 ---
 
-R is not consistent with help files across different operating systems. The  R html help system can be started by issuing the command 
+R is not consistent with help files across different operating systems. The R html help system can be started by issuing the command 
 
 ```r
 help.start()
 ```
 
-The help files for installed packages can also be found there.  _Notice the parentheses_ in all the commands above; they are necessary to run scripts. If you simply type
+The help files for installed packages can also be found there.  _Notice the parentheses_ in the commands above; they are necessary to run scripts. If you simply type
 ```r
 help.start     
 ```
@@ -174,7 +174,7 @@ Notice the use of a semicolon for multiple commands on one line.
 
 <br/>
 
-Finally, you can find lots of help from the internet.  If you have a specific and difficult question, try [Stack Overflow](https://stackoverflow.com/questions/tagged/r).
+Finally, you can find lots of help on the internet &#129300;.  If you have a specific and difficult question, try [Stack Overflow](https://stackoverflow.com/questions/tagged/r).  
 
 
 
@@ -318,6 +318,27 @@ x <- 0 -> y
 ```
 
 - _Solution:_ Try them and discover what is in `x` and `y`. 
+
+<br/>
+
+Here's a thing about TRUE and FALSE &#129300;. `T` and `F` are initially set to `TRUE` and `FALSE`, so this works if you want object `AmInice` to be TRUE:
+
+```r
+AmInice = T
+AmInice
+ [1] TRUE
+```
+
+But this is bad practice because it can be easily wrecked, for example, if you set `T` to something else and then later .... :
+```r
+T = 17
+AmInice = T
+AmInice 
+ [1] 17
+```
+
+__Bottom line__, get used to using the whole words  `TRUE` and `FALSE` and don't use the `T` and `F` shortcuts.
+
 
 &#128312;&#128312;&#128312;&#128312;&#128312;
 
