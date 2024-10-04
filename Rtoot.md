@@ -169,7 +169,7 @@ Notice the use of a semicolon for multiple commands on one line.
 
 <br/>
 
-&#10060; After viewing enough help files, you will eventually run into `## Not run:` in an __Examples__ section.  Does this mean you shouldn't run the examples or you will destroy the world? Well, no ... it's ok ... go ahead and run them, you will be safe.  `## Not run:` is internal information and not for a user's consumption. It just tells CRAN not to check the example for various reasons such as the example takes a long time to run.  ... it sort of runs against the idea that help files should be helpful.  __Bottom line: Ignore it__.
+&#10060; After viewing enough help files, you will eventually run into `## Not run:` in an __Examples__ section. _It is NOT for a user's consumption._ It just tells CRAN not to check the example for various reasons such as the example takes a long time to run.  ... it sort of runs against the idea that help files should be helpful or at least not make things worse.  __Bottom line: Ignore it__.
 
 
 <br/>
