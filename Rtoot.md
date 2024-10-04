@@ -163,9 +163,17 @@ help(library)
 ```
 
 - __Exercise:__  Load `astsa` and examine its help files.
-- _Solution:_  `library(astsa)` ;  `?astsa`
+- _Solution:_  `library(astsa)` ;  `?astsa` 
 
-Notice the use of a semicolon for multiple commands on one line
+<br/>
+
+Notice the use of a semicolon for multiple commands on one line.
+
+- After viewing enough help files, you will eventually run into `## Not run:` in an __Examples__ section.  Does this mean you shouldn't run the examples or you will destroy the world? Well, no ... it's ok ... go ahead and run them, you will be safe.  `## Not run:` is basically an internal and not for a user's consumption. It just tells CRAN not to check the example for various reasons, typically because the example might take a long time to run.  ... it sort of runs against the idea that help files should be helpful.  __Bottom line: Ignore it__.
+
+  
+
+<br/>
 
 Finally, you can find lots of help from the internet.  If you have a specific and difficult question, try [Stack Overflow](https://stackoverflow.com/questions/tagged/r).
 
