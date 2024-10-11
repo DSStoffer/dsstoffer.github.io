@@ -38,13 +38,16 @@ R is an open source statistical computing and graphics system that runs on many 
 
 - Another viable (and free) option for multiple OSs is [VSCode](https://code.visualstudio.com) with the [R Extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r).
 
-- For Windows, [Notepad++](https://notepad-plus-plus.org) along with [NpptoR](https://github.com/halpo/NppToR) works well, but it's not a GUI.  In Linux (with Snap) it installs easily:
+- For multiple OSs, there's [Emacs](https://www.gnu.org/software/emacs/), and with the [ESS](https://ess.r-project.org) _Emacs Speaks Statistics_ add-on, you'll be crunching numbers in no time. (And there's some info for [vi](https://medium.com/free-code-camp/turning-vim-into-an-r-ide-cd9602e8c217) die hards).  
+
+- For Windows, [Notepad++](https://notepad-plus-plus.org) along with [NpptoR](https://github.com/halpo/NppToR) works well, but it's not a GUI.  In Linux (with Snap) it installs easily: 
 
 ```sh
 sudo snap install notepad-plus-plus
 ```
 
 Sorry, no notepad++ for Mac or Cheese &#127858;.
+
 
 - There is also [Tinn-R](https://tinn-r.org/en/) ... its existence is basically all we know- it looks like a Windows (only?) GUI application.
 
