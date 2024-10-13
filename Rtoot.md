@@ -172,10 +172,10 @@ Notice the use of a semicolon for multiple commands on one line.
 
 <br/>
 
-&#10060; After viewing enough help files, you will eventually run into `## Not run:` in an __Examples__ section. <font color="#FF4500">__It is NOT for a user's consumption.__</font> 
+&#10060; After viewing enough help files, you will eventually run into `## Not run:` in an __Examples__ section. *<font color="#FF4500">It is NOT for a user's consumption.</font>* 
 ![](https://nickpoison.github.io/figs/slaphead.gif)
 
-> `Not run` just tells CRAN not to check the example for various reasons such as the example takes a long time to run.  ... it sort of runs against the idea that help files should be helpful or at least not make things worse.  __Bottom line: Ignore it__.  If you are using html help and you see this, then [Run Examples]() will not do anything. In this case, you just copy-and-paste the code to run it.
+> `Not run` just tells CRAN not to check the example for various reasons such as it takes a long time to run  ... it sort of runs against the idea that help files should be helpful or at least not make things worse.  __Bottom line: Ignore it__.  If you are using html help and you see this, then [Run Examples]() will not do anything. In this case, you just copy-and-paste the code to run it.
 
 
 <br/>
