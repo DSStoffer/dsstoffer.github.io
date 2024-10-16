@@ -38,7 +38,7 @@ R is an open source statistical computing and graphics system that runs on many 
 
 - Another viable (and free) option for multiple OSs is [VSCode](https://code.visualstudio.com) with the [R Extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r).
 
-- For multiple OSs, there's [Emacs](https://www.gnu.org/software/emacs/), and with the [ESS](https://ess.r-project.org) _Emacs Speaks Statistics_ add-on, you'll be crunching numbers in no time. (And there's some info for [vi](https://medium.com/free-code-camp/turning-vim-into-an-r-ide-cd9602e8c217) die hards).  
+- For multiple OSs, there's [Emacs](https://www.gnu.org/software/emacs/), and with the [ESS](https://ess.r-project.org) _Emacs Speaks Statistics_ add-on, you'll be crunching numbers in no time. (And there's some info for [vi](https://medium.com/free-code-camp/turning-vim-into-an-r-ide-cd9602e8c217) die hards). 
 
 - For Windows, [Notepad++](https://notepad-plus-plus.org) along with [NpptoR](https://github.com/halpo/NppToR) works well, but it's not a GUI.  In Linux (with Snap) it installs easily: 
 
@@ -49,7 +49,9 @@ sudo snap install notepad-plus-plus
 Sorry, no notepad++ for Mac or Cheese &#127858;.
 
 
-- There is also [Tinn-R](https://tinn-r.org/en/) ... its existence is basically all we know- it looks like a Windows (only?) GUI application.
+- There is also  [Tinn-R](https://tinn-r.org/en/) ... its existence is basically all we know- it looks like a Windows (only?) GUI application and it free.
+
+
 
 <br/>
 
@@ -72,11 +74,16 @@ There are some simple exercises that will help you get used to using R. For exam
 ## Packages and ASTSA 
 ---
 
-At this point, you should have R up and running. The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. 
+At this point, you should have R up and running.
 
-- There are base packages that install with R and load automatically.  (e.g., `stats`)
+&#10067; Ready ...
 
-- Then there are priority packages that are installed with R but not loaded automatically.  (e.g., `nlme`)
+
+The capabilities of R are extended through packages. R comes with  a number of preloaded packages that are available immediately. 
+
+- There are (about 15) base packages that install with R and load automatically.  (e.g., `stats`)
+
+- Then there are (about 15) priority packages that are installed with R but not loaded automatically.  (e.g., `nlme`)
 
 - Finally, there are  user-created packages that must be installed (once) and then loaded into R before use.  (e.g., `astsa`)
 
@@ -117,8 +124,7 @@ This is a good time to get those packages:
 
 &#128312;&#128312;&#128312;&#128312;&#128312;&#128312;&#128312;
 
-&#9940; &#9940;  __WARNING:__   If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` 
-and  `lag`  that we use often. In this case, to avoid problems when analyzing time series, here are some options:
+&#9940; &#9940;  __WARNING:__   If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` and  `lag` from the  `stats` package that we use often. In this case, to avoid problems when analyzing time series, here are some options:
 
 ```r
 (1) # either detach it
