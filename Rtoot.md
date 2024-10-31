@@ -200,7 +200,7 @@ Finally, you can find lots of help on the internet &#129300;.  If you have a spe
 
 
 
-The convention throughout the texts is that  R code is in <font color="#3366FF"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  This  does not apply to this site where syntax highlighting is controlled by the overlords &#128122; at GitHub. 
+The convention throughout the texts is that  R code is in <font color="#3366FF"> blue </font>  with <font color="red"> red </font> operators, output is <font color="purple">  purple </font>, and comments are <font color="green">green</font>.  This  does not apply to this site where syntax highlighting is controlled by your browser and GitHub. 
 
 Get comfortable, start R and try some simple tasks.
 
