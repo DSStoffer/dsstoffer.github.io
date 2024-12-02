@@ -1,5 +1,7 @@
 # &#128041;  Stoffer's GitHome 
 
+
+
 > As democracy is perfected, the office of president represents, more and more closely, the inner soul of the people. On some great and glorious day the plain folks of the land will reach their heart's desire at last and the White House will be adorned by a downright moron.  
 >
 > ― **H.L. Mencken,**  On Politics: A Carnival of Buncombe (1956)
