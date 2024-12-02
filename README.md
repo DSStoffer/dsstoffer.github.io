@@ -6,6 +6,10 @@
 >
 > ― **H.L. Mencken,**  On Politics: A Carnival of Buncombe (1956)
 
+> Stupidity has a knack of getting its way...
+>
+>  ― **Albert Camus,**  The Plague (1947)
+
 <br/>
 
 <img style="float: left; padding: 5px 10px 0px 0px; width: 250px;" src="figs/doll.gif"/>
