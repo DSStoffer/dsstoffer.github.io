@@ -6,9 +6,14 @@
 >
 > ― **H.L. Mencken,**  On Politics: A Carnival of Buncombe (1956)
 
+
+> The biggest threat to America today is not communism, it's moving America toward a fascist theocracy, and everything that's happened during the Regan administration is steering us right down that pipe. &hellip; When you have a government that prefers a certain moral code derived from a certain religion and that moral code turns into legislation to suit one certain religious point of view, and if that code happens to be very very right wing, almost toward Attila the Hun.
+> 
+> ― **Frank Zappa,**   On the CNN show Crossfire (1986)
+
 > Stupidity has a knack of getting its way...
 >
->  ― **Albert Camus,**  The Plague (1947)
+> ― **Albert Camus,**  The Plague (1947)
 
 <br/>
 
