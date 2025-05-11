@@ -5,6 +5,8 @@
 
 _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis and Its Applications: With R Examples_ and _Time Series:  A Data Analysis Approach Using R_ both by Shumway & Stoffer
 
+&#128062; This tutorial is meant as a basic introduction for new R users.
+
 &#128312; &#128312; &#128312; &#128312; &#128312;
 
 ### Table of Contents
