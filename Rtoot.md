@@ -891,11 +891,11 @@ and so on for higher-order differencing.
 
 $$M_t = \alpha + \beta_1 P_t + \beta_2 P_{t-4} + w_t\,, $$
 
-where we assume $w_t$ is the usual normal regression error term. First, we create the data matrix  `ded`, which consists of the intersection of the three series:
+where we assume $w_t$ is the usual normal regression error term. First, we create the data frame  `ded`, which consists of the intersection of the three series:
  ```r
 library(astsa)   # load astsa first
 
-ded = ts.intersect(cmort, part, part4=lag(part,-4))
+ded = ts.intersect(cmort, part, part4=lag(part,-4), dframe=TRUE)
  ```
 Now the series are all aligned and the regression will work.
 ```r
