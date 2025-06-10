@@ -5,7 +5,7 @@
 
 _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis and Its Applications: With R Examples_ and _Time Series:  A Data Analysis Approach Using R_ both by Shumway & Stoffer
 
-&#128062; This tutorial is meant as a basic introduction for new R users.
+🔰 This tutorial is meant as a basic introduction for new R users. 🔰
 
 &#128312; &#128312; &#128312; &#128312; &#128312;
 
@@ -135,8 +135,8 @@ detach(package:dplyr)
 (2) # or fix it yourself if you want dplyr
 # this is a great idea from  https://stackoverflow.com/a/65186251
 library(dplyr, exclude = c("filter", "lag"))  # remove the culprits
-Lag <- dplyr::lag            # and do what the dplyr ... 
-Filter <- dplyr::filter      # ... maintainer refuses to do
+dlag <- dplyr::lag            # and do what the dplyr ... 
+dfilter <- dplyr::filter      # ... folks refuse to do
 # and then use Lag and Filter for the corresponding dplyr commands
 
 (3) # or just take back the commands 
@@ -144,8 +144,8 @@ filter = stats::filter
 lag = stats::lag
 
  # in this case, you can still use these for dplyr
- Lag <- dplyr::lag     
- Filter <- dplyr::filter 
+ dlag <- dplyr::lag     
+ dfilter <- dplyr::filter 
 ```
 
  &#128534;  If you are wondering how it is possible to corrupt a base package, &#128125; you are not alone. 
