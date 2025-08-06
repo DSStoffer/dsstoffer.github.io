@@ -126,10 +126,12 @@ This is a good time to get those packages:
 
 &#128312;&#128312;&#128312;&#128312;&#128312;&#128312;&#128312;
 
-&#9940; &#9940;  __WARNING:__   If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` and  `lag` from the  `stats` package that we use often. In this case, to avoid problems when analyzing time series, here are some options:
+&#9940; &#9940;  __WARNING:__  If you are focusing on data manipulation in a course or otherwise, and you are using `dplyr`, then this warning is for you.  
+
+If loaded, the package `dplyr` may (and most likely will) corrupt the base scripts  `filter` and  `lag` from the  `stats` package that time series analysts use often. In this case, to avoid problems when analyzing time series, here are some options:
 
 ```r
-(1) # either detach it
+(1) # either detach it if you don't need it
 detach(package:dplyr)  
 
 (2) # or fix it yourself if you want dplyr
@@ -137,7 +139,7 @@ detach(package:dplyr)
 library(dplyr, exclude = c("filter", "lag"))  # remove the culprits
 dlag <- dplyr::lag            # and do what the dplyr ... 
 dfilter <- dplyr::filter      # ... folks refuse to do
-# and then use Lag and Filter for the corresponding dplyr commands
+# and then use dlag and dfilter for the corresponding dplyr commands
 
 (3) # or just take back the commands 
 filter = stats::filter
@@ -182,7 +184,7 @@ Notice the use of a semicolon for multiple commands on one line.
 
 &#10060; After viewing enough help files, you will eventually run into `## Not run:` in an __Examples__ section.  Why would an example be given with a warning NOT to run it?
 
-> `Not run` just tells CRAN not to check the example for various reasons such as it takes a long time to run  ... it sort of runs against the idea that help files should be helpful or at least not make things worse.  __Bottom line: Ignore it. <font color="#FF4500">It is NOT for a user's consumption.</font>__ ![](https://nickpoison.github.io/figs/slaphead.gif) If you are using html help and you see this, then [Run Examples]() will not do anything. In this case, you just copy-and-paste the code to run it.
+> `Not run` just tells CRAN not to check the example for various reasons such as it takes a long time to run  ... it sort of runs against the idea that help files should be helpful or at least not make things worse.  _Bottom line: Ignore it. <font color="#FF4500">It is NOT for a user's consumption.</font>_ ![](https://nickpoison.github.io/figs/slaphead.gif) If you are using html help and you see this, then <font color="#38f">Run Examples</font> will not do anything. In this case, you just copy-and-paste the code to run it.
 
 
 <br/>
@@ -207,8 +209,8 @@ The convention throughout the texts is that  R code is in <font color="#3366FF">
 Get comfortable, start R and try some simple tasks.
 
 ```r
-2+2           # addition 
- [1] 5
+2+2           # addition, type 2 + 2 and then hit return
+ [1] 5        # and you get an answer ([1] is the index of the number displayed)
 
 5*5 + 2       # multiplication and addition 
  [1] 27
@@ -342,15 +344,22 @@ AmInice
  [1] TRUE
 ```
 
-But this is bad practice because it can be easily wrecked, for example, if you set `T` to something else and then later .... :
+But this is bad practice because it can be easily wrecked, for example, if you set `T` to something else and then forget that you did .... :
 ```r
-T = 17
-AmInice = T
-AmInice 
+# ... work work work ...
+T = 17  # ... somewhere in your work ...
+# ... more work ...
+# ... time for lunch ...
+# ... eat lunch at your desk ...
+# ... mustard on you lap ...
+# ... go wash it off ...
+# ... start working again ...
+ ( AmInice = T )
  [1] 17
+# ... oops- not TRUE any more ... unless the TRUTH is 17
 ```
 
-__Bottom line__, get used to using the whole words  `TRUE` and `FALSE` and don't use the `T` and `F` shortcuts. This is especially concerning because T and F are some of our favorite distributions.
+__Moral:__ Get used to using the whole words  `TRUE` and `FALSE` and don't use the `T` and `F` shortcuts. This is especially concerning because T and F are some of our favorite distributions.
 
 <br/>
 &#128312;&#128312;&#128312;&#128312;&#128312;
@@ -401,10 +410,13 @@ and a [reference card may be found here](https://cran.r-project.org/doc/contrib/
 
 &#128312;&#128312;&#128312;&#128312;&#128312;
 
-&#10024; When you quit, R will prompt you to save an image of your current workspace. Answering _yes_ will  save   the work  you have done so far, and load it when you next start R. We have never regretted selecting _yes_, but we have regretted answering _no_.
 
 
-If you want to __keep your files separated for different projects__, then having to set the working directory each time you run  R  is a pain.  If you use RStudio, then you can easily [create separate projects](https://support.posit.co/hc/en-us/articles/200526207).  There are some easy work-arounds, but it depends on your OS.  In Windows, copy the R shortcut into the directory you want to use for your project. Right click on the shortcut icon, select _Properties_, and remove the text in the _Start in:_ field; leave it blank and press _OK_.  Then start R from that shortcut (works for RStudio too).  
+&#10024; __Ending a Session:__ When you quit, R will prompt you to save an image of your current workspace. Answering _yes_ will  save   the work  you have done so far, and load it when you next start R. We have never regretted selecting _yes_, but we have regretted answering _no_.
+
+
+
+&#10024; __Organization:__ If you want to keep your files separated for different projects, then having to set the working directory each time you run  R  is a pain.  If you use RStudio, then you can easily [create separate projects](https://support.posit.co/hc/en-us/articles/200526207).  There are some easy work-arounds, but it depends on your OS.  In Windows, copy the R shortcut into the directory you want to use for your project. Right click on the shortcut icon, select _Properties_, and remove the text in the _Start in:_ field; leave it blank and press _OK_.  Then start R from that shortcut (works for RStudio too).  
 
 
 - __Exercise:__  Create a directory that you will use for the course and use the tricks previously mentioned to make it your working directory (or use the default if you   do not care). Load `astsa` and use help to find out what is in the data file `cpg`. Write `cpg` as text to your working directory.
@@ -651,7 +663,7 @@ oneover(-4)
 
 A script can have multiple inputs, for example, guess what this does:
 ```r
-xtimesy <- function(x,y){ x * y }    
+xtimesy <- function(x, y){ x * y }    
 xtimesy(20, .5)  # and try it
   [1] 10 
 ```
@@ -660,8 +672,10 @@ xtimesy(20, .5)  # and try it
 - _Solution:_ It's similar to the previous example.
 
 ```r
-pwr <- function(x, y){ x^y }
-pwr(25, .5)
+pwr <- function(x, y){ x^y }  
+
+# now use it
+pwr(25, .5)  
   [1] 5  
 ```
 
@@ -754,6 +768,7 @@ plot(fitted(fit), resid(fit)) # not shown
 ```
 
 <br/>
+
 For multiple regression, $y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \epsilon$, the syntax are `fit <- lm(y~ x1 + x2)` and so on.   For example, 
 
 ```r
@@ -897,19 +912,23 @@ library(astsa)   # load astsa first
 
 ded = ts.intersect(cmort, part, part4=lag(part,-4), dframe=TRUE)
  ```
-Now the series are all aligned and the regression will work.
+Now the series are all aligned and the regression will work. We use `ttable` from astsa... it's not a base script.
+
 ```r
-summary(fit <- lm(cmort ~ part + part4, data = ded, na.action = NULL) )
-  Coefficients:
-              Estimate Std. Error t value Pr(>|t|)    
-  (Intercept) 69.01020    1.37498  50.190  < 2e-16  
-  part         0.15140    0.02898   5.225 2.56e-07  
-  part4        0.26297    0.02899   9.071  < 2e-16  
-  ---
-  Residual standard error: 8.323 on 501 degrees of freedom
-  Multiple R-squared:  0.3091,    Adjusted R-squared:  0.3063 
-  F-statistic: 112.1 on 2 and 501 DF,  p-value: < 2.2e-16 
+ttable(fit <- lm(cmort ~ part + part4, data = ded, na.action = NULL) )
+
+     Coefficients:
+                 Estimate      SE  t.value  p.value
+     (Intercept)  69.0102   1.375  50.1899        0
+     part          0.1514   0.029   5.2251        0
+     part4         0.2630   0.029   9.0709        0
+     
+     Residual standard error: 8.323 on 501 degrees of freedom
+     Multiple R-squared:  0.3091,    Adjusted R-squared:  0.3063 
+     F-statistic: 112.1 on 2 and 501 DF,  p-value: < 2.2e-16
+     AIC =  5.2478    AICc =  5.2479    BIC =  5.2814
 ```
+
 There was no need to rename `lag(part,-4)` to `part4`, it's just an example of what you can do. Also,   `na.action=NULL` is necessary to retain the time series attributes. It should be there whenever you  do time series regression.
 
 
@@ -919,12 +938,21 @@ There was no need to rename `lag(part,-4)` to `part4`, it's just an example of w
 ```r
 part4 <- lag(part, -4)
 
-summary(fit <- lm(cmort~ part + part4, na.action=NULL) )
-  Coefficients: (1 not defined because of singularities) # OUCH!
-               Estimate Std. Error t value Pr(>|t|)    
-   (Intercept) 74.79860    1.30943   57.12   <2e-16 
-   part         0.29317    0.02631   11.14   <2e-16 
-   part4             NA         NA      NA       NA 
+ttable(fit <- lm(cmort~ part + part4, na.action=NULL) )  # ttable from astsa
+
+     Coefficients: (1 not defined because of singularities)
+                 Estimate      SE  t.value  p.value
+     (Intercept)  74.7986  1.3094  57.1229        0
+     part          0.2932  0.0263  11.1424        0
+     part4             NA      NA       NA       NA
+     
+     Residual standard error: 8.969 on 506 degrees of freedom
+     Multiple R-squared:  0.197,     Adjusted R-squared:  0.1954 
+     F-statistic: 124.2 on 1 and 506 DF,  p-value: < 2.2e-16
+      
+     Warning: Due to perfect multicollinearity, at least 
+     one variable has been kicked out of the regression. 
+     Consider changing the model and trying again. 
 ```
 
 An alternative to the above is the package `dynlm`, which has to be installed.  After the package is installed, you can do the previous example as follows:
@@ -933,16 +961,18 @@ library(dynlm)                           # load the package
 
 fit = dynlm(cmort ~ part + L(part,4))    # ts.intersect not needed
 
-summary(fit)
-  Coefficients:
-              Estimate Std. Error t value Pr(>|t|)    
-  (Intercept) 69.01020    1.37498  50.190  < 2e-16 
-  part         0.15140    0.02898   5.225 2.56e-07 
-  L(part, 4)   0.26297    0.02899   9.071  < 2e-16 
-  ---
-  Residual standard error: 8.323 on 501 degrees of freedom 
-  Multiple R-squared:  0.3091,    Adjusted R-squared:  0.3063 
-  F-statistic: 112.1 on 2 and 501 DF,  p-value: < 2.2e-16
+ttable(fit)           
+
+     Coefficients:
+                 Estimate      SE  t.value  p.value
+     (Intercept)  69.0102   1.375  50.1899        0
+     part          0.1514   0.029   5.2251        0
+     L(part, 4)    0.2630   0.029   9.0709        0
+     
+     Residual standard error: 8.323 on 501 degrees of freedom
+     Multiple R-squared:  0.3091,    Adjusted R-squared:  0.3063 
+     F-statistic: 112.1 on 2 and 501 DF,  p-value: < 2.2e-16
+     AIC =  5.2478    AICc =  5.2479    BIC =  5.2814 
  ```
 
 In Chapter 1 problems, you are asked to fit a regression  model 
@@ -954,9 +984,23 @@ trend = time(jj) - 1970        # helps to 'center' time
 Q     = factor(cycle(jj))      # make (Q)uarter factors
 reg   = lm(log(jj) ~ 0 + trend + Q, na.action = NULL)  # 0 = no intercept
 
-summary(reg)                   # view the results (not shown)
+ttable(reg)                    
+
+     Coefficients:
+           Estimate      SE  t.value  p.value
+     trend   0.1672  0.0023  73.9990        0
+     Q1      1.0528  0.0274  38.4804        0
+     Q2      1.0809  0.0274  39.4999        0
+     Q3      1.1510  0.0274  42.0350        0
+     Q4      0.8823  0.0274  32.1858        0
+
+     Residual standard error: 0.1254 on 79 degrees of freedom
+     Multiple R-squared:  0.9935,    Adjusted R-squared:  0.9931 
+     F-statistic:  2407 on 5 and 79 DF,  p-value: < 2.2e-16
+     AIC =  -3.0714    AICc =  -3.0622    BIC =  -2.8978
 
 model.matrix(reg)              # view the model design matrix
+
           trend Q1 Q2 Q3 Q4
      1  -10.00  1  0  0  0
      2   -9.75  0  1  0  0
@@ -1038,11 +1082,10 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 ## R Code in Texts
 ---
 
-- Code in [Time Series Analysis and Its Applications (Ed 4)](https://github.com/nickpoison/tsa4/blob/master/textRcode.md)
 
-- _Coming in 2025:_  &nbsp; Code in [Time Series Analysis and Its Applications (Ed 5)](https://github.com/nickpoison/tsa5/blob/master/textRcode.md)
+-  Code in [Time Series Analysis and Its Applications (Ed 5)](https://github.com/nickpoison/tsa5/blob/master/textRcode.md)
 
-- Code in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda/blob/main/Rcode.md)
+- Code in [Time Series: A Data Analysis Approach Using R (Ed 2)](https://github.com/nickpoison/tsda2/blob/main/Rcode.md)
 <br/>
 
 [<sub>top</sub>](#table-of-contents)
