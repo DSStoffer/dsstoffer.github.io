@@ -16,6 +16,7 @@ _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis
   * [Getting Help](#getting-help)
   * [Basics](#basics)
   * [Objects and Assignment](#objects-and-assignment)
+  * [Lists & Structure](#lists--structure)
   * [Regression and Time Series Primer](#regression-and-time-series-primer)
   * [Graphics](#graphics)
   * [R Time Series Issues](#r-time-series-issues)
@@ -700,8 +701,82 @@ crazy(200)       # run it - plot below
 
 <br/>
 
+## Lists & Structure
+
+__Lists__ are useful objects that are an ordered collection of various components.  Often, an R script produces output that are lists that are sometimes returned invisibly (you don't see the output unless you go get it).  
+
+Let's start by making a simple list so you can see how they work.
+```r
+mylist = list(x=rnorm(10), y=runif(5), stoogi=c('Mary', 'Ma', 'Curly') )
+# look at it
+mylist
+
+  $x
+   [1]  0.57897116 -1.01315589  1.54542300  0.04080964  0.91642233 -1.96527510
+   [7]  1.67927692 -0.26268298  0.18003714  0.34976816
+
+  $y
+  [1] 0.3865887 0.5310180 0.7585465 0.1735883 0.6125359
+  
+  $stoogi
+  [1] "Mary"  "Ma"    "Curly"
+```
+
+There are a couple of ways to get at the objects in a list.  For example, if you need `y`:
+```r
+mylist$y
+  [1] 0.3865887 0.5310180 0.7585465 0.1735883 0.6125359
+# - OR -
+mylist[[2]]
+# - OR -
+mylist[['y']]  
+```
+
+ - __Exercise:__ How would you display the names of the stoogi? 
+- _Solution:_   `mylist[[3]]` or `mylist$stoogi` or `mylist[['stoogi']]`
+
+When dealing with output, and especially lists that are returned invisibly, your friend is the structure command (`str`) ... it will display the structure of an object, and it goes like this:
+
+```r
+str(mylist)
+
+  List of 3
+   $ x     : num [1:10] 0.579 -1.0132 1.5454 0.0408 0.9164 ...
+   $ y     : num [1:5] 0.387 0.531 0.759 0.174 0.613
+   $ stoogi: chr [1:3] "Mary" "Ma" "Curly"
+```
+
+ - __Exercise:__ Make a boxplot of some random numbers and find out what is returned invisibly with the graphic.
+- _Solution:_  below &#10549;
+
+```r
+deez = boxplot(rnorm(100))  # you just see a boxplot ... now what else is there?
+str(deez)     # and you see you get a list of 6 objects
+
+  List of 6
+   $ stats: num [1:5, 1] -2.267 -0.695 -0.166 0.412 1.993
+   $ n    : num 100
+   $ conf : num [1:2, 1] -0.34042 0.00932
+   $ out  : num [1:2] 2.65 2.33
+   $ group: num [1:2] 1 1
+   $ names: chr "1"   
+```
+
+- __Exercise:__ What are in those objects `deez[[1]]` thru `deez[[6]]`?
+- _Solution:_  I don't know, but if you look at the help file `?boxplot`, go down to the _Value_ section, you'll see what they are.  For example, 
+
+`  stats`	
+`    a matrix, each column contains the extreme of the lower whisker,  ...`
+
+
+<br/>
+
+[<sub>top</sub>](#table-of-contents)
+
+<br/>
+
 ## Regression and Time Series Primer
----
+
 
 First things first, TURN OFF THOSE LOUSY SIGNIFICANCE STARS:
 
