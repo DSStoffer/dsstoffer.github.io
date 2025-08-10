@@ -296,10 +296,11 @@ Ok, now try this.
 
 <br/>
 
-## Objects and Assignment
+## Doing Stuff to Objects 
 ---
 
-Next,  we'll use  assignment to make some  objects: 
+You may have heard that R is an object oriented. But aren't we all object oriented? ... I mean, we all like to own stuff. But, before we do stuff to objects,  let's first make some  objects using _assignment_:
+
 ```r
 x <- 1 + 2  # put 1 + 2 in object x
 
