@@ -160,17 +160,27 @@ lag = stats::lag
 ## Getting Help
 ---
 
-R is not consistent with help files across different operating systems. The R html help system can be started by issuing the command 
+R is not consistent with help files across different operating systems except for the html system that can be started by issuing the command 
 
 ```r
 help.start()
 ```
 
-The help files for installed packages can also be found there.  _Notice the parentheses_ in the commands above; they are necessary to run scripts. If you simply type
+The help files for installed packages can also be found there.
+
+
+
+&#10024;  _Notice the parentheses_ &#10024; in the commands above; they are necessary to run scripts. If you simply type
+
 ```r
 help.start     
 ```
-nothing will happen and you will just see the commands that make up the script.  To get help for a particular command, say `library`,  do this:
+nothing will happen and you will just see the commands that make up the script.  Usually you include options in the parentheses, but some scripts like `help.start()` have defaults for everything, so no need to add stuff between `(` and `)`.
+
+
+
+To get help for a particular command, say `library`,  do this:
+
 ```r
 help(library) 
 ?library        # same thing    
@@ -179,18 +189,18 @@ help(library)
 - __Exercise:__  Load `astsa` and examine its help files.
 - _Solution:_  `library(astsa)` ;  `?astsa` 
 
-Notice the use of a semicolon for multiple commands on one line.
+&#10024; Notice the use of a semicolon for multiple commands on one line. &#10024;
 
 <br/>
 
 &#10060; After viewing enough help files, you will eventually run into `## Not run:` in an __Examples__ section.  Why would an example be given with a warning NOT to run it?
 
-> `Not run` just tells CRAN not to check the example for various reasons such as it takes a long time to run  ... it sort of runs against the idea that help files should be helpful or at least not make things worse.  _Bottom line: Ignore it. <font color="#FF4500">It is NOT for a user's consumption.</font>_ ![](https://nickpoison.github.io/figs/slaphead.gif) If you are using html help and you see this, then <font color="#38f">Run Examples</font> will not do anything. In this case, you just copy-and-paste the code to run it.
+> `Not run` just tells CRAN not to check the example for various reasons such as it takes a long time to run  ... it sort of runs against the idea that help files should be helpful or at least not make things worse.  _Bottom line: Ignore it. <font color="#FF4500">It is NOT for a user's consumption.</font>_ ![](https://nickpoison.github.io/figs/slaphead.gif) If you are using html help and you see this, then <font color="#38f">Run Examples</font> will not do anything. 
 
 
 <br/>
 
-Finally, you can find lots of help on the internet &#129300;.  If you have a specific and difficult question, try [Stack Overflow](https://stackoverflow.com/questions/tagged/r).  
+Finally, you can find lots of help on the internet &#129300;.  If you have a specific and difficult question, try [Stack Overflow](https://stackoverflow.com/questions/tagged/r).  Before you ask a question, read [how to ask a good question](https://stackoverflow.com/help/how-to-ask).
 
 
 
@@ -228,19 +238,22 @@ sin(pi/2)     # sinusoids
 2^(-2)        # power
  [1] 0.25 
 
+2^20          # to the people right on
+ [1] 1048576
+
 sqrt(8)       # square root
  [1] 2.828427
 
--1:5           # sequences
+-1:5           # sequences 
  [1] -1  0  1  2  3  4  5
 
 seq(1, 10, by=2)   # sequences 
  [1] 1 3 5 7 9
 
-rep(2, 3)     # repeat 2 three times
+rep(2, 3)      # repeat 2 three times
  [1] 2 2 2
   
-6/2*(1+2)     # not one
+6/2*(1+2)      # not one
  [1] 9  
 ```
 
@@ -252,7 +265,11 @@ rep(2, 3)     # repeat 2 three times
 [11] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0 
 ```
 
-Let's get complex:
+- __Exercise (extra credit):__  What is the next number in the sequence: 14, 23, 34, 50, __ ?
+- _Solution:_  The answer is 59 because that's the next stop going uptown on the NYC Subway Eighth Avenue Line.
+
+
+That was fun, but let's get a little more complex:
 
 - __Exercise:__ Verify that $1/i = -i$ where $i = \sqrt{-1}$.
 - _Solution:_  The complex number $i$ is written as `1i` in R.
@@ -266,7 +283,7 @@ Let's get complex:
 - __Exercise:__  Calculate $e^{i \pi}$.
 - _Solution:_  `exp(1i*pi)`
 
-&#127872; Extra credit: $e^{i \pi} + 1 =0$ is a famous formula that uses the five most basic values in mathematics.  Whose name is associated with this awesome equation? 
+&#127872; Extra credit: $e^{i \pi} + 1 =0$ is a famous formula that uses the five most basic values in mathematics.  Whose name is associated with this awesome equation? (Hint: It's not Will Hunting)
 
 Ok, now try this.
 
@@ -309,7 +326,7 @@ y <- c("one","two","three") # character vector
 z <- c(TRUE, TRUE, FALSE)   # logical vector
 ```
 
-Missing values are represented by the symbol `NA`, $\infty$ by `Inf` and  impossible values  are `NaN` (not a number). Here are some examples:
+Missing values are represented by the symbol `NA`, $\infty$ by `Inf`, and undefined values  are `NaN` (not a number). Here are some examples:
 ```r
 ( x = c(0, 1, NA) )
  [1]  0  1 NA  
@@ -334,6 +351,8 @@ x <- 0 -> y
 ```
 
 - _Solution:_ Try them and discover what is in `x` and `y`. 
+
+R loves arrows... most likely due to a fondness of Cupid, Robin Hood, or the Green Arrow. The problem is `<-` or `->` requires 3 key strokes (`-`, `[Shift]`, and `>` or `<` ... who has the time?).  
 
 <br/>
 
@@ -360,7 +379,7 @@ T = 17  # ... somewhere in your work ...
 # ... oops- not TRUE any more ... unless the TRUTH is 17
 ```
 
-__Moral:__ Get used to using the whole words  `TRUE` and `FALSE` and don't use the `T` and `F` shortcuts. This is especially concerning because T and F are some of our favorite distributions.
+__Moral:__ Get used to using the whole words  `TRUE` and `FALSE` and try not to use the `T` and `F` shortcuts. This is especially concerning because T and F are some of our favorite distributions.  Also, some editors have word completion, typing T might bring up TRUE, so the amount of typing is almost the same.
 
 <br/>
 &#128312;&#128312;&#128312;&#128312;&#128312;
@@ -414,6 +433,8 @@ and a [reference card may be found here](https://cran.r-project.org/doc/contrib/
 
 
 &#10024; __Ending a Session:__ When you quit, R will prompt you to save an image of your current workspace. Answering _yes_ will  save   the work  you have done so far, and load it when you next start R. We have never regretted selecting _yes_, but we have regretted answering _no_.
+
+&#128054; It's not a big deal saving all your work because the information is stored in the working directory in a (hidden) file called .Rhistory, which is an ascii (text) file that can be edited with any text editor.  You can easily remove or keep anything you desire as long as you have the ability to see "hidden" files.  
 
 
 
@@ -517,7 +538,7 @@ There is a difference between `scan` and `read.table`. The former produced a dat
 ```
 
 
-When you use `read.table` or similar, you create a data frame. In this case, if you want to list (or use) the second variate, `V2`, you could use
+When you use `read.table` or similar, you create a data frame. In this case, if you want to print or use the second variate, `V2`, you could use
  ```r 
 dummy$V2
  [1] 2 0
@@ -702,12 +723,14 @@ crazy(200)       # run it - plot below
 <br/>
 
 ## Lists & Structure
+---
 
-__Lists__ are useful objects that are an ordered collection of various components.  Often, an R script produces output that are lists that are sometimes returned invisibly (you don't see the output unless you go get it).  
+Lists are useful objects that are an ordered collection of various components.  Often, an R script will  output a list that is returned invisibly (you don't see the output unless you go get it).  
 
 Let's start by making a simple list so you can see how they work.
 ```r
 mylist = list(x=rnorm(10), y=runif(5), stoogi=c('Mary', 'Ma', 'Curly') )
+
 # look at it
 mylist
 
@@ -735,7 +758,7 @@ mylist[['y']]
  - __Exercise:__ How would you display the names of the stoogi? 
 - _Solution:_   `mylist[[3]]` or `mylist$stoogi` or `mylist[['stoogi']]`
 
-When dealing with output, and especially lists that are returned invisibly, your friend is the structure command (`str`) ... it will display the structure of an object, and it goes like this:
+When dealing with output, and especially lists that are returned invisibly, your friend is the structure command (`str`) ... it will display a summary of an object, and it looks like this:
 
 ```r
 str(mylist)
@@ -751,7 +774,7 @@ str(mylist)
 
 ```r
 deez = boxplot(rnorm(100))  # you just see a boxplot ... now what else is there?
-str(deez)     # and you see you get a list of 6 objects
+str(deez)     # and invisibly, you get a list of 6 objects
 
   List of 6
    $ stats: num [1:5, 1] -2.267 -0.695 -0.166 0.412 1.993
@@ -765,9 +788,15 @@ str(deez)     # and you see you get a list of 6 objects
 - __Exercise:__ What are in those objects `deez[[1]]` thru `deez[[6]]`?
 - _Solution:_  I don't know, but if you look at the help file `?boxplot`, go down to the _Value_ section, you'll see what they are.  For example, 
 
-`  stats`	
-`    a matrix, each column contains the extreme of the lower whisker,  ...`
+`  stats`: ` a matrix, each column contains the extreme of the lower whisker,  ...`
 
+<br/>
+
+Note that if a script returns results invisibly, you have to &#127881; NAME THAT OBJECT &#127881;.  For example, if you just type &#128532;
+`boxplot(x)` 
+ you'll just see the boxplot and you won't have the other returned stuff to play with. If you want to use or see the other stuff, you have to do something like &#128526;
+ `nuts <- boxplot(x)` 
+ so you can see the boxplot and then get all the other stuff from `nuts`.
 
 <br/>
 
@@ -776,7 +805,7 @@ str(deez)     # and you see you get a list of 6 objects
 <br/>
 
 ## Regression and Time Series Primer
-
+---
 
 First things first, TURN OFF THOSE LOUSY SIGNIFICANCE STARS:
 
@@ -808,7 +837,7 @@ plot(x, y)              # scatterplot of data (see below)
 abline(fit, col=4)      # add fitted blue line (col 4) to the plot  
 ```
 
-Note that we put the results  into an  object we called `fit`; this object contains all of the information about the  regression.   Then we used `summary` to display some of the results   and used `abline` to plot the fitted line. The command `abline` is useful for drawing horizontal and vertical lines also.
+Note that we put the results  into an  object we called `fit`; this list object contains all of the information about the  regression.   Then we used `summary` to display some of the results   and used `abline` to plot the fitted line. The command `abline` is useful for drawing horizontal and vertical lines also.
 
  - __Exercise:__ Add red horizontal and vertical dashed lines to the previously generated graph to show that the fitted line goes through the point $(\bar x, \bar y)$.
 - _Solution:_  Add the following line to the above code:
@@ -822,10 +851,11 @@ abline(v=mean(x), h=mean(y), col=2, lty=2)  # col 2 is red and lty 2 is dashed
 <br/>
 
 
-The `lm` object that we called `fit` in  our simulation contains all sorts of information that can be extracted.  Sometimes, however, it might be difficult to find where that information is stored. The easiest way to find what is stored in an object is to look at the _structure_ of the object.  We list only a partial output because this particular list is very long.
+The `lm` object that we called `fit` in  our simulation contains all sorts of information that can be extracted.  Recall that one way to find what is stored in an object is to look at the _structure_ of the object.  We give partial output because this particular list is very long.
+
 ```r
 str(fit)     # partial listing below
-  List of 12
+  List of 12  
    $ coefficients : Named num [1:2] 1.07 1.68
     ..- attr(*, "names")= chr [1:2] "(Intercept)" "x"
    $ residuals    : Named num [1:10] 2.325 -1.189 0.682 -1.135 -0.648 ...
@@ -834,7 +864,7 @@ str(fit)     # partial listing below
     ..- attr(*, "names")= chr [1:10] "1" "2" "3" "4" ...
 ```
 
-For example, the parameter estimates are in `fit$coef` or `coef(fit)`. We can get the residuals from `fit$resid` or `resid(fit)` and the commands `fit$fitted` or `fitted(fit)` will display the fitted values.  For example, we may be interested in plotting the residuals in order or in  plotting the residuals against the fitted values:
+Notice `fit` is a list of 12 items, `fit[[1]]` to `fit[[12]]`. For example, the parameter estimates are in `fit[[1]]` or `fit$coef` or `coef(fit)`. We can get the residuals from `fit[[2]]` or`fit$resid` or `resid(fit)`, and   `fit[[3]]` or `fit$fitted` or `fitted(fit)` will display the fitted values.  For example, we may be interested in plotting the residuals in order or in  plotting the residuals against the fitted values:
 
 ```r 
 plot(resid(fit))              # not shown
@@ -844,11 +874,11 @@ plot(fitted(fit), resid(fit)) # not shown
 
 <br/>
 
-For multiple regression, $y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \epsilon$, the syntax are `fit <- lm(y~ x1 + x2)` and so on.   For example, 
+In multiple regression, for example $y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \epsilon$, the syntax are `fit <- lm(y~ x1 + x2)` and so on.   For example, 
 
 ```r
 fit = lm( mpg~ cyl + disp + hp + drat + wt + qsec, data=mtcars) 
-ttable(fit, vif=TRUE)  # in astsa, which has to be loaded first
+ttable(fit, vif=TRUE)  # 'ttable' in astsa, which has to be loaded first
 
 ## output
 
@@ -856,7 +886,7 @@ ttable(fit, vif=TRUE)  # in astsa, which has to be loaded first
               Estimate      SE  t.value  p.value       VIF
   (Intercept)  26.3074 14.6299   1.7982   0.0842          
   cyl          -0.8186  0.8116  -1.0086   0.3228    9.9590
-  disp          0.0132  0.0120   1.0971   0.2831   10.5506  <- engine size
+  disp          0.0132  0.0120   1.0971   0.2831   10.5506
   hp           -0.0179  0.0155  -1.1564   0.2585    5.3578
   drat          1.3204  1.4795   0.8925   0.3806    2.9665
   wt           -4.1908  1.2579  -3.3316   0.0027    7.1817
@@ -868,7 +898,7 @@ ttable(fit, vif=TRUE)  # in astsa, which has to be loaded first
  AIC =  3.1309    AICc =  3.2768    BIC =  3.4974 
 ```
 
-`mtcars` is an R data set of gas consumption (`mpg`) and various design aspects. The design aspects are  related, thus the high VIFs.  Also notice that the engine size (`disp`) coefficient has the wrong sign because bigger engines don't get better gas mileage.  Also, nothing but weight (`wt`) is significant because the SEs are inflated.
+`mtcars` is an R data set of gas consumption (`mpg`) and various car design aspects. The design aspects are  related, thus the high VIFs.  Also notice that the engine size (`disp`) coefficient has the wrong sign because bigger engines don't get better gas mileage.  Also, nothing but weight (`wt`) is significant because the SEs are inflated.
 
 <br/>
 &#128312;&#128312;&#128312;&#128312;&#128312;
@@ -987,7 +1017,7 @@ library(astsa)   # load astsa first
 
 ded = ts.intersect(cmort, part, part4=lag(part,-4), dframe=TRUE)
  ```
-Now the series are all aligned and the regression will work. We use `ttable` from astsa... it's not a base script.
+Now the series are all aligned and the regression will work. We use `ttable` from `astsa`... 
 
 ```r
 ttable(fit <- lm(cmort ~ part + part4, data = ded, na.action = NULL) )
@@ -1088,6 +1118,8 @@ model.matrix(reg)              # view the model design matrix
  ```
 
 We'll end this part with simulating ARIMA models.  If you don't know what that means then it's ok, you will by the time you finish the course, and you can skip ahead or do something else now.
+
+&#127792;&#127792;&#127792;&#127792;&#127792;
 
 &#128014; The workhorse for ARIMA simulations is `sarima.sim` from `astsa`. Here are some examples; no output is shown so you're on your own. Note that `tsplot` is the generic `astsa` script for plotting time series.  Graphics is the next subject.
 
