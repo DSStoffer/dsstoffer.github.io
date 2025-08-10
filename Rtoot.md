@@ -15,7 +15,7 @@ _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis
   * [Packages and ASTSA](#packages-and-astsa )
   * [Getting Help](#getting-help)
   * [Basics](#basics)
-  * [Objects and Assignment](#objects-and-assignment)
+  * [Doing Stuff to Objects](#doing-stuff-to-objects)
   * [Lists & Structure](#lists--structure)
   * [Regression and Time Series Primer](#regression-and-time-series-primer)
   * [Graphics](#graphics)
