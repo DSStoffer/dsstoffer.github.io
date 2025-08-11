@@ -19,9 +19,9 @@ _Appendectomy:_ This site replaces Appendix R in the texts _Time Series Analysis
   * [Lists & Structure](#lists--structure)
   * [Regression and Time Series Primer](#regression-and-time-series-primer)
   * [Graphics](#graphics)
-  * [R Time Series Issues](#r-time-series-issues)
   * [More on ASTSA](#more-on-astsa)
   * [R Code in Texts](#r-code-in-texts)
+  * [R Time Series Issues](#r-time-series-issues)
 
 <br/>
 
@@ -1118,44 +1118,16 @@ model.matrix(reg)              # view the model design matrix
 
  ```
 
-We'll end this part with simulating ARIMA models.  If you don't know what that means then it's ok, you will by the time you finish the course, and you can skip ahead or do something else now.
+<br/><br/>
 
 &#127792;&#127792;&#127792;&#127792;&#127792;
 
-&#128014; The workhorse for ARIMA simulations is `sarima.sim` from `astsa`. Here are some examples; no output is shown so you're on your own. Note that `tsplot` is the generic `astsa` script for plotting time series.  Graphics is the next subject.
+That's it for now.  You may want to check out the links below for other information.
 
- ```r
-library(astsa)  # load astsa
 
-## AR(2) with mean 50 [n = 500 is default]
-y = sarima.sim(ar=c(1.5,-.75)) + 50
-tsplot(y)
+&#127792;&#127792;&#127792;&#127792;&#127792;
 
-## ARIMA(0,1,1) with drift ['mean' refers to the innovations] 
-tsplot(sarima.sim(ma=-.8, d=1, mean=.1))
 
-## SAR(1) example from text
-set.seed(666)   # not that 666
-sAR = sarima.sim(sar=.9, S=12, n=36)
-tsplot(sAR, type='c')
-points(sAR, pch=Months, cex=1.1, font=4, col=1:4)
-
-## SARIMA(0,1,1)x(0,1,1)_12 - B&J's favorite
-set.seed(101010)
-tsplot(sarima.sim(d=1, ma=-.4, D=1, sma=-.6, S=12, n=120))  
-
-## infinite variance t-errors 
-tsplot(sarima.sim(ar=.9, rand.gen=function(n, ...) rt(n, df=2) ))
-
-## use your own innovations
-dog = rexp(150, rate=.5)*sign(runif(150,-1,1))
-tsplot(sarima.sim(n=100, ar=.99, innov=dog, burnin=50))
-
-## generate seasonal data but no P, D or Q - you will receive 
-## a message to make sure that you wanted to do this on purpose: 
-tsplot(sarima.sim(ar=c(1.5,-.75), n=144, S=12), ylab='doggy', xaxt='n')
-mtext(seq(0,144,12), side=1, line=.5, at=0:12)
- ```
 
 
 <br/>
@@ -1173,12 +1145,7 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 
 <br/>
 
-## R Time Series Issues
----
 
-- R Issues has its own page: [R Time Series Issues](https://nickpoison.github.io/rissues.html)
-
-<br/>
 
 ## More on ASTSA
 ---
@@ -1194,16 +1161,27 @@ mtext(seq(0,144,12), side=1, line=.5, at=0:12)
 -  Code in [Time Series Analysis and Its Applications (Ed 5)](https://github.com/nickpoison/tsa5/blob/master/textRcode.md)
 
 - Code in [Time Series: A Data Analysis Approach Using R (Ed 2)](https://github.com/nickpoison/tsda2/blob/main/Rcode.md)
+
+<br/>
+
+
+## R Time Series Issues
+---
+
+- R Issues has its own page: [R Time Series Issues](https://nickpoison.github.io/rissues.html)
+
 <br/>
 
 [<sub>top</sub>](#table-of-contents)
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+<br/><br/><br/><br/><br/>
 
 
 
 
-<br/>
+
 
 
 
