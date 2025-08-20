@@ -7,11 +7,11 @@
 > ― **H.L. Mencken,**  On Politics: A Carnival of Buncombe (1956)
 
 
-> The biggest threat to America today is not communism, it's moving America toward a fascist theocracy, and everything that's happened during the  Reagan administration is steering us right down that pipe. &hellip; When you have a government that prefers a certain moral code derived from a certain religion and that moral code turns into legislation to suit one certain religious point of view, and if that code happens to be very very right wing, almost toward Attila the Hun.
+> The biggest threat to America today is not communism, it's moving America toward a fascist theocracy, and everything that's happened during the  Reagan administration is steering us right down that pipe &hellip; 
 > 
 > ― **Frank Zappa,**   On the CNN show Crossfire (1986)
 
-> Stupidity has a knack of getting its way...
+> Stupidity has a knack of getting its way &hellip;
 >
 > ― **Albert Camus,**  The Plague (1947)
 
@@ -36,7 +36,7 @@ David S. Stoffer  is Professor Emeritus <br/>
 
 &#10024;  All the R code used in [Time Series Analysis and Its Applications](https://github.com/nickpoison/tsa5/blob/main/textRcode.md) (edition 5)
 
-&#10024;  All the R code used in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda/blob/main/Rcode.md)
+&#10024;  All the R code used in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda2/blob/main/Rcode.md)
 
 &#10024; [Nonlinear Time Series Text](http://www.stat.pitt.edu/stoffer/nltsa/)
 
