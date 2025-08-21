@@ -96,7 +96,10 @@ Most packages can be obtained from CRAN and its mirrors.  The package used exten
 
 - _Solution:_ Issue the command: `install.packages('astsa')` . If asked to choose a repository, select _0-Cloud_, the first choice, and that will find your closest repository. 
 
- The latest version of `astsa`  will  always be  available from GitHub.  More information may be found at [ASTSA NEWS](https://github.com/nickpoison/astsa/blob/master/NEWS.md). 
+&#127381; When  `astsa` is loaded (as of version 2.3), the user is asked if they want to install the package `xts`.  It is beneficial to answer YES because we  use the  package  throughout the text.
+
+
+ The latest version of `astsa`  will  always be  available from GitHub.  More information may be found at [ASTSA NEWS](https://github.com/nickpoison/astsa/blob/master/NEWS.md).    
 
 Except for base packages, to use a package you have to load it after starting R, for example:
 ```r
@@ -109,19 +112,11 @@ You may want to create a `.First` function as follows,
 and save the workspace when you quit, then `astsa` will be loaded at every start.  Other startup commands can be added later. 
 
 
-We will use the `xts` package and the `zoo` package throughout the text.  To install both,  start R and type
-```r
-install.packages("xts")  # installs both xts and zoo
-```
-And again, to use the package you must load it first by issuing the command 
+And again, to use the package `xts`, you must load it first by issuing the command 
 ```r
 library(xts)
 ```
-This is a good time to get those packages: 
 
--  __Exercise:__ Install and then load `xts` and consequently  `zoo`.
-
-- _Solution:_ Follow the directions above.
 
 <br/>
 
