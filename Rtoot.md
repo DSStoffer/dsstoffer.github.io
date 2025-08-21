@@ -96,7 +96,7 @@ Most packages can be obtained from CRAN and its mirrors.  The package used exten
 
 - _Solution:_ Issue the command: `install.packages('astsa')` . If asked to choose a repository, select _0-Cloud_, the first choice, and that will find your closest repository. 
 
-&#127381;  When `astsa` is loaded (as of version 2.3), the user is asked if they want to install the package `xts`.  It is beneficial to answer YES because we  use the  package  throughout the text.
+> &#127381;  When `astsa` is loaded (as of version 2.3), the user is asked if they want to install the package `xts`.  It is beneficial to answer YES because we  use the  package  throughout the text.
 
 
 
