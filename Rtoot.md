@@ -200,11 +200,9 @@ help(library)
 
 <br/>
 
-Finally, you can find lots of help on the internet &#129300;. AI is pretty good for simple programming problems. The great thing about AI is it does not get nasty (yet), but it's not the most reliable source.  We have started to Google things if we can't remember how to do something if we're not sure or don't want to look at old code.
+Finally, you can find lots of help on the internet &#129300;. AI is pretty good for simple programming problems, but it's not the most reliable source. Google seems to do a decent job.  There are some sites where you can post questions, but be ready for varying degrees of  __&#128122; nastiness__. Just google _<u style="color:#c8f">sites to get R help_</u> and you'll get a decent list.
 
-For varying degrees of __&#128122; nastiness__ try these:  If you have a specific and difficult question, try [Stack Overflow](https://stackoverflow.com/questions/tagged/r), which does get nasty. Anyway, before you ask a question, read [how to ask a good question](https://stackoverflow.com/help/how-to-ask).  RStudio has a [community forum](https://forum.posit.co)  and there is a dedicated search engine called [rseek](https://rseek.org).  There is an [R-help mailing list](https://stat.ethz.ch/mailman/listinfo/r-help) that still exists, but it atrophied due to a high degree of nasty. There is also [Reddit](https://www.reddit.com/r/Rlanguage) - we haven't seen any complaints, but it's probably not as popular and StackOverflow. 
-
-_If you post a question about homework, state that up front when asking the question._ 
+_If you post a question about homework, state that up front when asking the question. It's basically frowned upon, but you might get some tips if you're honest._ 
 
 <br/>
 
