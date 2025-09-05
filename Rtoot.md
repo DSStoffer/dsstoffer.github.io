@@ -200,7 +200,7 @@ help(library)
 
 <br/>
 
-Finally, you can find lots of help on the internet &#129300;. AI is pretty good for simple programming problems, but it's not the most reliable source. Google seems to do a decent job.  There are some sites where you can post questions, but be ready for varying degrees of  __&#128122; nastiness__. Just google _<u style="color:#c8f">sites to get R help_</u> and you'll get a decent list.
+Finally, you can find lots of help on the internet &#129300;. AI is pretty good for simple programming problems, but it's not the most reliable source. Google seems to do a decent job.  There are some sites where you can post questions, but be ready for varying degrees of  __&#128122; nastiness__. Just google <u style="color:#c8f">sites to get R help</u> and you'll get a decent list.
 
 _If you post a question about homework, state that up front when asking the question. It's basically frowned upon, but you might get some tips if you're honest._ 
 
