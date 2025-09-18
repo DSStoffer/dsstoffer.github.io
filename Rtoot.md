@@ -902,6 +902,36 @@ ttable(fit, vif=TRUE)  # 'ttable' in astsa, which has to be loaded first
 `mtcars` is an R data set of gas consumption (`mpg`) and various car design aspects. The design aspects are  related, thus the high VIFs.  Also notice that the engine size (`disp`) coefficient has the wrong sign because bigger engines don't get better gas mileage.  Also, nothing but weight (`wt`) is significant because the SEs are inflated.
 
 <br/>
+
+There are more design aspects in `mtcars` than listed above.  To run a regression with a data frame and include everything, you can use a period (.) like this:
+
+```r
+ttable( lm(mpg~ . , data=mtcars) )  # one column on all other columns
+
+## with output
+  
+  Coefficients:
+              Estimate      SE  t.value  p.value
+  (Intercept)  12.3034 18.7179   0.6573   0.5181
+  cyl          -0.1114  1.0450  -0.1066   0.9161
+  disp          0.0133  0.0179   0.7468   0.4635
+  hp           -0.0215  0.0218  -0.9868   0.3350
+  drat          0.7871  1.6354   0.4813   0.6353
+  wt           -3.7153  1.8944  -1.9612   0.0633
+  qsec          0.8210  0.7308   1.1234   0.2739
+  vs            0.3178  2.1045   0.1510   0.8814
+  am            2.5202  2.0567   1.2254   0.2340
+  gear          0.6554  1.4933   0.4389   0.6652
+  carb         -0.1994  0.8288  -0.2406   0.8122
+  
+  Residual standard error: 2.65 on 21 degrees of freedom
+  Multiple R-squared:  0.869,     Adjusted R-squared:  0.8066 
+  F-statistic: 13.93 on 10 and 21 DF,  p-value: 3.793e-07
+  AIC =  3.2781    AICc =  3.6906    BIC =  3.8277 
+```
+
+<br/>
+
 &#128312;&#128312;&#128312;&#128312;&#128312;
 
 ## Time Series
