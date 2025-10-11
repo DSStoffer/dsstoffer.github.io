@@ -25,7 +25,7 @@ David S. Stoffer  is Professor Emeritus <br/>
  at (or near) the [University of Pittsburgh](http://www.pitt.edu)
 <br/> 
 
-&#10024; [Bob Shumway's obituary](figs/bob_obit.pdf)
+&#10024; [Bob Shumway's obituary](figs/bob_obit.png)
 
 
 &#10024; The R package [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) along with the latest news
