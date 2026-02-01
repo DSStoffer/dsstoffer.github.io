@@ -23,7 +23,7 @@ it's more than just data ... it's a palindrome
 ------
 -----
 
- 
+* TOC {:toc}
 
 ### Table of Contents
 
