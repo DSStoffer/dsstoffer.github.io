@@ -123,7 +123,8 @@ editor should have... and, it's actively maintained.  The creator of TeXMaker is
  &#9749; Javascript method: <a href="https://www.mathjax.org/" target="_blank">MathJax:</a>	
 
 Here's what you can do. Inline math is kewl,  $ X_t = \int_{-\pi}^\pi e^{i\omega t}dZ(\omega)$. Even blackboard bold works:   $ \{X_t;\, t\in \mathbb Z  \} $. Then   some display:
-$$  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15} $$
+
+$$ \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15} $$
 
 This is easy to use- just a line in your head (of your web page) does the trick.   Try it, your friends will be amazed.  _If you want to see the code for this stuff, right click on an expression and choose "Show Math As"_
 
