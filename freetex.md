@@ -1,4 +1,4 @@
-# Installing (La)TeX 
+# Installing $\LaTeX$ 
 
 <br/><br/>
 
@@ -29,6 +29,7 @@
 
 <a name="MT"></a>   
 ## MikTeX
+
 		
 &#129400; Get MikTeX and install it. MikTeX is simple to install - just go to the <A HREF="https://miktex.org" target="_blank">MikTeX Homepage</A> and download a (basic system or complete system)  setup wizard. The basic system is a quick set-up that automatically pulls packages off the internet as you need them.  This should be fine for most users.
 
@@ -122,7 +123,7 @@ editor should have... and, it's actively maintained.  The creator of TeXMaker is
 	
  &#9749; Javascript method: <a href="https://www.mathjax.org/" target="_blank">MathJax:</a>	
 
-Here's what you can do. Inline math is kewl,  $ X_t = \int_{-\pi}^\pi e^{i\omega t}dZ(\omega)$. Even blackboard bold works:   $ \{X_t;\, t\in \mathbb Z  \} $. Then   some display:
+Here's what you can do. Inline math is kewl,  $ X_t = \int_{-\pi}^\pi e^{i\omega t}dZ(\omega)$. Even blackboard bold works:   $ \{ X_t;\, t\in \mathbb Z  \} $. Then   some display:
 
 $$ \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15} $$
 
@@ -137,9 +138,12 @@ For long and complicated math, I think using a pdf file is the best way to go. I
 
 ## You say you suck at LaTeX
 
-... and you want to learn more. &#128532;
+... and you want to learn more. &#128532; 
 
 - Do an internet search on "Latex Basics" or "Learn Latex"... you'll pull up a couple of million sites with useful info, some videos, and probably some porn.
+
+- Here's a site that claims you can learn <a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" target=new> Learn  LaTeX in 30 Minutes</a>. &#128076;
+
 
 - Here's an online <a href="https://en.wikibooks.org/wiki/LaTeX/" target=new> LaTeX Wiki Book</a>.
 
@@ -153,7 +157,7 @@ The key to getting started  with LaTeX, as with most things, is to start small; 
 <br/>
 <a name="links"></a> 
 
-## Some LinKs  
+## Some Additional LinKs  
 
 Here are some other  links to great TeX sites ...
 
@@ -165,10 +169,12 @@ Here are some other  links to great TeX sites ...
 - <a href="https://www.ctan.org/tex-archive/support/excel2latex/" target="_blank">Excel2LaTeX</a>   When it comes to making tables, LaTeX is a PaiN ... especially if your editor does not allow or is inept at
 column mode editing.  _Excel2LaTeX_ allows you to transform the current selection from Excel to LaTeX.  I've used this and it works pretty well... although, for the most part, I'll do my tables in [Crimson Editor](http://www.crimsoneditor.com)  and then paste it in my TeX document.  I do it this way because the column mode editing in CE is excellent. Some advanced editors have a table tool built into them. There is also an [online table generator](https://www.tablesgenerator.com). 
 
+  - While we're here, the package [booktabs](https://ctan.org/pkg/booktabs?lang=en) makes better looking tables.  An internet search on _latex booktabs_ will bring up all sorts of examples and comparisons with vanilla LaTeX.
+
 
 - <a href="http://www.ctan.org/what_is_tex.html" target="_blank">Why TeX?</a> Ten good reasons (check out reason number 8) and some history, too.
 
- 
+- <a href="https://www.sascha-frank.com/latex.html" target="new"> LaTeX Topics</a> has many useful tips.
 
 - <a href="https://mirrors.ibiblio.org/pub/mirrors/CTAN/info/short-math-guide/short-math-guide.pdf" target="_blank">AMS-LaTeX</a> If you're typing math, you should check out (and use) AMS-LaTeX. It's  included in the MikTeX distribution, but take a look at the short guide (a pdf file) for a quick start.
 
