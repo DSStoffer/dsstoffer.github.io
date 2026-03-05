@@ -36,7 +36,7 @@
 
 &#129484; Is there an alternative to MikTeX?  Yes- it's called  <a href="https://www.tug.org/texlive/" target="_blank"> Tex Live</a>
  
-&#129353; NOTE: The MiKTeX installation now includes <a href="https://www.tug.org/texworks/" arget="_blank">TeXworks</a>, which is an editor and a pdf reader/previewer.  So basically, all you need to start pdflaTeXing is MiKTeX.   If you're just starting out, then this should be fine ...  for awhile However, my suggestion is to get one of the TexMakers and SumatraPDF-TeX instead of using TeXworks. 
+&#129353; NOTE: The MiKTeX installation now includes <a href="https://www.tug.org/texworks/" arget="_blank">TeXworks</a>, which is an editor and a pdf reader/previewer.  So basically, all you need to start pdfLaTeXing is MiKTeX.   If you're just starting out, then this should be fine ...  for awhile. However, my suggestion is, once you feel comfortable, get one of the editors highlighted below and <a href="https://www.sumatrapdfreader.org/download-free-pdf-viewer.html" target="_blank">SumatraPDF</a> instead of using TeXworks. 
 
 <br/>              
  
@@ -47,7 +47,7 @@
 	
 <a name="TM"></a>
 
- -  <a href="https://texstudio.sourceforge.net/" target="_blank">TexStudio</a> is my editor of choice. Basically, it started as a TexMaker (next on the list) ripoff, but it has  many more  configuration  options ...  it used to be called _TexMakerX_. 
+ -  <a href="https://texstudio.sourceforge.net/" target="_blank">TexStudio</a> is my editor of choice. Although it started as a TexMaker (next on the list) port, it has many more configuration options ...  it used to be called _TexMakerX_. 
 
 
  - Lots of people (and juggalos) like <a href="https://www.xm1math.net/texmaker/" target="_blank"> TexMaker</a>.  It comes with an integrated pdf viewer and all the bells and whistles that a modern 
