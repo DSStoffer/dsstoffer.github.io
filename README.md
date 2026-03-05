@@ -56,6 +56,8 @@ David S. Stoffer  is Professor Emeritus <br/>
 
 &#10024; [Amazon Author Page](https://www.amazon.com/author/david.stoffer)
 
+&#10024; The  [LaTeX page is back](https://dsstoffer.github.io/freetex)
+
 &#10024; [So... you think you know Seinfeld](Seinfeld.html)
 
 

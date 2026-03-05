@@ -41,7 +41,7 @@
  
 ## Editors
 		
-&#127917; There are many different editors and  a nice list and discussion of editors can be found at <a href="https://tex.stackexchange.com/questions/339/latex-editors-ides" target="_blank">  stackexchange</a> ... it seems to be updated peridoically.  I'll just list a few below. 
+&#127917; There are many different editors and   <a href="https://tex.stackexchange.com/questions/339/latex-editors-ides" target="_blank"> a nice list and discussion of editors can be found at stackexchange</a> ... it seems to be updated peridoically.  I'll just list a few below. 
 		
 	
 <a name="TM"></a>
@@ -55,7 +55,7 @@ editor should have... and, it's actively maintained.  The creator of TeXMaker is
 
 
 
-- As previously indicated, the MikTeX distribution now includes an editor</em> called <a href="https://www.tug.org/texworks/" target="_blank">TeXworks</a>. It's a bit too simple for my tastes, but if you're a first time user  it might be best to use _TeXworks_ until you need something more versatile.
+- As previously indicated, the MikTeX distribution now includes an editor called <a href="https://www.tug.org/texworks/" target="_blank">TeXworks</a>. It's a bit too simple for my tastes, but if you're a first time user  it might be best to use _TeXworks_ until you need something more versatile.
  
 <br/>
 
