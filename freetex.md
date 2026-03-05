@@ -30,42 +30,44 @@
 <a name="MT"></a>   
 ## MikTeX
 		
-Get MikTeX and install it. MikTeX is simple to install - just go to the <A HREF="https://miktex.org" target="_blank">MikTeX Homepage</A> and download a (basic system or complete system)  setup wizard. The basic system is a quick set-up that automatically pulls packages off the internet as you need them.  This should be fine for most users.
+&#129400; Get MikTeX and install it. MikTeX is simple to install - just go to the <A HREF="https://miktex.org" target="_blank">MikTeX Homepage</A> and download a (basic system or complete system)  setup wizard. The basic system is a quick set-up that automatically pulls packages off the internet as you need them.  This should be fine for most users.
 
 
-Is there an alternative to MikTeX?  Yes- it's called  <a href="https://www.tug.org/texlive/" target="_blank"> Tex Live</a>
+&#129484; Is there an alternative to MikTeX?  Yes- it's called  <a href="https://www.tug.org/texlive/" target="_blank"> Tex Live</a>
  
-
-NOTE: The MiKTeX installation now includes <a href="https://www.tug.org/texworks/" arget="_blank">TeXworks</a>, which is an editor and a pdf reader/previewer.  So basically, all you need to start pdflaTeXing is MiKTeX.   If you're just starting out, then this should be fine ...  for awhile However, my suggestion is to get one of the TexMakers and SumatraPDF-TeX instead of using TeXworks. 
+&#129353; NOTE: The MiKTeX installation now includes <a href="https://www.tug.org/texworks/" arget="_blank">TeXworks</a>, which is an editor and a pdf reader/previewer.  So basically, all you need to start pdflaTeXing is MiKTeX.   If you're just starting out, then this should be fine ...  for awhile However, my suggestion is to get one of the TexMakers and SumatraPDF-TeX instead of using TeXworks. 
 
 <br/>              
  
 ## Editors
 		
-There are many different editors and  a nice list and discussion of editors can be found at <a href="https://tex.stackexchange.com/questions/339/latex-editors-ides" target="_blank">  stackexchange</a> ... it seems to be updated peridoically.  I'll just list a few below. 
+&#127917; There are many different editors and  a nice list and discussion of editors can be found at <a href="https://tex.stackexchange.com/questions/339/latex-editors-ides" target="_blank">  stackexchange</a> ... it seems to be updated peridoically.  I'll just list a few below. 
 		
 	
 <a name="TM"></a>
- - Lots of people (and juggalos) like <a href="http://www.xm1math.net/texmaker/" target="_blank"> TexMaker</a>.  It comes with an integrated pdf viewer and all the bells and whistles that a modern 
-editor should have... and, it's actively maintained.  The creator of TeXMaker is also the creator of Kile (a great Unix based editor). It is also possible to use <a href=" https://www.latex-community.org/forum/viewtopic.php?f=20&t=8212" target="_blank"> Kile </a> on WinDoze.  
+
+ -  <a href="https://texstudio.sourceforge.net/" target="_blank">TexStudio</a> is my editor of choice. Basically, it started as a TexMaker (next on the list) ripoff, but it has  many more  configuration  options ...  it used to be called _TexMakerX_. 
 
 
- - Another option is <a href="https://texstudio.sourceforge.net/" target="_blank">TexStudio</a>. Basically, it started as a TexMaker ripoff, but it has  many more  configuration  options ...  it used to be called _TexMakerX_. 
+ - Lots of people (and juggalos) like <a href="https://www.xm1math.net/texmaker/" target="_blank"> TexMaker</a>.  It comes with an integrated pdf viewer and all the bells and whistles that a modern 
+editor should have... and, it's actively maintained.  The creator of TeXMaker is also the creator of Kile (a great Unix based editor).   
+
+
 
 
 - As previously indicated, the MikTeX distribution now includes an editor</em> called <a href="https://www.tug.org/texworks/" target="_blank">TeXworks</a>. It's a bit too simple for my tastes, but if you're a first time user  it might be best to use _TeXworks_ until you need something more versatile.
  
 <br/>
 
-> TexMaker and TexStudio (and others) come with a built-in previewer that is pretty good, but it doesn't render graphics very well. A better option is to get <a href="https://www.sumatrapdfreader.org/download-free-pdf-viewer.html" target="_blank">SumatraPDF</a>. It is small and you can use it as general pdf reader instead of acrobat. You can easily configure many editors to use it; see this page for <a href="https://william.famille-blum.org/blog/static.php?page=static081010-000413" target="_blank"> Configuring editors with SumatraPDF</a>.  Some editors allow inverse search, but it is specific to the editor... an internet search on "inverse search [name of my editor]" will do the trick.
+> TexMaker and TexStudio (and others) come with  built-in previewers that are pretty good, but they don't seem render graphics very well (this may have changed because I haven't checked in many years). The BEST option is to get &#128165;&#128165; <a href="https://www.sumatrapdfreader.org/download-free-pdf-viewer.html" target="_blank">SumatraPDF</a>&#128165;&#128165;. It is small and you can use it as general pdf reader instead of acrobat. You can easily configure many editors to use it; see this page for <a href="https://william.famille-blum.org/blog/static081010-000413/" target="_blank"> Configuring editors with SumatraPDF</a>.  Some editors allow inverse search, but it is specific to the editor... an internet search on "inverse search [name of my editor]" will do the trick.
 
-<br/> 
+<br/>
 
  <a name="fonts"></a>
 
-> A NOTE ON FONTS: Most of these editors use fixed width or monospace fonts,  and while the monospace fonts are better than they used to be, I still use  <a href="https://www.dafont.com/bitstream-vera-mono.font" target="_blank"> Bitstream Vera Sans Mono</a> in all my editors.  It is very good in that it is easy on the eyes and it's easy to distinguish between similar looking characters such as "l" , "1" , "i" and "o" , "0" , "O".
+> A NOTE ON FONTS: Most of these editors use fixed width or monospace fonts,  and while monospace system  fonts are better than they used to be, I still use  <a href="https://www.dafont.com/bitstream-vera-mono.font" target="_blank"> Bitstream Vera Sans Mono</a> in all my editors.  It is very good in that it is easy on the eyes and it's easy to distinguish between similar looking characters such as "l" , "1" , "i" and "o" , "0" , "O".
 
->  If you came down here looking for additional LaTeX fonts, you can find information about them at <a HREF="https://www.tug.dk/FontCatalogue/" target=new>The LaTeX Font Catalogue</a>. 
+> &#129409; If you came down here looking for additional LaTeX fonts, you can find information about them at <a HREF="https://tug.org/FontCatalogue/" target=new>The LaTeX Font Catalogue</a>. 
 
 
 <br/>
@@ -73,7 +75,7 @@ editor should have... and, it's actively maintained.  The creator of TeXMaker is
 <a name="GS"></a>   
 ## Ghostscript
 		
-I  recommend  getting <a HREF="https://www.ghostscript.com/download/" target=new>Ghostscript</a>. It's not necessary if you use pdflatex, but other programs depend on it.  It's small, so storage shouldn't be a problem.  
+&#128123; I  recommend  getting <a HREF="https://www.ghostscript.com/download/" target=new>Ghostscript</a>. It's not necessary if you use pdflatex, but other programs depend on it.  It's small, so storage shouldn't be a problem.  
 
 <br/>
 
@@ -81,7 +83,7 @@ I  recommend  getting <a HREF="https://www.ghostscript.com/download/" target=new
 
 ## Spell check 
 
-This is an old topic... most 21st century editors check spelling.   <a href="http://aspell.net"  target="_blank">Gnu Aspell</a> is still around (but old), and if you need additional dictionaries, you can use the ones from Open Office:
+&#128242; This is an old topic... most 21st century editors check spelling.   <a href="http://aspell.net"  target="_blank">Gnu Aspell</a> is still around (but old), and if you need additional dictionaries, you can use the ones from Open Office:
 
 
  
@@ -93,8 +95,7 @@ This is an old topic... most 21st century editors check spelling.   <a href="htt
  
 ## LaTeX in Presentations
 
-
-Use <a href="https://bitbucket.org/rivanvx/beamer/wiki/Home" target="_blank">BEAMER</a>. It's not easy, but to get started:
+&#129395; Use <a href="https://bitbucket.org/rivanvx/beamer/wiki/Home" target="_blank">BEAMER</a>. It's not easy, but to get started:
 
 > First, go here <a href="http://www.informatik.uni-freiburg.de/~frank/ENG/latex-course/latex-course-3/latex-course-3_en.html" target="_blank">BEAMER CLASS EXAMPLES</a> and download the first example, example-1.tex.  Compile the file and MikTeX will automatically download everything it needs to compile the file if it is not there already (assuming you let MikTeX install what it needs on the fly - this is set in the MikTeX Options).     Play around with the file... make some minor changes and compile it again until you feel comfortable with what you're doing.
 
@@ -103,7 +104,7 @@ Use <a href="https://bitbucket.org/rivanvx/beamer/wiki/Home" target="_blank">BEA
 
 
 
-- BUT, if you MUST use PowerPoint (you'll need Ghostscript),  use  <a href="https://www.jonathanleroux.org/software/iguanatex/" target="_blank"> Iguana Tex</a>.  I've tried it and it works like a charm.
+ &#129503; BUT, if you MUST use PowerPoint (you'll need Ghostscript),  use  <a href="https://www.jonathanleroux.org/software/iguanatex/" target="_blank"> Iguana Tex</a>.  I've tried it and it works like a charm.
 
 
  <br/>
@@ -112,20 +113,22 @@ Use <a href="https://bitbucket.org/rivanvx/beamer/wiki/Home" target="_blank">BEA
 
 ## Providing CODE in Your Documents
 
- After trying various methods, I think the best way to include code in a document is to use  the package called <a href="https://www.ctan.org/tex-archive/macros/latex/contrib/listings/" target="_blank">Listings</a>.   The <a href="https://en.wikibooks.org/wiki/LaTeX/Packages/Listings" target="_blank"> Wiki LaTeX Book</a> has a nice page on using the package. MikTeX will install it, if necessary, when you put `\usepackage{listings}` in the  preamble.
+ &#128105;&#8205;&#128187; After trying various methods, I think the best way to include code in a document is to use  the package called <a href="https://www.ctan.org/tex-archive/macros/latex/contrib/listings/" target="_blank">Listings</a>.   The <a href="https://en.wikibooks.org/wiki/LaTeX/Packages/Listings" target="_blank"> Wiki LaTeX Book</a> has a nice page on using the package. MikTeX will install it, if necessary, when you put `\usepackage{listings}` in the  preamble and compile.
  
  <br/>
 
 <a name="texhtml"></a> 	
 ## Math, TeX and HTML
 	
-<p>Javascript method: <a href="https://www.mathjax.org/" target="_blank">MathJax:</a>	
+ &#9749; Javascript method: <a href="https://www.mathjax.org/" target="_blank">MathJax:</a>	
 
 Here's what you can do. Inline math is kewl,  $ X_t = \int_{-\pi}^\pi e^{i\omega t}dZ(\omega)$. Even blackboard bold works:   $ \{X_t;\, t\in \mathbb Z  \} $. Then   some display:
-$$  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}  $$
+$$  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15} $$
+
 This is easy to use- just a line in your head (of your web page) does the trick.   Try it, your friends will be amazed.  _If you want to see the code for this stuff, right click on an expression and choose "Show Math As"_
 
-For long and complicated math, I think using a pdf file is the best way to go. If you don't want to use javascript, then using html tables, you can do some complicated expressions ... the problem is that different browsers will display the expressions differently (see <a href="https://www.myphysicslab.com/web_math.html" target="_blank"> web math</a>).  Simple expressions such as <i class="eqn">X(t) = &int;	e<sup>i&omega;t</sup> dZ(&omega;)</i> are easy to do with <a href="https://www.w3.org/TR/REC-html40/sgml/entities.html" target="_blank">HTML 4</a>.</p>
+<br/>
+For long and complicated math, I think using a pdf file is the best way to go. If you don't want to use javascript, then using html tables, you can do some complicated expressions ... the problem is that different browsers will display the expressions differently (see <a href="https://www.myphysicslab.com/web_math.html" target="_blank"> web math</a>).  Simple expressions such as <i class="eqn">X(t) = &int;	e<sup>i&omega;t</sup> dZ(&omega;)</i> are easy to do with <a href="https://www.w3.org/TR/REC-html40/sgml/entities.html" target="_blank">HTML 4</a>. 
 
 <br/>
 
@@ -133,7 +136,7 @@ For long and complicated math, I think using a pdf file is the best way to go. I
 
 ## You say you suck at LaTeX
 
-... and you want to learn more.
+... and you want to learn more. &#128532;
 
 - Do an internet search on "Latex Basics" or "Learn Latex"... you'll pull up a couple of million sites with useful info, some videos, and probably some porn.
 
