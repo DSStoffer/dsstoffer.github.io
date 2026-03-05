@@ -181,7 +181,7 @@ column mode editing.  _Excel2LaTeX_ allows you to transform the current selectio
 
 - <a href="http://www.latex-project.org/" target="_blank">The LaTeX Project Page</a> where you can also...
 
-<img src="figs/lion.png" alt="latex lion" align="left">  ... find out what  is up with the <a href="http://www.dream.kn-bremen.de/tex/merchandising/lion/"  target="_blank"> TeX lion</a> and try to figure out why it's wearing lipstick and has a perm and wears glasses, and why someone would associate a lion with TeX in the first place, and why you still see that damn thing. 
+<img src="figs/lion.png" alt="latex lion" align="left" style="padding: 10px">  ... find out what  is up with the <a href="http://www.dream.kn-bremen.de/tex/merchandising/lion/"  target="_blank"> TeX lion</a> and try to figure out why it's wearing lipstick and has a perm and wears glasses, and why someone would associate a lion with TeX in the first place, and why you still see that damn thing. 
 
 <br/><br/>
 
