@@ -60,7 +60,9 @@ editor should have... and, it's actively maintained.  The creator of TeXMaker is
  
 <br/>
 
-> TexMaker and TexStudio (and others) come with  built-in previewers that are pretty good, but they don't seem render graphics very well (this may have changed because I haven't checked in many years). The BEST option is to get &#128165;&#128165; <a href="https://www.sumatrapdfreader.org/download-free-pdf-viewer.html" target="_blank">SumatraPDF</a>&#128165;&#128165;. It is small and you can use it as general pdf reader instead of acrobat. You can easily configure many editors to use it; see this page for <a href="https://william.famille-blum.org/blog/static081010-000413/" target="_blank"> Configuring editors with SumatraPDF</a>.  Some editors allow inverse search, but it is specific to the editor... an internet search on "inverse search [name of my editor]" will do the trick.
+&#10071;&#10071; TexMaker and TexStudio (and others) come with  built-in previewers that are pretty good, but they don't seem render graphics very well (this may have changed because I haven't checked in many years) and they are hard coded to be on the right. If you want your previewer to be on the left, or not part of the editor window, then you will need a separate previewer.
+
+&#129321;&#129321; LUCKILY, the BEST option is to get &#128165;&#128165; <a href="https://www.sumatrapdfreader.org/download-free-pdf-viewer.html" target="_blank">SumatraPDF</a>&#128165;&#128165; and configure your editor to use it instead of the built-in stuff. SumatraPDF is small and you can use it as general pdf reader instead of acrobat. You can easily configure many editors to use it; see this page for <a href="https://william.famille-blum.org/blog/static081010-000413/" target="_blank"> Configuring editors with SumatraPDF</a>.  Some editors allow inverse search, but it is specific to the editor... an internet search on "inverse search [name of my editor]" will do the trick.
 
 <br/>
 
