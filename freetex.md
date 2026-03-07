@@ -80,13 +80,14 @@ editor should have... and, it's actively maintained.  The creator of TeXMaker is
 		
 &#128123; I  recommend  getting <a HREF="https://www.ghostscript.com/download/" target=new>Ghostscript</a>. It's not necessary if you use pdflatex, but other programs depend on it.  It's small, so storage shouldn't be a problem.  
 
+Then there's <a href="https://pages.cs.wisc.edu/~ghost/" target="new">ghostview</a> that was used before pdfLaTeX came along. Back in the day, you would compile a .tex file to a .dvi (device independent) file and then  _dvips_ it to convert it to a postscript (.ps) file. Then you would use ghostview to view the .ps file, but it's not needed and ghostview is not developed anymore.  If you want to view an encapsulated postscript (.eps) file, a pdf reader can do that. If you want to view a .ps file, you can use an image viewer such as [irfanview](https://www.irfanview.com) or convert it to a pdf.
 <br/>
 
 <a name="SC"></a>     
 
 ## Spell check 
 
-&#128242; This is an old topic... most 21st century editors check spelling.   <a href="http://aspell.net"  target="_blank">Gnu Aspell</a> is still around (but old), and if you need additional dictionaries, you can use the ones from Open Office:
+&#128242; This is an old topic... most 21st century editors check spelling.   <a href="http://aspell.net"  target="_blank">Gnu Aspell</a> is still around, and if you need additional dictionaries, you can use the ones from Open Office:
 
 
  
@@ -107,7 +108,7 @@ editor should have... and, it's actively maintained.  The creator of TeXMaker is
 
 
 
- &#129503; BUT, if you MUST use PowerPoint (you'll need Ghostscript),  use  <a href="https://www.jonathanleroux.org/software/iguanatex/" target="_blank"> Iguana Tex</a>.  I've tried it and it works like a charm.
+ &#129503; BUT, if you MUST use PowerPoint,  use  <a href="https://www.jonathanleroux.org/software/iguanatex/" target="_blank"> Iguana Tex</a>  (you'll need Ghostscript).  I've tried it and it works like a charm.
 
 
  <br/>
@@ -148,8 +149,6 @@ For long and complicated math, I think using a pdf file is the best way to go. I
 
 - Here's a site that claims you can learn <a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" target=new> Learn  LaTeX in 30 Minutes</a>. &#128076;
 
-
-- Here's an online <a href="https://en.wikibooks.org/wiki/LaTeX/" target=new> LaTeX Wiki Book</a>.
 
 - Here's a free pdf text (~300 pages) on LaTeX: <a href="https://tobi.oetiker.ch/lshort/lshort.pdf" target=new>A Short Course</a>.
 
