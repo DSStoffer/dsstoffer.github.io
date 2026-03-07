@@ -81,6 +81,7 @@ editor should have... and, it's actively maintained.  The creator of TeXMaker is
 &#128123; I  recommend  getting <a HREF="https://www.ghostscript.com/download/" target=new>Ghostscript</a>. It's not necessary if you use pdflatex, but other programs depend on it.  It's small, so storage shouldn't be a problem.  
 
 Then there's <a href="https://pages.cs.wisc.edu/~ghost/" target="new">ghostview</a> that was used before pdfLaTeX came along. Back in the day, you would compile a .tex file to a .dvi (device independent) file and then  _dvips_ it to convert it to a postscript (.ps) file. Then you would use ghostview to view the .ps file, but it's not needed and ghostview is not developed anymore.  If you want to view an encapsulated postscript (.eps) file, a pdf reader can do that. If you want to view a .ps file, you can use an image viewer such as [irfanview](https://www.irfanview.com) or convert it to a pdf.
+
 <br/>
 
 <a name="SC"></a>     
