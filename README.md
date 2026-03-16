@@ -200,6 +200,8 @@ discussion). _Journal of the American Statistical Association_, 86, 462-483. [wa
 
 > R code for the algorithm is in [astsa](https://github.com/nickpoison/astsa/blob/master/README.md) and more details are in Chapter 6 of [Time Series Analysis and Its Applications: With R Examples](https://github.com/nickpoison/tsa4)
 
+*   Stoffer, D.S. &amp; Toloi, C.M.C (1992). A note on the Ljung—Box—Pierce portmanteau statistic with missing data. _Statistics & Probability Letters_, 13, 391-396. [Qstat missing.pdf](files/missingdata.pdf)
+
 
 * Stoffer, D.S. (1986). Estimation and identification of space-time ARMAX models in the presence of missing data. _Journal of the American Statistical Association_, 81, 762-772. [starmax.pdf](files/starmax.pdf) 
 
