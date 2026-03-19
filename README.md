@@ -34,9 +34,9 @@ David S. Stoffer  is Professor Emeritus <br/>
 
  &#10024;  [FUN WITH ASTSA](https://dsstoffer.github.io/fun_with_astsa)  has many demonstrations of `astsa` capabilities
 
-&#10024;  All the R code used in [Time Series Analysis and Its Applications](https://github.com/nickpoison/tsa5/blob/main/textRcode.md) (edition 5)
+&#10024;  All the R code used in [Time Series Analysis and Its Applications](https://github.com/nickpoison/tsa5/blob/main/textRcode.md) (ed 5)
 
-&#10024;  All the R code used in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda2/blob/main/Rcode.md)
+&#10024;  All the R code used in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda2/blob/main/Rcode.md) (ed 2)
 
 &#10024; [Nonlinear Time Series Text](http://www.stat.pitt.edu/stoffer/nltsa/)
 
