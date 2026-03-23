@@ -64,13 +64,15 @@ editor should have... and, it's actively maintained.  The creator of TeXMaker is
 
 &#129321;&#129321; LUCKILY, the BEST option is to get &#128165;&#128165; <a href="https://www.sumatrapdfreader.org/download-free-pdf-viewer.html" target="_blank">SumatraPDF</a>&#128165;&#128165; and configure your editor to use it instead of the built-in stuff. SumatraPDF is small and you can use it as general pdf reader instead of acrobat. You can easily configure many editors to use it; see this page for <a href="https://william.famille-blum.org/blog/static081010-000413/" target="_blank"> Configuring editors with SumatraPDF</a>.  Some editors allow inverse search, but it is specific to the editor... an internet search on "inverse search [name of my editor]" will do the trick.
 
+&#129409; Although <a href="https://www.sumatrapdfreader.org/download-free-pdf-viewer.html" target="_blank">SumatraPDF</a> is written for Windows, its core is <a href="https://mupdf.readthedocs.io/en/" target="_blank">MuPDF</a>, which is readily available for Linux.
+
 <br/>
 
  <a name="fonts"></a>
 
 > A NOTE ON FONTS: Most of these editors use fixed width or monospace fonts,  and while monospace system  fonts are better than they used to be, I still use  <a href="https://www.dafont.com/bitstream-vera-mono.font" target="_blank"> Bitstream Vera Sans Mono</a> in all my editors.  It is very good in that it is easy on the eyes and it's easy to distinguish between similar looking characters such as "l" , "1" , "i" and "o" , "0" , "O".
 
-> &#129409; If you came down here looking for additional LaTeX fonts, you can find information about them at <a HREF="https://tug.org/FontCatalogue/" target=new>The LaTeX Font Catalogue</a>. 
+>   If you came down here looking for additional LaTeX fonts, you can find information about them at <a HREF="https://tug.org/FontCatalogue/" target=new>The LaTeX Font Catalogue</a>. 
 
 
 <br/>
