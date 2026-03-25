@@ -150,7 +150,7 @@ For long and complicated math, I think using a pdf file is the best way to go. I
 
 - The full <a href="https://en.wikibooks.org/wiki/LaTeX" target="_blank"> LaTeX Wiki Book</a>, and note there is a pdf version if that's your jam.  &#128055;
 
-- Here's a site that claims you can learn <a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" target=new> Learn  LaTeX in 30 Minutes</a>. &#128076;
+- <a href="https://www.learnlatex.org" target=new>Learn LaTeX</a> dot org. &#128076;
 
 
 - Here's a free pdf text (~300 pages) on LaTeX: <a href="https://tobi.oetiker.ch/lshort/lshort.pdf" target=new>A Short Course</a>.
