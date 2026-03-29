@@ -167,6 +167,8 @@ The key to getting started  with LaTeX, as with most things, is to start small; 
 
 Here are some other  links to great TeX sites ...
 
+- Wanna write a letter, make a poster, or anything else you may want to do... well, get your hot <a href="https://www.latextemplates.com/" target="new">LaTeX Templates</a> here.
+
 - <a href="https://texblog.org/" target="_blank"> TeXblog</a> ... the name says it all ...   
 
 - So you want to write something like  <i>A &cup; B</i>, but `$A \union B$` doesn't work!!! Can't think of the LaTeX name of that symbol??  Try this site: <a href="https://detexify.kirelabs.org/classify.html" target="_blank">Detexify</a>.
