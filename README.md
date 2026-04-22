@@ -38,7 +38,7 @@ David S. Stoffer  is Professor Emeritus <br/>
 
 &#10024;  All the R code used in [Time Series: A Data Analysis Approach Using R](https://github.com/nickpoison/tsda2/blob/main/Rcode.md) (ed 2)
 
-&#10024; [Nonlinear Time Series Text](http://www.stat.pitt.edu/stoffer/nltsa/)
+&#10024; [Nonlinear Time Series Text](https://github.com/nickpoison/nltsa)
 
 &#10024; [Time Series  Course @ Data Camp](https://www.datacamp.com/courses/arima-modeling-with-r)
 
